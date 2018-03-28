@@ -1,0 +1,12 @@
+{
+    "Type": "0",
+    "UUID": "296960724",
+    "Time_Created": "Wed Mar 28 11:59:23 2018\n",
+    "Library_path": "./Project/Library/Textures/XWing_Norm.dds",
+    "Name": "XWing_Norm",
+    "Width": "2048",
+    "Height": "2048",
+    "Texture_Type": "bgra",
+    "Format": "tga",
+    "Compression": ""
+}

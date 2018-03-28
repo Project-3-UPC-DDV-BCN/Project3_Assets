@@ -1,0 +1,12 @@
+{
+    "Type": "0",
+    "UUID": "967458304",
+    "Time_Created": "Wed Mar 28 11:59:27 2018\n",
+    "Library_path": "./Project/Library/Textures/Y_Wing_Metallic.dds",
+    "Name": "Y_Wing_Metallic",
+    "Width": "1024",
+    "Height": "1024",
+    "Texture_Type": "bgra",
+    "Format": "tga",
+    "Compression": ""
+}

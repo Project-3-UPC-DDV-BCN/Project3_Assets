@@ -1,0 +1,12 @@
+{
+    "Type": "0",
+    "UUID": "1704856124",
+    "Time_Created": "Mon Mar 12 11:32:21 2018\n",
+    "Library_path": "./Project/Library/Textures/blending_transparent_window.dds",
+    "Name": "blending_transparent_window",
+    "Width": "256",
+    "Height": "256",
+    "Texture_Type": "bgra",
+    "Format": "tga",
+    "Compression": ""
+}

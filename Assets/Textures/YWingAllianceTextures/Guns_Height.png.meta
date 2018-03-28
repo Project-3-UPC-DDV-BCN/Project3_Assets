@@ -1,0 +1,12 @@
+{
+    "Type": "0",
+    "UUID": "1722298120",
+    "Time_Created": "Wed Mar 28 11:59:25 2018\n",
+    "Library_path": "./Project/Library/Textures/Guns_Height.dds",
+    "Name": "Guns_Height",
+    "Width": "1024",
+    "Height": "1024",
+    "Texture_Type": "bgra",
+    "Format": "tga",
+    "Compression": ""
+}

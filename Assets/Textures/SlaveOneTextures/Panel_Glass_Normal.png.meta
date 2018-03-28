@@ -1,0 +1,12 @@
+{
+    "Type": "0",
+    "UUID": "734422266",
+    "Time_Created": "Wed Mar 28 11:59:20 2018\n",
+    "Library_path": "./Project/Library/Textures/Panel_Glass_Normal.dds",
+    "Name": "Panel_Glass_Normal",
+    "Width": "1024",
+    "Height": "1024",
+    "Texture_Type": "bgra",
+    "Format": "tga",
+    "Compression": ""
+}

@@ -1,0 +1,12 @@
+{
+    "Type": "0",
+    "UUID": "2043976508",
+    "Time_Created": "Mon Mar 12 11:32:21 2018\n",
+    "Library_path": "./Project/Library/Textures/Set1.dds",
+    "Name": "Set1",
+    "Width": "225",
+    "Height": "225",
+    "Texture_Type": "bgra",
+    "Format": "tga",
+    "Compression": ""
+}

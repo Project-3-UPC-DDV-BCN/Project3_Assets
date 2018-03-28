@@ -1,0 +1,12 @@
+{
+    "Type": "0",
+    "UUID": "716033350",
+    "Time_Created": "Wed Mar 28 11:59:26 2018\n",
+    "Library_path": "./Project/Library/Textures/Turret_base_Normal.dds",
+    "Name": "Turret_base_Normal",
+    "Width": "1024",
+    "Height": "1024",
+    "Texture_Type": "bgra",
+    "Format": "tga",
+    "Compression": ""
+}

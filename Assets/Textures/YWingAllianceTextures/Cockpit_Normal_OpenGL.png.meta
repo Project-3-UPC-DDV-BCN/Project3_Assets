@@ -1,0 +1,12 @@
+{
+    "Type": "0",
+    "UUID": "2116671525",
+    "Time_Created": "Wed Mar 28 11:59:24 2018\n",
+    "Library_path": ".\\Project\\Library\\Textures\\Cockpit_Normal_OpenGL.dds",
+    "Name": "Cockpit_Normal_OpenGL",
+    "Width": "1024",
+    "Height": "1024",
+    "Texture_Type": "bgra",
+    "Format": "tga",
+    "Compression": ""
+}

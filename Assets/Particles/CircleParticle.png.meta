@@ -1,0 +1,12 @@
+{
+    "Type": "0",
+    "UUID": "219555667",
+    "Time_Created": "Mon Mar 12 11:32:21 2018\n",
+    "Library_path": "./Project/Library/Textures/CircleParticle.dds",
+    "Name": "CircleParticle",
+    "Width": "626",
+    "Height": "626",
+    "Texture_Type": "bgra",
+    "Format": "tga",
+    "Compression": ""
+}

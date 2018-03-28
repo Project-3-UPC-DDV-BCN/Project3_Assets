@@ -1,0 +1,12 @@
+{
+    "Type": "0",
+    "UUID": "1478139181",
+    "Time_Created": "Wed Mar 28 11:59:26 2018\n",
+    "Library_path": "./Project/Library/Textures/Guns_Roughness.dds",
+    "Name": "Guns_Roughness",
+    "Width": "1024",
+    "Height": "1024",
+    "Texture_Type": "bgra",
+    "Format": "tga",
+    "Compression": ""
+}

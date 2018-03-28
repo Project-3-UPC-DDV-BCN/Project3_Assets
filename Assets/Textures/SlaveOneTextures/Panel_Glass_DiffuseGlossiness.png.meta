@@ -1,0 +1,12 @@
+{
+    "Type": "0",
+    "UUID": "29308921",
+    "Time_Created": "Wed Mar 28 11:59:20 2018\n",
+    "Library_path": "./Project/Library/Textures/Panel_Glass_DiffuseGlossiness.dds",
+    "Name": "Panel_Glass_DiffuseGlossiness",
+    "Width": "1024",
+    "Height": "1024",
+    "Texture_Type": "bgra",
+    "Format": "tga",
+    "Compression": ""
+}

@@ -1,0 +1,12 @@
+{
+    "Type": "0",
+    "UUID": "1940582003",
+    "Time_Created": "Wed Mar 28 11:59:22 2018\n",
+    "Library_path": "./Project/Library/Textures/Panel_Wall_DiffuseGlossiness.dds",
+    "Name": "Panel_Wall_DiffuseGlossiness",
+    "Width": "1024",
+    "Height": "1024",
+    "Texture_Type": "bgra",
+    "Format": "tga",
+    "Compression": ""
+}

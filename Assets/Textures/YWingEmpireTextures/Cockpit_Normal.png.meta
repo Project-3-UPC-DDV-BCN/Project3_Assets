@@ -1,0 +1,12 @@
+{
+    "Type": "0",
+    "UUID": "841182915",
+    "Time_Created": "Wed Mar 28 11:59:28 2018\n",
+    "Library_path": "./Project/Library/Textures/Cockpit_Normal.dds",
+    "Name": "Cockpit_Normal",
+    "Width": "1024",
+    "Height": "1024",
+    "Texture_Type": "bgra",
+    "Format": "tga",
+    "Compression": ""
+}

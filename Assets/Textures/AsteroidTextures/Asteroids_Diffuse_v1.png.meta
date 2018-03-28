@@ -1,0 +1,12 @@
+{
+    "Type": "0",
+    "UUID": "1822330953",
+    "Time_Created": "Wed Mar 28 11:59:19 2018\n",
+    "Library_path": "./Project/Library/Textures/Asteroids_Diffuse_v1.dds",
+    "Name": "Asteroids_Diffuse_v1",
+    "Width": "1024",
+    "Height": "1024",
+    "Texture_Type": "bgra",
+    "Format": "tga",
+    "Compression": ""
+}
