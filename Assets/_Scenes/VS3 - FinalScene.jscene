@@ -1,9 +1,9 @@
 {
     "Scene_Name": "VS3 - FinalScene",
-    "GameObjects_Count": "4",
+    "GameObjects_Count": "5",
     "GameObject_0": {
-        "UUID": "1949504435",
-        "Name": "Main Camera(3)",
+        "UUID": "1045875947",
+        "Name": "Main Camera(4)",
         "Tag": "Main Camera",
         "Layer": "Default",
         "Active": "1",
@@ -57,8 +57,8 @@
         "IsStatic": "0"
     },
     "GameObject_1": {
-        "UUID": "1186811441",
-        "Name": "Directional Light(3)",
+        "UUID": "201287258",
+        "Name": "Directional Light(4)",
         "Tag": "Default",
         "Layer": "Default",
         "Active": "1",
@@ -108,7 +108,7 @@
         "IsStatic": "0"
     },
     "GameObject_2": {
-        "UUID": "418531889",
+        "UUID": "1489392543",
         "Name": "FinalSceneCanvas(2)",
         "Tag": "Default",
         "Layer": "Default",
@@ -125,8 +125,8 @@
                 },
                 "z_pos": "0.000000",
                 "size": {
-                    "value_X": "815.000000",
-                    "value_Y": "531.000000"
+                    "value_X": "344.000000",
+                    "value_Y": "418.000000"
                 },
                 "anchor": {
                     "value_X": "0.500000",
@@ -180,8 +180,94 @@
         "IsStatic": "0"
     },
     "GameObject_3": {
-        "UUID": "1550521573",
-        "Name": "Text(3)",
+        "UUID": "1750340808",
+        "Name": "GameManager",
+        "Tag": "Default",
+        "Layer": "Default",
+        "Active": "1",
+        "Components": {
+            "Components_Count": "2",
+            "Component_0": {
+                "Type": "0",
+                "Active": "1",
+                "UUID": "1695290276",
+                "position": {
+                    "value_X": "0.000000",
+                    "value_Y": "0.000000",
+                    "value_Z": "0.000000"
+                },
+                "rotation": {
+                    "value_X": "0.000000",
+                    "value_Y": "0.000000",
+                    "value_Z": "0.000000",
+                    "value_W": "1.000000"
+                },
+                "scale": {
+                    "value_X": "1.000000",
+                    "value_Y": "1.000000",
+                    "value_Z": "1.000000"
+                }
+            },
+            "Component_1": {
+                "Type": "10",
+                "Active": "0",
+                "UUID": "2142148936",
+                "Script": {
+                    "library_path": ".\\Project\\Library\\Scripts\\SoftBoundaries.dll",
+                    "assets_path": "",
+                    "script_name": "SoftBoundaries",
+                    "UUID": "106756400",
+                    "int_fields_count": "1",
+                    "double_fields_count": "0",
+                    "float_fields_count": "3",
+                    "bool_fields_count": "0",
+                    "string_fields_count": "0",
+                    "gameobject_fields_count": "1",
+                    "vec2_fields_count": "0",
+                    "vec3_fields_count": "0",
+                    "vec4_fields_count": "0",
+                    "int_fields": {
+                        "field_0": {
+                            "field_name": "countdown_limit",
+                            "field_value": "0"
+                        }
+                    },
+                    "double_fields": {},
+                    "float_fields": {
+                        "field_0": {
+                            "field_name": "limit_box_depth",
+                            "field_value": "0.000000"
+                        },
+                        "field_1": {
+                            "field_name": "limit_box_height",
+                            "field_value": "0.000000"
+                        },
+                        "field_2": {
+                            "field_name": "limit_box_width",
+                            "field_value": "0.000000"
+                        }
+                    },
+                    "bool_fields": {},
+                    "string_fields": {},
+                    "gameobject_fields": {
+                        "field_0": {
+                            "field_name": "canvas",
+                            "field_value": "0"
+                        }
+                    },
+                    "vec2_fields": {},
+                    "vec3_fields": {},
+                    "vec4_fields": {}
+                }
+            }
+        },
+        "ParentID": "0",
+        "IsRoot": "1",
+        "IsStatic": "0"
+    },
+    "GameObject_4": {
+        "UUID": "1517844753",
+        "Name": "Text(4)",
         "Tag": "Default",
         "Layer": "Default",
         "Active": "1",
@@ -250,7 +336,7 @@
                 "font": "arial"
             }
         },
-        "ParentID": "418531889",
+        "ParentID": "1489392543",
         "IsRoot": "0",
         "IsStatic": "0"
     }

@@ -1,6 +1,6 @@
 {
     "GameObject_3": {
-        "UUID": "1200903759",
+        "UUID": "15465046",
         "Name": "Asteroid_Mesh_v3",
         "Tag": "Default",
         "Layer": "Default",
@@ -10,7 +10,7 @@
             "Component_0": {
                 "Type": "0",
                 "Active": "1",
-                "UUID": "1668071725",
+                "UUID": "1381809912",
                 "position": {
                     "value_X": "0.000000",
                     "value_Y": "0.000000",
@@ -34,7 +34,7 @@
         "IsStatic": "0"
     },
     "GameObject_4": {
-        "UUID": "1144390691",
+        "UUID": "201568965",
         "Name": "CINEMA_4D_Editor",
         "Tag": "Default",
         "Layer": "Default",
@@ -44,7 +44,7 @@
             "Component_0": {
                 "Type": "0",
                 "Active": "1",
-                "UUID": "139776688",
+                "UUID": "802660419",
                 "position": {
                     "value_X": "913.537292",
                     "value_Y": "453.775940",
@@ -63,12 +63,12 @@
                 }
             }
         },
-        "ParentID": "1200903759",
+        "ParentID": "15465046",
         "IsRoot": "0",
         "IsStatic": "0"
     },
     "GameObject_5": {
-        "UUID": "249442505",
+        "UUID": "1227206508",
         "Name": "Asteroid1",
         "Tag": "Default",
         "Layer": "Default",
@@ -78,7 +78,7 @@
             "Component_0": {
                 "Type": "0",
                 "Active": "1",
-                "UUID": "969626950",
+                "UUID": "992003868",
                 "position": {
                     "value_X": "0.000000",
                     "value_Y": "0.000000",
@@ -99,7 +99,7 @@
             "Component_1": {
                 "Type": "3",
                 "Active": "1",
-                "UUID": "1883870963",
+                "UUID": "1707397573",
                 "Mesh": {
                     "mesh_name": "Asteroid1"
                 },
@@ -116,7 +116,7 @@
                 "has_light": "1"
             }
         },
-        "ParentID": "1200903759",
+        "ParentID": "15465046",
         "IsRoot": "0",
         "IsStatic": "0"
     },
@@ -124,10 +124,10 @@
     "library_path": "./Project/Library/Prefabs/Asteroid_Mesh_v3.jprefab",
     "assets_path": ".\\Project\\Assets\\FBX\\Asteroids\\Asteroid_Mesh_v3.fbx",
     "prefab_name": "Asteroid_Mesh_v3",
-    "UUID": "151474595",
+    "UUID": "1033277158",
     "GameObjects_Count": "3",
     "GameObject_0": {
-        "UUID": "1564058145",
+        "UUID": "1064117442",
         "Name": "Asteroid_Mesh_v3",
         "Tag": "Default",
         "Layer": "Default",
@@ -137,7 +137,7 @@
             "Component_0": {
                 "Type": "0",
                 "Active": "1",
-                "UUID": "1668071725",
+                "UUID": "1381809912",
                 "position": {
                     "value_X": "0.000000",
                     "value_Y": "0.000000",
@@ -161,7 +161,7 @@
         "IsStatic": "0"
     },
     "GameObject_1": {
-        "UUID": "986308263",
+        "UUID": "1029575276",
         "Name": "CINEMA_4D_Editor",
         "Tag": "Default",
         "Layer": "Default",
@@ -171,7 +171,7 @@
             "Component_0": {
                 "Type": "0",
                 "Active": "1",
-                "UUID": "139776688",
+                "UUID": "802660419",
                 "position": {
                     "value_X": "913.537292",
                     "value_Y": "453.775940",
@@ -190,12 +190,12 @@
                 }
             }
         },
-        "ParentID": "1564058145",
+        "ParentID": "1064117442",
         "IsRoot": "0",
         "IsStatic": "0"
     },
     "GameObject_2": {
-        "UUID": "1977965498",
+        "UUID": "1351120830",
         "Name": "Asteroid1",
         "Tag": "Default",
         "Layer": "Default",
@@ -205,7 +205,7 @@
             "Component_0": {
                 "Type": "0",
                 "Active": "1",
-                "UUID": "969626950",
+                "UUID": "992003868",
                 "position": {
                     "value_X": "0.000000",
                     "value_Y": "0.000000",
@@ -226,7 +226,7 @@
             "Component_1": {
                 "Type": "3",
                 "Active": "1",
-                "UUID": "1883870963",
+                "UUID": "1707397573",
                 "Mesh": {
                     "mesh_name": "Asteroid1"
                 },
@@ -243,7 +243,7 @@
                 "has_light": "1"
             }
         },
-        "ParentID": "1564058145",
+        "ParentID": "1064117442",
         "IsRoot": "0",
         "IsStatic": "0"
     }
