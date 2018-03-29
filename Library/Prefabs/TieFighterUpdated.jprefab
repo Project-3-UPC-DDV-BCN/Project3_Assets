@@ -1,0 +1,3134 @@
+{
+    "GameObject_31": {
+        "UUID": "821653988",
+        "Name": "TieFighterUpdated",
+        "Tag": "Default",
+        "Layer": "Default",
+        "Active": "1",
+        "Components": {
+            "Components_Count": "1",
+            "Component_0": {
+                "Type": "0",
+                "Active": "1",
+                "UUID": "1430186990",
+                "position": {
+                    "value_X": "0.000000",
+                    "value_Y": "0.000000",
+                    "value_Z": "0.000000"
+                },
+                "rotation": {
+                    "value_X": "0.000000",
+                    "value_Y": "0.000000",
+                    "value_Z": "0.000000",
+                    "value_W": "1.000000"
+                },
+                "scale": {
+                    "value_X": "1.000000",
+                    "value_Y": "1.000000",
+                    "value_Z": "1.000000"
+                }
+            }
+        },
+        "ParentID": "0",
+        "IsRoot": "1",
+        "IsStatic": "0"
+    },
+    "GameObject_32": {
+        "UUID": "843028106",
+        "Name": "CINEMA_4D_Editor",
+        "Tag": "Default",
+        "Layer": "Default",
+        "Active": "1",
+        "Components": {
+            "Components_Count": "1",
+            "Component_0": {
+                "Type": "0",
+                "Active": "1",
+                "UUID": "1850393409",
+                "position": {
+                    "value_X": "-46.799114",
+                    "value_Y": "39.970051",
+                    "value_Z": "-125.319603"
+                },
+                "rotation": {
+                    "value_X": "0.132638",
+                    "value_Y": "-0.878459",
+                    "value_Z": "0.068534",
+                    "value_W": "-0.453895"
+                },
+                "scale": {
+                    "value_X": "1.000000",
+                    "value_Y": "1.000000",
+                    "value_Z": "1.000000"
+                }
+            }
+        },
+        "ParentID": "821653988",
+        "IsRoot": "0",
+        "IsStatic": "0"
+    },
+    "GameObject_33": {
+        "UUID": "480169009",
+        "Name": "tie_fighter",
+        "Tag": "Default",
+        "Layer": "Default",
+        "Active": "1",
+        "Components": {
+            "Components_Count": "1",
+            "Component_0": {
+                "Type": "0",
+                "Active": "1",
+                "UUID": "1731695316",
+                "position": {
+                    "value_X": "-65.918381",
+                    "value_Y": "32.523602",
+                    "value_Z": "-153.945847"
+                },
+                "rotation": {
+                    "value_X": "0.000000",
+                    "value_Y": "0.000000",
+                    "value_Z": "0.000000",
+                    "value_W": "1.000000"
+                },
+                "scale": {
+                    "value_X": "0.105620",
+                    "value_Y": "0.105620",
+                    "value_Z": "0.105620"
+                }
+            }
+        },
+        "ParentID": "821653988",
+        "IsRoot": "0",
+        "IsStatic": "0"
+    },
+    "GameObject_34": {
+        "UUID": "867070539",
+        "Name": "center_piece",
+        "Tag": "Default",
+        "Layer": "Default",
+        "Active": "1",
+        "Components": {
+            "Components_Count": "1",
+            "Component_0": {
+                "Type": "0",
+                "Active": "1",
+                "UUID": "2116126387",
+                "position": {
+                    "value_X": "11.435490",
+                    "value_Y": "2.445531",
+                    "value_Z": "7.656147"
+                },
+                "rotation": {
+                    "value_X": "0.000000",
+                    "value_Y": "0.000000",
+                    "value_Z": "0.000000",
+                    "value_W": "1.000000"
+                },
+                "scale": {
+                    "value_X": "1.000000",
+                    "value_Y": "1.000000",
+                    "value_Z": "1.000000"
+                }
+            }
+        },
+        "ParentID": "480169009",
+        "IsRoot": "0",
+        "IsStatic": "0"
+    },
+    "GameObject_35": {
+        "UUID": "1682018104",
+        "Name": "Sphere",
+        "Tag": "Default",
+        "Layer": "Default",
+        "Active": "1",
+        "Components": {
+            "Components_Count": "2",
+            "Component_0": {
+                "Type": "0",
+                "Active": "1",
+                "UUID": "1568756630",
+                "position": {
+                    "value_X": "-10.897735",
+                    "value_Y": "-4.420294",
+                    "value_Z": "-10.360618"
+                },
+                "rotation": {
+                    "value_X": "0.707381",
+                    "value_Y": "0.000000",
+                    "value_Z": "0.000000",
+                    "value_W": "0.706832"
+                },
+                "scale": {
+                    "value_X": "1.000000",
+                    "value_Y": "1.000000",
+                    "value_Z": "1.000000"
+                }
+            },
+            "Component_1": {
+                "Type": "3",
+                "Active": "1",
+                "UUID": "1499147674",
+                "Mesh": {
+                    "mesh_name": "Sphere"
+                },
+                "Material": {
+                    "Name": "metal"
+                },
+                "Interior_Material": {
+                    "UUID": "1480464845"
+                },
+                "Mat_Indices_Number": "0",
+                "Mat_Indices_Start": "0",
+                "Int_Mat_Indices_Number": "0",
+                "Int_Mat_Indices_Start": "0",
+                "has_light": "1"
+            }
+        },
+        "ParentID": "867070539",
+        "IsRoot": "0",
+        "IsStatic": "0"
+    },
+    "GameObject_36": {
+        "UUID": "1862157284",
+        "Name": "Sphere_1",
+        "Tag": "Default",
+        "Layer": "Default",
+        "Active": "1",
+        "Components": {
+            "Components_Count": "2",
+            "Component_0": {
+                "Type": "0",
+                "Active": "1",
+                "UUID": "366500271",
+                "position": {
+                    "value_X": "-10.897735",
+                    "value_Y": "-4.420294",
+                    "value_Z": "-10.360618"
+                },
+                "rotation": {
+                    "value_X": "0.707381",
+                    "value_Y": "0.000000",
+                    "value_Z": "0.000000",
+                    "value_W": "0.706832"
+                },
+                "scale": {
+                    "value_X": "1.000000",
+                    "value_Y": "1.000000",
+                    "value_Z": "1.000000"
+                }
+            },
+            "Component_1": {
+                "Type": "3",
+                "Active": "1",
+                "UUID": "1664499974",
+                "Mesh": {
+                    "mesh_name": "Sphere_1"
+                },
+                "Material": {
+                    "Name": "mirror"
+                },
+                "Interior_Material": {
+                    "UUID": "1480464845"
+                },
+                "Mat_Indices_Number": "0",
+                "Mat_Indices_Start": "0",
+                "Int_Mat_Indices_Number": "0",
+                "Int_Mat_Indices_Start": "0",
+                "has_light": "1"
+            }
+        },
+        "ParentID": "867070539",
+        "IsRoot": "0",
+        "IsStatic": "0"
+    },
+    "GameObject_37": {
+        "UUID": "1702822694",
+        "Name": "Tube",
+        "Tag": "Default",
+        "Layer": "Default",
+        "Active": "1",
+        "Components": {
+            "Components_Count": "2",
+            "Component_0": {
+                "Type": "0",
+                "Active": "1",
+                "UUID": "1520884956",
+                "position": {
+                    "value_X": "-10.827174",
+                    "value_Y": "-4.407136",
+                    "value_Z": "10.787051"
+                },
+                "rotation": {
+                    "value_X": "0.706958",
+                    "value_Y": "0.000000",
+                    "value_Z": "0.000000",
+                    "value_W": "0.707255"
+                },
+                "scale": {
+                    "value_X": "1.000000",
+                    "value_Y": "1.000000",
+                    "value_Z": "1.000000"
+                }
+            },
+            "Component_1": {
+                "Type": "3",
+                "Active": "1",
+                "UUID": "384046339",
+                "Mesh": {
+                    "mesh_name": "Tube"
+                },
+                "Material": {
+                    "Name": "metal"
+                },
+                "Interior_Material": {
+                    "UUID": "1480464845"
+                },
+                "Mat_Indices_Number": "0",
+                "Mat_Indices_Start": "0",
+                "Int_Mat_Indices_Number": "0",
+                "Int_Mat_Indices_Start": "0",
+                "has_light": "1"
+            }
+        },
+        "ParentID": "867070539",
+        "IsRoot": "0",
+        "IsStatic": "0"
+    },
+    "GameObject_38": {
+        "UUID": "2102564810",
+        "Name": "guns",
+        "Tag": "Default",
+        "Layer": "Default",
+        "Active": "1",
+        "Components": {
+            "Components_Count": "1",
+            "Component_0": {
+                "Type": "0",
+                "Active": "1",
+                "UUID": "1518762369",
+                "position": {
+                    "value_X": "2.248690",
+                    "value_Y": "-5.288657",
+                    "value_Z": "-0.466309"
+                },
+                "rotation": {
+                    "value_X": "0.000000",
+                    "value_Y": "0.000000",
+                    "value_Z": "0.000000",
+                    "value_W": "1.000000"
+                },
+                "scale": {
+                    "value_X": "1.000000",
+                    "value_Y": "1.000000",
+                    "value_Z": "1.000000"
+                }
+            }
+        },
+        "ParentID": "480169009",
+        "IsRoot": "0",
+        "IsStatic": "0"
+    },
+    "GameObject_39": {
+        "UUID": "2064860974",
+        "Name": "gun_back_1_1",
+        "Tag": "Default",
+        "Layer": "Default",
+        "Active": "1",
+        "Components": {
+            "Components_Count": "2",
+            "Component_0": {
+                "Type": "0",
+                "Active": "1",
+                "UUID": "1154848467",
+                "position": {
+                    "value_X": "-17.775496",
+                    "value_Y": "8.732946",
+                    "value_Z": "-17.298500"
+                },
+                "rotation": {
+                    "value_X": "0.707904",
+                    "value_Y": "-0.003195",
+                    "value_Z": "0.003187",
+                    "value_W": "0.706294"
+                },
+                "scale": {
+                    "value_X": "1.000000",
+                    "value_Y": "1.000000",
+                    "value_Z": "1.000000"
+                }
+            },
+            "Component_1": {
+                "Type": "3",
+                "Active": "1",
+                "UUID": "835573380",
+                "Mesh": {
+                    "mesh_name": "gun_back_1_1"
+                },
+                "Material": {
+                    "Name": "lambert1"
+                },
+                "Interior_Material": {
+                    "UUID": "1480464845"
+                },
+                "Mat_Indices_Number": "0",
+                "Mat_Indices_Start": "0",
+                "Int_Mat_Indices_Number": "0",
+                "Int_Mat_Indices_Start": "0",
+                "has_light": "1"
+            }
+        },
+        "ParentID": "2102564810",
+        "IsRoot": "0",
+        "IsStatic": "0"
+    },
+    "GameObject_40": {
+        "UUID": "383012232",
+        "Name": "gun_back_1",
+        "Tag": "Default",
+        "Layer": "Default",
+        "Active": "1",
+        "Components": {
+            "Components_Count": "2",
+            "Component_0": {
+                "Type": "0",
+                "Active": "1",
+                "UUID": "140937875",
+                "position": {
+                    "value_X": "14.259066",
+                    "value_Y": "8.732301",
+                    "value_Z": "-17.009342"
+                },
+                "rotation": {
+                    "value_X": "0.707904",
+                    "value_Y": "-0.003195",
+                    "value_Z": "0.003187",
+                    "value_W": "0.706294"
+                },
+                "scale": {
+                    "value_X": "1.000000",
+                    "value_Y": "1.000000",
+                    "value_Z": "1.000000"
+                }
+            },
+            "Component_1": {
+                "Type": "3",
+                "Active": "1",
+                "UUID": "390159273",
+                "Mesh": {
+                    "mesh_name": "gun_back_1"
+                },
+                "Material": {
+                    "Name": "lambert1"
+                },
+                "Interior_Material": {
+                    "UUID": "1480464845"
+                },
+                "Mat_Indices_Number": "0",
+                "Mat_Indices_Start": "0",
+                "Int_Mat_Indices_Number": "0",
+                "Int_Mat_Indices_Start": "0",
+                "has_light": "1"
+            }
+        },
+        "ParentID": "2102564810",
+        "IsRoot": "0",
+        "IsStatic": "0"
+    },
+    "GameObject_41": {
+        "UUID": "1542667570",
+        "Name": "gun_front_2",
+        "Tag": "Default",
+        "Layer": "Default",
+        "Active": "1",
+        "Components": {
+            "Components_Count": "2",
+            "Component_0": {
+                "Type": "0",
+                "Active": "1",
+                "UUID": "1020478651",
+                "position": {
+                    "value_X": "-12.503599",
+                    "value_Y": "-9.620887",
+                    "value_Z": "12.402818"
+                },
+                "rotation": {
+                    "value_X": "0.707911",
+                    "value_Y": "0.000000",
+                    "value_Z": "0.000000",
+                    "value_W": "0.706301"
+                },
+                "scale": {
+                    "value_X": "1.000000",
+                    "value_Y": "1.000000",
+                    "value_Z": "1.000000"
+                }
+            },
+            "Component_1": {
+                "Type": "3",
+                "Active": "1",
+                "UUID": "2106737206",
+                "Mesh": {
+                    "mesh_name": "gun_front_2"
+                },
+                "Material": {
+                    "Name": "Default_Material"
+                },
+                "Interior_Material": {
+                    "UUID": "1480464845"
+                },
+                "Mat_Indices_Number": "0",
+                "Mat_Indices_Start": "0",
+                "Int_Mat_Indices_Number": "0",
+                "Int_Mat_Indices_Start": "0",
+                "has_light": "1"
+            }
+        },
+        "ParentID": "2102564810",
+        "IsRoot": "0",
+        "IsStatic": "0"
+    },
+    "GameObject_42": {
+        "UUID": "2111043180",
+        "Name": "gun_front_2_1",
+        "Tag": "Default",
+        "Layer": "Default",
+        "Active": "1",
+        "Components": {
+            "Components_Count": "2",
+            "Component_0": {
+                "Type": "0",
+                "Active": "1",
+                "UUID": "534796039",
+                "position": {
+                    "value_X": "-12.503599",
+                    "value_Y": "-9.620887",
+                    "value_Z": "12.402818"
+                },
+                "rotation": {
+                    "value_X": "0.707911",
+                    "value_Y": "0.000000",
+                    "value_Z": "0.000000",
+                    "value_W": "0.706301"
+                },
+                "scale": {
+                    "value_X": "1.000000",
+                    "value_Y": "1.000000",
+                    "value_Z": "1.000000"
+                }
+            },
+            "Component_1": {
+                "Type": "3",
+                "Active": "1",
+                "UUID": "1303917747",
+                "Mesh": {
+                    "mesh_name": "gun_front_2_1"
+                },
+                "Material": {
+                    "Name": "lights"
+                },
+                "Interior_Material": {
+                    "UUID": "1480464845"
+                },
+                "Mat_Indices_Number": "0",
+                "Mat_Indices_Start": "0",
+                "Int_Mat_Indices_Number": "0",
+                "Int_Mat_Indices_Start": "0",
+                "has_light": "1"
+            }
+        },
+        "ParentID": "2102564810",
+        "IsRoot": "0",
+        "IsStatic": "0"
+    },
+    "GameObject_43": {
+        "UUID": "1163187119",
+        "Name": "gun_front",
+        "Tag": "Default",
+        "Layer": "Default",
+        "Active": "1",
+        "Components": {
+            "Components_Count": "2",
+            "Component_0": {
+                "Type": "0",
+                "Active": "1",
+                "UUID": "782532222",
+                "position": {
+                    "value_X": "7.938600",
+                    "value_Y": "-9.620887",
+                    "value_Z": "12.402818"
+                },
+                "rotation": {
+                    "value_X": "0.707911",
+                    "value_Y": "0.000000",
+                    "value_Z": "0.000000",
+                    "value_W": "0.706301"
+                },
+                "scale": {
+                    "value_X": "1.000000",
+                    "value_Y": "1.000000",
+                    "value_Z": "1.000000"
+                }
+            },
+            "Component_1": {
+                "Type": "3",
+                "Active": "1",
+                "UUID": "642083529",
+                "Mesh": {
+                    "mesh_name": "gun_front"
+                },
+                "Material": {
+                    "Name": "Default_Material"
+                },
+                "Interior_Material": {
+                    "UUID": "1480464845"
+                },
+                "Mat_Indices_Number": "0",
+                "Mat_Indices_Start": "0",
+                "Int_Mat_Indices_Number": "0",
+                "Int_Mat_Indices_Start": "0",
+                "has_light": "1"
+            }
+        },
+        "ParentID": "2102564810",
+        "IsRoot": "0",
+        "IsStatic": "0"
+    },
+    "GameObject_44": {
+        "UUID": "1904760101",
+        "Name": "gun_front_1",
+        "Tag": "Default",
+        "Layer": "Default",
+        "Active": "1",
+        "Components": {
+            "Components_Count": "2",
+            "Component_0": {
+                "Type": "0",
+                "Active": "1",
+                "UUID": "907466514",
+                "position": {
+                    "value_X": "7.938600",
+                    "value_Y": "-9.620887",
+                    "value_Z": "12.402818"
+                },
+                "rotation": {
+                    "value_X": "0.707911",
+                    "value_Y": "0.000000",
+                    "value_Z": "0.000000",
+                    "value_W": "0.706301"
+                },
+                "scale": {
+                    "value_X": "1.000000",
+                    "value_Y": "1.000000",
+                    "value_Z": "1.000000"
+                }
+            },
+            "Component_1": {
+                "Type": "3",
+                "Active": "1",
+                "UUID": "2040305824",
+                "Mesh": {
+                    "mesh_name": "gun_front_1"
+                },
+                "Material": {
+                    "Name": "lights"
+                },
+                "Interior_Material": {
+                    "UUID": "1480464845"
+                },
+                "Mat_Indices_Number": "0",
+                "Mat_Indices_Start": "0",
+                "Int_Mat_Indices_Number": "0",
+                "Int_Mat_Indices_Start": "0",
+                "has_light": "1"
+            }
+        },
+        "ParentID": "2102564810",
+        "IsRoot": "0",
+        "IsStatic": "0"
+    },
+    "GameObject_45": {
+        "UUID": "1038450517",
+        "Name": "wing_n_connection_2",
+        "Tag": "Default",
+        "Layer": "Default",
+        "Active": "1",
+        "Components": {
+            "Components_Count": "1",
+            "Component_0": {
+                "Type": "0",
+                "Active": "1",
+                "UUID": "678458242",
+                "position": {
+                    "value_X": "-56.065002",
+                    "value_Y": "-18.013252",
+                    "value_Z": "-2.878135"
+                },
+                "rotation": {
+                    "value_X": "0.000000",
+                    "value_Y": "0.999986",
+                    "value_Z": "-0.000000",
+                    "value_W": "0.005246"
+                },
+                "scale": {
+                    "value_X": "1.000000",
+                    "value_Y": "1.000000",
+                    "value_Z": "1.000000"
+                }
+            }
+        },
+        "ParentID": "480169009",
+        "IsRoot": "0",
+        "IsStatic": "0"
+    },
+    "GameObject_46": {
+        "UUID": "171343915",
+        "Name": "Extrude_2",
+        "Tag": "Default",
+        "Layer": "Default",
+        "Active": "1",
+        "Components": {
+            "Components_Count": "2",
+            "Component_0": {
+                "Type": "0",
+                "Active": "1",
+                "UUID": "1103833917",
+                "position": {
+                    "value_X": "-5.342999",
+                    "value_Y": "22.833931",
+                    "value_Z": "82.249283"
+                },
+                "rotation": {
+                    "value_X": "0.000000",
+                    "value_Y": "0.000000",
+                    "value_Z": "0.000000",
+                    "value_W": "1.000000"
+                },
+                "scale": {
+                    "value_X": "1.000000",
+                    "value_Y": "1.000000",
+                    "value_Z": "1.000000"
+                }
+            },
+            "Component_1": {
+                "Type": "3",
+                "Active": "1",
+                "UUID": "2010530777",
+                "Mesh": {
+                    "mesh_name": "Extrude_2"
+                },
+                "Material": {
+                    "Name": "black"
+                },
+                "Interior_Material": {
+                    "UUID": "1480464845"
+                },
+                "Mat_Indices_Number": "0",
+                "Mat_Indices_Start": "0",
+                "Int_Mat_Indices_Number": "0",
+                "Int_Mat_Indices_Start": "0",
+                "has_light": "1"
+            }
+        },
+        "ParentID": "1038450517",
+        "IsRoot": "0",
+        "IsStatic": "0"
+    },
+    "GameObject_47": {
+        "UUID": "840910279",
+        "Name": "Cube_1_2",
+        "Tag": "Default",
+        "Layer": "Default",
+        "Active": "1",
+        "Components": {
+            "Components_Count": "2",
+            "Component_0": {
+                "Type": "0",
+                "Active": "1",
+                "UUID": "970036435",
+                "position": {
+                    "value_X": "-3.384138",
+                    "value_Y": "46.672398",
+                    "value_Z": "12.381789"
+                },
+                "rotation": {
+                    "value_X": "0.240466",
+                    "value_Y": "0.000000",
+                    "value_Z": "-0.000000",
+                    "value_W": "0.970657"
+                },
+                "scale": {
+                    "value_X": "1.000000",
+                    "value_Y": "1.000000",
+                    "value_Z": "1.000000"
+                }
+            },
+            "Component_1": {
+                "Type": "3",
+                "Active": "1",
+                "UUID": "315349745",
+                "Mesh": {
+                    "mesh_name": "Cube_1_2"
+                },
+                "Material": {
+                    "Name": "metal"
+                },
+                "Interior_Material": {
+                    "UUID": "1480464845"
+                },
+                "Mat_Indices_Number": "0",
+                "Mat_Indices_Start": "0",
+                "Int_Mat_Indices_Number": "0",
+                "Int_Mat_Indices_Start": "0",
+                "has_light": "1"
+            }
+        },
+        "ParentID": "1038450517",
+        "IsRoot": "0",
+        "IsStatic": "0"
+    },
+    "GameObject_48": {
+        "UUID": "1349316261",
+        "Name": "Cube_2_3",
+        "Tag": "Default",
+        "Layer": "Default",
+        "Active": "1",
+        "Components": {
+            "Components_Count": "2",
+            "Component_0": {
+                "Type": "0",
+                "Active": "1",
+                "UUID": "389525",
+                "position": {
+                    "value_X": "-3.384138",
+                    "value_Y": "48.633884",
+                    "value_Z": "-17.102745"
+                },
+                "rotation": {
+                    "value_X": "-0.227850",
+                    "value_Y": "0.000000",
+                    "value_Z": "0.000000",
+                    "value_W": "0.973696"
+                },
+                "scale": {
+                    "value_X": "1.000000",
+                    "value_Y": "1.000000",
+                    "value_Z": "1.000000"
+                }
+            },
+            "Component_1": {
+                "Type": "3",
+                "Active": "1",
+                "UUID": "1222752713",
+                "Mesh": {
+                    "mesh_name": "Cube_2_3"
+                },
+                "Material": {
+                    "Name": "metal"
+                },
+                "Interior_Material": {
+                    "UUID": "1480464845"
+                },
+                "Mat_Indices_Number": "0",
+                "Mat_Indices_Start": "0",
+                "Int_Mat_Indices_Number": "0",
+                "Int_Mat_Indices_Start": "0",
+                "has_light": "1"
+            }
+        },
+        "ParentID": "1038450517",
+        "IsRoot": "0",
+        "IsStatic": "0"
+    },
+    "GameObject_49": {
+        "UUID": "1792290902",
+        "Name": "Cube_2_2",
+        "Tag": "Default",
+        "Layer": "Default",
+        "Active": "1",
+        "Components": {
+            "Components_Count": "2",
+            "Component_0": {
+                "Type": "0",
+                "Active": "1",
+                "UUID": "695649926",
+                "position": {
+                    "value_X": "-3.384149",
+                    "value_Y": "17.856432",
+                    "value_Z": "-26.924545"
+                },
+                "rotation": {
+                    "value_X": "-0.709976",
+                    "value_Y": "0.000000",
+                    "value_Z": "0.000000",
+                    "value_W": "0.704226"
+                },
+                "scale": {
+                    "value_X": "1.000000",
+                    "value_Y": "1.000000",
+                    "value_Z": "1.000000"
+                }
+            },
+            "Component_1": {
+                "Type": "3",
+                "Active": "1",
+                "UUID": "1547579207",
+                "Mesh": {
+                    "mesh_name": "Cube_2_2"
+                },
+                "Material": {
+                    "Name": "metal"
+                },
+                "Interior_Material": {
+                    "UUID": "1480464845"
+                },
+                "Mat_Indices_Number": "0",
+                "Mat_Indices_Start": "0",
+                "Int_Mat_Indices_Number": "0",
+                "Int_Mat_Indices_Start": "0",
+                "has_light": "1"
+            }
+        },
+        "ParentID": "1038450517",
+        "IsRoot": "0",
+        "IsStatic": "0"
+    },
+    "GameObject_50": {
+        "UUID": "292069039",
+        "Name": "Cube_3_2",
+        "Tag": "Default",
+        "Layer": "Default",
+        "Active": "1",
+        "Components": {
+            "Components_Count": "2",
+            "Component_0": {
+                "Type": "0",
+                "Active": "1",
+                "UUID": "2138851146",
+                "position": {
+                    "value_X": "-3.384149",
+                    "value_Y": "18.256632",
+                    "value_Z": "22.286871"
+                },
+                "rotation": {
+                    "value_X": "-0.709976",
+                    "value_Y": "0.000000",
+                    "value_Z": "0.000000",
+                    "value_W": "0.704226"
+                },
+                "scale": {
+                    "value_X": "1.000000",
+                    "value_Y": "1.000000",
+                    "value_Z": "1.000000"
+                }
+            },
+            "Component_1": {
+                "Type": "3",
+                "Active": "1",
+                "UUID": "1763394423",
+                "Mesh": {
+                    "mesh_name": "Cube_3_2"
+                },
+                "Material": {
+                    "Name": "metal"
+                },
+                "Interior_Material": {
+                    "UUID": "1480464845"
+                },
+                "Mat_Indices_Number": "0",
+                "Mat_Indices_Start": "0",
+                "Int_Mat_Indices_Number": "0",
+                "Int_Mat_Indices_Start": "0",
+                "has_light": "1"
+            }
+        },
+        "ParentID": "1038450517",
+        "IsRoot": "0",
+        "IsStatic": "0"
+    },
+    "GameObject_51": {
+        "UUID": "1976448207",
+        "Name": "Cube_4_2",
+        "Tag": "Default",
+        "Layer": "Default",
+        "Active": "1",
+        "Components": {
+            "Components_Count": "2",
+            "Component_0": {
+                "Type": "0",
+                "Active": "1",
+                "UUID": "690069564",
+                "position": {
+                    "value_X": "-3.384149",
+                    "value_Y": "-12.278223",
+                    "value_Z": "-16.622055"
+                },
+                "rotation": {
+                    "value_X": "0.233460",
+                    "value_Y": "0.000000",
+                    "value_Z": "-0.000000",
+                    "value_W": "0.972367"
+                },
+                "scale": {
+                    "value_X": "1.000000",
+                    "value_Y": "1.000000",
+                    "value_Z": "1.000000"
+                }
+            },
+            "Component_1": {
+                "Type": "3",
+                "Active": "1",
+                "UUID": "138454375",
+                "Mesh": {
+                    "mesh_name": "Cube_4_2"
+                },
+                "Material": {
+                    "Name": "metal"
+                },
+                "Interior_Material": {
+                    "UUID": "1480464845"
+                },
+                "Mat_Indices_Number": "0",
+                "Mat_Indices_Start": "0",
+                "Int_Mat_Indices_Number": "0",
+                "Int_Mat_Indices_Start": "0",
+                "has_light": "1"
+            }
+        },
+        "ParentID": "1038450517",
+        "IsRoot": "0",
+        "IsStatic": "0"
+    },
+    "GameObject_52": {
+        "UUID": "1350824350",
+        "Name": "Cube_5_2",
+        "Tag": "Default",
+        "Layer": "Default",
+        "Active": "1",
+        "Components": {
+            "Components_Count": "2",
+            "Component_0": {
+                "Type": "0",
+                "Active": "1",
+                "UUID": "635896155",
+                "position": {
+                    "value_X": "-3.384149",
+                    "value_Y": "-12.263092",
+                    "value_Z": "10.301314"
+                },
+                "rotation": {
+                    "value_X": "-0.215338",
+                    "value_Y": "0.000000",
+                    "value_Z": "-0.000000",
+                    "value_W": "0.976540"
+                },
+                "scale": {
+                    "value_X": "1.000000",
+                    "value_Y": "1.000000",
+                    "value_Z": "1.000000"
+                }
+            },
+            "Component_1": {
+                "Type": "3",
+                "Active": "1",
+                "UUID": "990718279",
+                "Mesh": {
+                    "mesh_name": "Cube_5_2"
+                },
+                "Material": {
+                    "Name": "metal"
+                },
+                "Interior_Material": {
+                    "UUID": "1480464845"
+                },
+                "Mat_Indices_Number": "0",
+                "Mat_Indices_Start": "0",
+                "Int_Mat_Indices_Number": "0",
+                "Int_Mat_Indices_Start": "0",
+                "has_light": "1"
+            }
+        },
+        "ParentID": "1038450517",
+        "IsRoot": "0",
+        "IsStatic": "0"
+    },
+    "GameObject_53": {
+        "UUID": "1464340688",
+        "Name": "connection_to_center_2",
+        "Tag": "Default",
+        "Layer": "Default",
+        "Active": "1",
+        "Components": {
+            "Components_Count": "2",
+            "Component_0": {
+                "Type": "0",
+                "Active": "1",
+                "UUID": "1889915218",
+                "position": {
+                    "value_X": "-9.453730",
+                    "value_Y": "16.037964",
+                    "value_Z": "-2.037981"
+                },
+                "rotation": {
+                    "value_X": "0.000000",
+                    "value_Y": "0.005475",
+                    "value_Z": "0.000000",
+                    "value_W": "0.999985"
+                },
+                "scale": {
+                    "value_X": "1.000000",
+                    "value_Y": "1.000000",
+                    "value_Z": "1.000000"
+                }
+            },
+            "Component_1": {
+                "Type": "3",
+                "Active": "1",
+                "UUID": "1371865217",
+                "Mesh": {
+                    "mesh_name": "connection_to_center_2"
+                },
+                "Material": {
+                    "Name": "black"
+                },
+                "Interior_Material": {
+                    "UUID": "1480464845"
+                },
+                "Mat_Indices_Number": "0",
+                "Mat_Indices_Start": "0",
+                "Int_Mat_Indices_Number": "0",
+                "Int_Mat_Indices_Start": "0",
+                "has_light": "1"
+            }
+        },
+        "ParentID": "1038450517",
+        "IsRoot": "0",
+        "IsStatic": "0"
+    },
+    "GameObject_54": {
+        "UUID": "333822385",
+        "Name": "wing_n_connection_1",
+        "Tag": "Default",
+        "Layer": "Default",
+        "Active": "1",
+        "Components": {
+            "Components_Count": "1",
+            "Component_0": {
+                "Type": "0",
+                "Active": "1",
+                "UUID": "1293072432",
+                "position": {
+                    "value_X": "56.487328",
+                    "value_Y": "-16.785326",
+                    "value_Z": "2.824217"
+                },
+                "rotation": {
+                    "value_X": "0.000000",
+                    "value_Y": "0.000574",
+                    "value_Z": "0.000000",
+                    "value_W": "1.000000"
+                },
+                "scale": {
+                    "value_X": "1.000000",
+                    "value_Y": "1.000000",
+                    "value_Z": "1.000000"
+                }
+            }
+        },
+        "ParentID": "480169009",
+        "IsRoot": "0",
+        "IsStatic": "0"
+    },
+    "GameObject_55": {
+        "UUID": "2084959831",
+        "Name": "Extrude",
+        "Tag": "Default",
+        "Layer": "Default",
+        "Active": "1",
+        "Components": {
+            "Components_Count": "2",
+            "Component_0": {
+                "Type": "0",
+                "Active": "1",
+                "UUID": "284454858",
+                "position": {
+                    "value_X": "-5.343001",
+                    "value_Y": "22.833937",
+                    "value_Z": "82.249260"
+                },
+                "rotation": {
+                    "value_X": "0.000000",
+                    "value_Y": "0.000000",
+                    "value_Z": "0.000000",
+                    "value_W": "1.000000"
+                },
+                "scale": {
+                    "value_X": "1.000000",
+                    "value_Y": "1.000000",
+                    "value_Z": "1.000000"
+                }
+            },
+            "Component_1": {
+                "Type": "3",
+                "Active": "1",
+                "UUID": "2126242380",
+                "Mesh": {
+                    "mesh_name": "Extrude"
+                },
+                "Material": {
+                    "Name": "black"
+                },
+                "Interior_Material": {
+                    "UUID": "1480464845"
+                },
+                "Mat_Indices_Number": "0",
+                "Mat_Indices_Start": "0",
+                "Int_Mat_Indices_Number": "0",
+                "Int_Mat_Indices_Start": "0",
+                "has_light": "1"
+            }
+        },
+        "ParentID": "333822385",
+        "IsRoot": "0",
+        "IsStatic": "0"
+    },
+    "GameObject_56": {
+        "UUID": "1612359543",
+        "Name": "Cube_1",
+        "Tag": "Default",
+        "Layer": "Default",
+        "Active": "1",
+        "Components": {
+            "Components_Count": "2",
+            "Component_0": {
+                "Type": "0",
+                "Active": "1",
+                "UUID": "120227462",
+                "position": {
+                    "value_X": "-3.384133",
+                    "value_Y": "46.672413",
+                    "value_Z": "12.381836"
+                },
+                "rotation": {
+                    "value_X": "0.240467",
+                    "value_Y": "0.000000",
+                    "value_Z": "0.000000",
+                    "value_W": "0.970657"
+                },
+                "scale": {
+                    "value_X": "1.000000",
+                    "value_Y": "1.000000",
+                    "value_Z": "1.000000"
+                }
+            },
+            "Component_1": {
+                "Type": "3",
+                "Active": "1",
+                "UUID": "818547219",
+                "Mesh": {
+                    "mesh_name": "Cube_1"
+                },
+                "Material": {
+                    "Name": "lambert1"
+                },
+                "Interior_Material": {
+                    "UUID": "1480464845"
+                },
+                "Mat_Indices_Number": "0",
+                "Mat_Indices_Start": "0",
+                "Int_Mat_Indices_Number": "0",
+                "Int_Mat_Indices_Start": "0",
+                "has_light": "1"
+            }
+        },
+        "ParentID": "333822385",
+        "IsRoot": "0",
+        "IsStatic": "0"
+    },
+    "GameObject_57": {
+        "UUID": "182381505",
+        "Name": "Cube",
+        "Tag": "Default",
+        "Layer": "Default",
+        "Active": "1",
+        "Components": {
+            "Components_Count": "2",
+            "Component_0": {
+                "Type": "0",
+                "Active": "1",
+                "UUID": "1159849219",
+                "position": {
+                    "value_X": "-3.384133",
+                    "value_Y": "48.633881",
+                    "value_Z": "-17.102699"
+                },
+                "rotation": {
+                    "value_X": "-0.227850",
+                    "value_Y": "0.000000",
+                    "value_Z": "0.000000",
+                    "value_W": "0.973696"
+                },
+                "scale": {
+                    "value_X": "1.000000",
+                    "value_Y": "1.000000",
+                    "value_Z": "1.000000"
+                }
+            },
+            "Component_1": {
+                "Type": "3",
+                "Active": "1",
+                "UUID": "1659438541",
+                "Mesh": {
+                    "mesh_name": "Cube"
+                },
+                "Material": {
+                    "Name": "lambert1"
+                },
+                "Interior_Material": {
+                    "UUID": "1480464845"
+                },
+                "Mat_Indices_Number": "0",
+                "Mat_Indices_Start": "0",
+                "Int_Mat_Indices_Number": "0",
+                "Int_Mat_Indices_Start": "0",
+                "has_light": "1"
+            }
+        },
+        "ParentID": "333822385",
+        "IsRoot": "0",
+        "IsStatic": "0"
+    },
+    "GameObject_58": {
+        "UUID": "392235977",
+        "Name": "Cube_2",
+        "Tag": "Default",
+        "Layer": "Default",
+        "Active": "1",
+        "Components": {
+            "Components_Count": "2",
+            "Component_0": {
+                "Type": "0",
+                "Active": "1",
+                "UUID": "617344335",
+                "position": {
+                    "value_X": "-3.384133",
+                    "value_Y": "17.856426",
+                    "value_Z": "-26.924545"
+                },
+                "rotation": {
+                    "value_X": "-0.709976",
+                    "value_Y": "0.000000",
+                    "value_Z": "0.000000",
+                    "value_W": "0.704226"
+                },
+                "scale": {
+                    "value_X": "1.000000",
+                    "value_Y": "1.000000",
+                    "value_Z": "1.000000"
+                }
+            },
+            "Component_1": {
+                "Type": "3",
+                "Active": "1",
+                "UUID": "458899465",
+                "Mesh": {
+                    "mesh_name": "Cube_2"
+                },
+                "Material": {
+                    "Name": "lambert1"
+                },
+                "Interior_Material": {
+                    "UUID": "1480464845"
+                },
+                "Mat_Indices_Number": "0",
+                "Mat_Indices_Start": "0",
+                "Int_Mat_Indices_Number": "0",
+                "Int_Mat_Indices_Start": "0",
+                "has_light": "1"
+            }
+        },
+        "ParentID": "333822385",
+        "IsRoot": "0",
+        "IsStatic": "0"
+    },
+    "GameObject_59": {
+        "UUID": "1166700118",
+        "Name": "Cube_3",
+        "Tag": "Default",
+        "Layer": "Default",
+        "Active": "1",
+        "Components": {
+            "Components_Count": "2",
+            "Component_0": {
+                "Type": "0",
+                "Active": "1",
+                "UUID": "999467572",
+                "position": {
+                    "value_X": "-3.384133",
+                    "value_Y": "18.256638",
+                    "value_Z": "22.286894"
+                },
+                "rotation": {
+                    "value_X": "-0.709976",
+                    "value_Y": "0.000000",
+                    "value_Z": "0.000000",
+                    "value_W": "0.704226"
+                },
+                "scale": {
+                    "value_X": "1.000000",
+                    "value_Y": "1.000000",
+                    "value_Z": "1.000000"
+                }
+            },
+            "Component_1": {
+                "Type": "3",
+                "Active": "1",
+                "UUID": "407451150",
+                "Mesh": {
+                    "mesh_name": "Cube_3"
+                },
+                "Material": {
+                    "Name": "lambert1"
+                },
+                "Interior_Material": {
+                    "UUID": "1480464845"
+                },
+                "Mat_Indices_Number": "0",
+                "Mat_Indices_Start": "0",
+                "Int_Mat_Indices_Number": "0",
+                "Int_Mat_Indices_Start": "0",
+                "has_light": "1"
+            }
+        },
+        "ParentID": "333822385",
+        "IsRoot": "0",
+        "IsStatic": "0"
+    },
+    "GameObject_60": {
+        "UUID": "1563082378",
+        "Name": "Cube_4",
+        "Tag": "Default",
+        "Layer": "Default",
+        "Active": "1",
+        "Components": {
+            "Components_Count": "2",
+            "Component_0": {
+                "Type": "0",
+                "Active": "1",
+                "UUID": "803481954",
+                "position": {
+                    "value_X": "-3.384133",
+                    "value_Y": "-12.278217",
+                    "value_Z": "-16.622055"
+                },
+                "rotation": {
+                    "value_X": "0.233460",
+                    "value_Y": "0.000000",
+                    "value_Z": "0.000000",
+                    "value_W": "0.972367"
+                },
+                "scale": {
+                    "value_X": "1.000000",
+                    "value_Y": "1.000000",
+                    "value_Z": "1.000000"
+                }
+            },
+            "Component_1": {
+                "Type": "3",
+                "Active": "1",
+                "UUID": "1771910660",
+                "Mesh": {
+                    "mesh_name": "Cube_4"
+                },
+                "Material": {
+                    "Name": "lambert1"
+                },
+                "Interior_Material": {
+                    "UUID": "1480464845"
+                },
+                "Mat_Indices_Number": "0",
+                "Mat_Indices_Start": "0",
+                "Int_Mat_Indices_Number": "0",
+                "Int_Mat_Indices_Start": "0",
+                "has_light": "1"
+            }
+        },
+        "ParentID": "333822385",
+        "IsRoot": "0",
+        "IsStatic": "0"
+    },
+    "GameObject_61": {
+        "UUID": "942145891",
+        "Name": "Cube_5",
+        "Tag": "Default",
+        "Layer": "Default",
+        "Active": "1",
+        "Components": {
+            "Components_Count": "2",
+            "Component_0": {
+                "Type": "0",
+                "Active": "1",
+                "UUID": "252883657",
+                "position": {
+                    "value_X": "-3.384133",
+                    "value_Y": "-12.263081",
+                    "value_Z": "10.301338"
+                },
+                "rotation": {
+                    "value_X": "-0.215338",
+                    "value_Y": "0.000000",
+                    "value_Z": "0.000000",
+                    "value_W": "0.976540"
+                },
+                "scale": {
+                    "value_X": "1.000000",
+                    "value_Y": "1.000000",
+                    "value_Z": "1.000000"
+                }
+            },
+            "Component_1": {
+                "Type": "3",
+                "Active": "1",
+                "UUID": "398563343",
+                "Mesh": {
+                    "mesh_name": "Cube_5"
+                },
+                "Material": {
+                    "Name": "lambert1"
+                },
+                "Interior_Material": {
+                    "UUID": "1480464845"
+                },
+                "Mat_Indices_Number": "0",
+                "Mat_Indices_Start": "0",
+                "Int_Mat_Indices_Number": "0",
+                "Int_Mat_Indices_Start": "0",
+                "has_light": "1"
+            }
+        },
+        "ParentID": "333822385",
+        "IsRoot": "0",
+        "IsStatic": "0"
+    },
+    "GameObject_62": {
+        "UUID": "1438152768",
+        "Name": "connection_to_center",
+        "Tag": "Default",
+        "Layer": "Default",
+        "Active": "1",
+        "Components": {
+            "Components_Count": "2",
+            "Component_0": {
+                "Type": "0",
+                "Active": "1",
+                "UUID": "482410981",
+                "position": {
+                    "value_X": "-8.770522",
+                    "value_Y": "14.810049",
+                    "value_Z": "-3.587200"
+                },
+                "rotation": {
+                    "value_X": "0.000000",
+                    "value_Y": "-0.000574",
+                    "value_Z": "0.000000",
+                    "value_W": "1.000000"
+                },
+                "scale": {
+                    "value_X": "1.000000",
+                    "value_Y": "1.000000",
+                    "value_Z": "1.000000"
+                }
+            },
+            "Component_1": {
+                "Type": "3",
+                "Active": "1",
+                "UUID": "1356303200",
+                "Mesh": {
+                    "mesh_name": "connection_to_center"
+                },
+                "Material": {
+                    "Name": "black"
+                },
+                "Interior_Material": {
+                    "UUID": "1480464845"
+                },
+                "Mat_Indices_Number": "0",
+                "Mat_Indices_Start": "0",
+                "Int_Mat_Indices_Number": "0",
+                "Int_Mat_Indices_Start": "0",
+                "has_light": "1"
+            }
+        },
+        "ParentID": "333822385",
+        "IsRoot": "0",
+        "IsStatic": "0"
+    },
+    "GameObjectsCount": "63",
+    "library_path": "./Project/Library/Prefabs/TieFighterUpdated.jprefab",
+    "assets_path": ".\\Project\\Assets\\FBX\\TieFighterUpdated.fbx",
+    "prefab_name": "TieFighterUpdated",
+    "UUID": "352891270",
+    "GameObjects_Count": "32",
+    "GameObject_0": {
+        "UUID": "181644963",
+        "Name": "TieFighterUpdated",
+        "Tag": "Default",
+        "Layer": "Default",
+        "Active": "1",
+        "Components": {
+            "Components_Count": "1",
+            "Component_0": {
+                "Type": "0",
+                "Active": "1",
+                "UUID": "1430186990",
+                "position": {
+                    "value_X": "0.000000",
+                    "value_Y": "0.000000",
+                    "value_Z": "0.000000"
+                },
+                "rotation": {
+                    "value_X": "0.000000",
+                    "value_Y": "0.000000",
+                    "value_Z": "0.000000",
+                    "value_W": "1.000000"
+                },
+                "scale": {
+                    "value_X": "1.000000",
+                    "value_Y": "1.000000",
+                    "value_Z": "1.000000"
+                }
+            }
+        },
+        "ParentID": "0",
+        "IsRoot": "1",
+        "IsStatic": "0"
+    },
+    "GameObject_1": {
+        "UUID": "1920255487",
+        "Name": "CINEMA_4D_Editor",
+        "Tag": "Default",
+        "Layer": "Default",
+        "Active": "1",
+        "Components": {
+            "Components_Count": "1",
+            "Component_0": {
+                "Type": "0",
+                "Active": "1",
+                "UUID": "1850393409",
+                "position": {
+                    "value_X": "-46.799114",
+                    "value_Y": "39.970051",
+                    "value_Z": "-125.319603"
+                },
+                "rotation": {
+                    "value_X": "0.132638",
+                    "value_Y": "-0.878459",
+                    "value_Z": "0.068534",
+                    "value_W": "-0.453895"
+                },
+                "scale": {
+                    "value_X": "1.000000",
+                    "value_Y": "1.000000",
+                    "value_Z": "1.000000"
+                }
+            }
+        },
+        "ParentID": "181644963",
+        "IsRoot": "0",
+        "IsStatic": "0"
+    },
+    "GameObject_2": {
+        "UUID": "660300089",
+        "Name": "tie_fighter",
+        "Tag": "Default",
+        "Layer": "Default",
+        "Active": "1",
+        "Components": {
+            "Components_Count": "1",
+            "Component_0": {
+                "Type": "0",
+                "Active": "1",
+                "UUID": "1731695316",
+                "position": {
+                    "value_X": "-65.918381",
+                    "value_Y": "32.523602",
+                    "value_Z": "-153.945847"
+                },
+                "rotation": {
+                    "value_X": "0.000000",
+                    "value_Y": "0.000000",
+                    "value_Z": "0.000000",
+                    "value_W": "1.000000"
+                },
+                "scale": {
+                    "value_X": "0.105620",
+                    "value_Y": "0.105620",
+                    "value_Z": "0.105620"
+                }
+            }
+        },
+        "ParentID": "181644963",
+        "IsRoot": "0",
+        "IsStatic": "0"
+    },
+    "GameObject_3": {
+        "UUID": "1717548587",
+        "Name": "center_piece",
+        "Tag": "Default",
+        "Layer": "Default",
+        "Active": "1",
+        "Components": {
+            "Components_Count": "1",
+            "Component_0": {
+                "Type": "0",
+                "Active": "1",
+                "UUID": "2116126387",
+                "position": {
+                    "value_X": "11.435490",
+                    "value_Y": "2.445531",
+                    "value_Z": "7.656147"
+                },
+                "rotation": {
+                    "value_X": "0.000000",
+                    "value_Y": "0.000000",
+                    "value_Z": "0.000000",
+                    "value_W": "1.000000"
+                },
+                "scale": {
+                    "value_X": "1.000000",
+                    "value_Y": "1.000000",
+                    "value_Z": "1.000000"
+                }
+            }
+        },
+        "ParentID": "660300089",
+        "IsRoot": "0",
+        "IsStatic": "0"
+    },
+    "GameObject_4": {
+        "UUID": "1265743273",
+        "Name": "guns",
+        "Tag": "Default",
+        "Layer": "Default",
+        "Active": "1",
+        "Components": {
+            "Components_Count": "1",
+            "Component_0": {
+                "Type": "0",
+                "Active": "1",
+                "UUID": "1518762369",
+                "position": {
+                    "value_X": "2.248690",
+                    "value_Y": "-5.288657",
+                    "value_Z": "-0.466309"
+                },
+                "rotation": {
+                    "value_X": "0.000000",
+                    "value_Y": "0.000000",
+                    "value_Z": "0.000000",
+                    "value_W": "1.000000"
+                },
+                "scale": {
+                    "value_X": "1.000000",
+                    "value_Y": "1.000000",
+                    "value_Z": "1.000000"
+                }
+            }
+        },
+        "ParentID": "660300089",
+        "IsRoot": "0",
+        "IsStatic": "0"
+    },
+    "GameObject_5": {
+        "UUID": "320954888",
+        "Name": "wing_n_connection_2",
+        "Tag": "Default",
+        "Layer": "Default",
+        "Active": "1",
+        "Components": {
+            "Components_Count": "1",
+            "Component_0": {
+                "Type": "0",
+                "Active": "1",
+                "UUID": "678458242",
+                "position": {
+                    "value_X": "-56.065002",
+                    "value_Y": "-18.013252",
+                    "value_Z": "-2.878135"
+                },
+                "rotation": {
+                    "value_X": "0.000000",
+                    "value_Y": "0.999986",
+                    "value_Z": "-0.000000",
+                    "value_W": "0.005246"
+                },
+                "scale": {
+                    "value_X": "1.000000",
+                    "value_Y": "1.000000",
+                    "value_Z": "1.000000"
+                }
+            }
+        },
+        "ParentID": "660300089",
+        "IsRoot": "0",
+        "IsStatic": "0"
+    },
+    "GameObject_6": {
+        "UUID": "632910413",
+        "Name": "wing_n_connection_1",
+        "Tag": "Default",
+        "Layer": "Default",
+        "Active": "1",
+        "Components": {
+            "Components_Count": "1",
+            "Component_0": {
+                "Type": "0",
+                "Active": "1",
+                "UUID": "1293072432",
+                "position": {
+                    "value_X": "56.487328",
+                    "value_Y": "-16.785326",
+                    "value_Z": "2.824217"
+                },
+                "rotation": {
+                    "value_X": "0.000000",
+                    "value_Y": "0.000574",
+                    "value_Z": "0.000000",
+                    "value_W": "1.000000"
+                },
+                "scale": {
+                    "value_X": "1.000000",
+                    "value_Y": "1.000000",
+                    "value_Z": "1.000000"
+                }
+            }
+        },
+        "ParentID": "660300089",
+        "IsRoot": "0",
+        "IsStatic": "0"
+    },
+    "GameObject_7": {
+        "UUID": "1786394327",
+        "Name": "Sphere",
+        "Tag": "Default",
+        "Layer": "Default",
+        "Active": "1",
+        "Components": {
+            "Components_Count": "2",
+            "Component_0": {
+                "Type": "0",
+                "Active": "1",
+                "UUID": "1568756630",
+                "position": {
+                    "value_X": "-10.897735",
+                    "value_Y": "-4.420294",
+                    "value_Z": "-10.360618"
+                },
+                "rotation": {
+                    "value_X": "0.707381",
+                    "value_Y": "0.000000",
+                    "value_Z": "0.000000",
+                    "value_W": "0.706832"
+                },
+                "scale": {
+                    "value_X": "1.000000",
+                    "value_Y": "1.000000",
+                    "value_Z": "1.000000"
+                }
+            },
+            "Component_1": {
+                "Type": "3",
+                "Active": "1",
+                "UUID": "1499147674",
+                "Mesh": {
+                    "mesh_name": "Sphere"
+                },
+                "Material": {
+                    "Name": "metal"
+                },
+                "Interior_Material": {
+                    "UUID": "1480464845"
+                },
+                "Mat_Indices_Number": "0",
+                "Mat_Indices_Start": "0",
+                "Int_Mat_Indices_Number": "0",
+                "Int_Mat_Indices_Start": "0",
+                "has_light": "1"
+            }
+        },
+        "ParentID": "1717548587",
+        "IsRoot": "0",
+        "IsStatic": "0"
+    },
+    "GameObject_8": {
+        "UUID": "1191507709",
+        "Name": "Sphere_1",
+        "Tag": "Default",
+        "Layer": "Default",
+        "Active": "1",
+        "Components": {
+            "Components_Count": "2",
+            "Component_0": {
+                "Type": "0",
+                "Active": "1",
+                "UUID": "366500271",
+                "position": {
+                    "value_X": "-10.897735",
+                    "value_Y": "-4.420294",
+                    "value_Z": "-10.360618"
+                },
+                "rotation": {
+                    "value_X": "0.707381",
+                    "value_Y": "0.000000",
+                    "value_Z": "0.000000",
+                    "value_W": "0.706832"
+                },
+                "scale": {
+                    "value_X": "1.000000",
+                    "value_Y": "1.000000",
+                    "value_Z": "1.000000"
+                }
+            },
+            "Component_1": {
+                "Type": "3",
+                "Active": "1",
+                "UUID": "1664499974",
+                "Mesh": {
+                    "mesh_name": "Sphere_1"
+                },
+                "Material": {
+                    "Name": "mirror"
+                },
+                "Interior_Material": {
+                    "UUID": "1480464845"
+                },
+                "Mat_Indices_Number": "0",
+                "Mat_Indices_Start": "0",
+                "Int_Mat_Indices_Number": "0",
+                "Int_Mat_Indices_Start": "0",
+                "has_light": "1"
+            }
+        },
+        "ParentID": "1717548587",
+        "IsRoot": "0",
+        "IsStatic": "0"
+    },
+    "GameObject_9": {
+        "UUID": "959891973",
+        "Name": "Tube",
+        "Tag": "Default",
+        "Layer": "Default",
+        "Active": "1",
+        "Components": {
+            "Components_Count": "2",
+            "Component_0": {
+                "Type": "0",
+                "Active": "1",
+                "UUID": "1520884956",
+                "position": {
+                    "value_X": "-10.827174",
+                    "value_Y": "-4.407136",
+                    "value_Z": "10.787051"
+                },
+                "rotation": {
+                    "value_X": "0.706958",
+                    "value_Y": "0.000000",
+                    "value_Z": "0.000000",
+                    "value_W": "0.707255"
+                },
+                "scale": {
+                    "value_X": "1.000000",
+                    "value_Y": "1.000000",
+                    "value_Z": "1.000000"
+                }
+            },
+            "Component_1": {
+                "Type": "3",
+                "Active": "1",
+                "UUID": "384046339",
+                "Mesh": {
+                    "mesh_name": "Tube"
+                },
+                "Material": {
+                    "Name": "metal"
+                },
+                "Interior_Material": {
+                    "UUID": "1480464845"
+                },
+                "Mat_Indices_Number": "0",
+                "Mat_Indices_Start": "0",
+                "Int_Mat_Indices_Number": "0",
+                "Int_Mat_Indices_Start": "0",
+                "has_light": "1"
+            }
+        },
+        "ParentID": "1717548587",
+        "IsRoot": "0",
+        "IsStatic": "0"
+    },
+    "GameObject_10": {
+        "UUID": "1095441240",
+        "Name": "gun_back_1_1",
+        "Tag": "Default",
+        "Layer": "Default",
+        "Active": "1",
+        "Components": {
+            "Components_Count": "2",
+            "Component_0": {
+                "Type": "0",
+                "Active": "1",
+                "UUID": "1154848467",
+                "position": {
+                    "value_X": "-17.775496",
+                    "value_Y": "8.732946",
+                    "value_Z": "-17.298500"
+                },
+                "rotation": {
+                    "value_X": "0.707904",
+                    "value_Y": "-0.003195",
+                    "value_Z": "0.003187",
+                    "value_W": "0.706294"
+                },
+                "scale": {
+                    "value_X": "1.000000",
+                    "value_Y": "1.000000",
+                    "value_Z": "1.000000"
+                }
+            },
+            "Component_1": {
+                "Type": "3",
+                "Active": "1",
+                "UUID": "835573380",
+                "Mesh": {
+                    "mesh_name": "gun_back_1_1"
+                },
+                "Material": {
+                    "Name": "lambert1"
+                },
+                "Interior_Material": {
+                    "UUID": "1480464845"
+                },
+                "Mat_Indices_Number": "0",
+                "Mat_Indices_Start": "0",
+                "Int_Mat_Indices_Number": "0",
+                "Int_Mat_Indices_Start": "0",
+                "has_light": "1"
+            }
+        },
+        "ParentID": "1265743273",
+        "IsRoot": "0",
+        "IsStatic": "0"
+    },
+    "GameObject_11": {
+        "UUID": "2127814129",
+        "Name": "gun_back_1",
+        "Tag": "Default",
+        "Layer": "Default",
+        "Active": "1",
+        "Components": {
+            "Components_Count": "2",
+            "Component_0": {
+                "Type": "0",
+                "Active": "1",
+                "UUID": "140937875",
+                "position": {
+                    "value_X": "14.259066",
+                    "value_Y": "8.732301",
+                    "value_Z": "-17.009342"
+                },
+                "rotation": {
+                    "value_X": "0.707904",
+                    "value_Y": "-0.003195",
+                    "value_Z": "0.003187",
+                    "value_W": "0.706294"
+                },
+                "scale": {
+                    "value_X": "1.000000",
+                    "value_Y": "1.000000",
+                    "value_Z": "1.000000"
+                }
+            },
+            "Component_1": {
+                "Type": "3",
+                "Active": "1",
+                "UUID": "390159273",
+                "Mesh": {
+                    "mesh_name": "gun_back_1"
+                },
+                "Material": {
+                    "Name": "lambert1"
+                },
+                "Interior_Material": {
+                    "UUID": "1480464845"
+                },
+                "Mat_Indices_Number": "0",
+                "Mat_Indices_Start": "0",
+                "Int_Mat_Indices_Number": "0",
+                "Int_Mat_Indices_Start": "0",
+                "has_light": "1"
+            }
+        },
+        "ParentID": "1265743273",
+        "IsRoot": "0",
+        "IsStatic": "0"
+    },
+    "GameObject_12": {
+        "UUID": "683054108",
+        "Name": "gun_front_2",
+        "Tag": "Default",
+        "Layer": "Default",
+        "Active": "1",
+        "Components": {
+            "Components_Count": "2",
+            "Component_0": {
+                "Type": "0",
+                "Active": "1",
+                "UUID": "1020478651",
+                "position": {
+                    "value_X": "-12.503599",
+                    "value_Y": "-9.620887",
+                    "value_Z": "12.402818"
+                },
+                "rotation": {
+                    "value_X": "0.707911",
+                    "value_Y": "0.000000",
+                    "value_Z": "0.000000",
+                    "value_W": "0.706301"
+                },
+                "scale": {
+                    "value_X": "1.000000",
+                    "value_Y": "1.000000",
+                    "value_Z": "1.000000"
+                }
+            },
+            "Component_1": {
+                "Type": "3",
+                "Active": "1",
+                "UUID": "2106737206",
+                "Mesh": {
+                    "mesh_name": "gun_front_2"
+                },
+                "Material": {
+                    "Name": "Default_Material"
+                },
+                "Interior_Material": {
+                    "UUID": "1480464845"
+                },
+                "Mat_Indices_Number": "0",
+                "Mat_Indices_Start": "0",
+                "Int_Mat_Indices_Number": "0",
+                "Int_Mat_Indices_Start": "0",
+                "has_light": "1"
+            }
+        },
+        "ParentID": "1265743273",
+        "IsRoot": "0",
+        "IsStatic": "0"
+    },
+    "GameObject_13": {
+        "UUID": "1032173900",
+        "Name": "gun_front_2_1",
+        "Tag": "Default",
+        "Layer": "Default",
+        "Active": "1",
+        "Components": {
+            "Components_Count": "2",
+            "Component_0": {
+                "Type": "0",
+                "Active": "1",
+                "UUID": "534796039",
+                "position": {
+                    "value_X": "-12.503599",
+                    "value_Y": "-9.620887",
+                    "value_Z": "12.402818"
+                },
+                "rotation": {
+                    "value_X": "0.707911",
+                    "value_Y": "0.000000",
+                    "value_Z": "0.000000",
+                    "value_W": "0.706301"
+                },
+                "scale": {
+                    "value_X": "1.000000",
+                    "value_Y": "1.000000",
+                    "value_Z": "1.000000"
+                }
+            },
+            "Component_1": {
+                "Type": "3",
+                "Active": "1",
+                "UUID": "1303917747",
+                "Mesh": {
+                    "mesh_name": "gun_front_2_1"
+                },
+                "Material": {
+                    "Name": "lights"
+                },
+                "Interior_Material": {
+                    "UUID": "1480464845"
+                },
+                "Mat_Indices_Number": "0",
+                "Mat_Indices_Start": "0",
+                "Int_Mat_Indices_Number": "0",
+                "Int_Mat_Indices_Start": "0",
+                "has_light": "1"
+            }
+        },
+        "ParentID": "1265743273",
+        "IsRoot": "0",
+        "IsStatic": "0"
+    },
+    "GameObject_14": {
+        "UUID": "1881295986",
+        "Name": "gun_front",
+        "Tag": "Default",
+        "Layer": "Default",
+        "Active": "1",
+        "Components": {
+            "Components_Count": "2",
+            "Component_0": {
+                "Type": "0",
+                "Active": "1",
+                "UUID": "782532222",
+                "position": {
+                    "value_X": "7.938600",
+                    "value_Y": "-9.620887",
+                    "value_Z": "12.402818"
+                },
+                "rotation": {
+                    "value_X": "0.707911",
+                    "value_Y": "0.000000",
+                    "value_Z": "0.000000",
+                    "value_W": "0.706301"
+                },
+                "scale": {
+                    "value_X": "1.000000",
+                    "value_Y": "1.000000",
+                    "value_Z": "1.000000"
+                }
+            },
+            "Component_1": {
+                "Type": "3",
+                "Active": "1",
+                "UUID": "642083529",
+                "Mesh": {
+                    "mesh_name": "gun_front"
+                },
+                "Material": {
+                    "Name": "Default_Material"
+                },
+                "Interior_Material": {
+                    "UUID": "1480464845"
+                },
+                "Mat_Indices_Number": "0",
+                "Mat_Indices_Start": "0",
+                "Int_Mat_Indices_Number": "0",
+                "Int_Mat_Indices_Start": "0",
+                "has_light": "1"
+            }
+        },
+        "ParentID": "1265743273",
+        "IsRoot": "0",
+        "IsStatic": "0"
+    },
+    "GameObject_15": {
+        "UUID": "532727129",
+        "Name": "gun_front_1",
+        "Tag": "Default",
+        "Layer": "Default",
+        "Active": "1",
+        "Components": {
+            "Components_Count": "2",
+            "Component_0": {
+                "Type": "0",
+                "Active": "1",
+                "UUID": "907466514",
+                "position": {
+                    "value_X": "7.938600",
+                    "value_Y": "-9.620887",
+                    "value_Z": "12.402818"
+                },
+                "rotation": {
+                    "value_X": "0.707911",
+                    "value_Y": "0.000000",
+                    "value_Z": "0.000000",
+                    "value_W": "0.706301"
+                },
+                "scale": {
+                    "value_X": "1.000000",
+                    "value_Y": "1.000000",
+                    "value_Z": "1.000000"
+                }
+            },
+            "Component_1": {
+                "Type": "3",
+                "Active": "1",
+                "UUID": "2040305824",
+                "Mesh": {
+                    "mesh_name": "gun_front_1"
+                },
+                "Material": {
+                    "Name": "lights"
+                },
+                "Interior_Material": {
+                    "UUID": "1480464845"
+                },
+                "Mat_Indices_Number": "0",
+                "Mat_Indices_Start": "0",
+                "Int_Mat_Indices_Number": "0",
+                "Int_Mat_Indices_Start": "0",
+                "has_light": "1"
+            }
+        },
+        "ParentID": "1265743273",
+        "IsRoot": "0",
+        "IsStatic": "0"
+    },
+    "GameObject_16": {
+        "UUID": "1952864419",
+        "Name": "Extrude_2",
+        "Tag": "Default",
+        "Layer": "Default",
+        "Active": "1",
+        "Components": {
+            "Components_Count": "2",
+            "Component_0": {
+                "Type": "0",
+                "Active": "1",
+                "UUID": "1103833917",
+                "position": {
+                    "value_X": "-5.342999",
+                    "value_Y": "22.833931",
+                    "value_Z": "82.249283"
+                },
+                "rotation": {
+                    "value_X": "0.000000",
+                    "value_Y": "0.000000",
+                    "value_Z": "0.000000",
+                    "value_W": "1.000000"
+                },
+                "scale": {
+                    "value_X": "1.000000",
+                    "value_Y": "1.000000",
+                    "value_Z": "1.000000"
+                }
+            },
+            "Component_1": {
+                "Type": "3",
+                "Active": "1",
+                "UUID": "2010530777",
+                "Mesh": {
+                    "mesh_name": "Extrude_2"
+                },
+                "Material": {
+                    "Name": "black"
+                },
+                "Interior_Material": {
+                    "UUID": "1480464845"
+                },
+                "Mat_Indices_Number": "0",
+                "Mat_Indices_Start": "0",
+                "Int_Mat_Indices_Number": "0",
+                "Int_Mat_Indices_Start": "0",
+                "has_light": "1"
+            }
+        },
+        "ParentID": "320954888",
+        "IsRoot": "0",
+        "IsStatic": "0"
+    },
+    "GameObject_17": {
+        "UUID": "1036539982",
+        "Name": "Cube_1_2",
+        "Tag": "Default",
+        "Layer": "Default",
+        "Active": "1",
+        "Components": {
+            "Components_Count": "2",
+            "Component_0": {
+                "Type": "0",
+                "Active": "1",
+                "UUID": "970036435",
+                "position": {
+                    "value_X": "-3.384138",
+                    "value_Y": "46.672398",
+                    "value_Z": "12.381789"
+                },
+                "rotation": {
+                    "value_X": "0.240466",
+                    "value_Y": "0.000000",
+                    "value_Z": "-0.000000",
+                    "value_W": "0.970657"
+                },
+                "scale": {
+                    "value_X": "1.000000",
+                    "value_Y": "1.000000",
+                    "value_Z": "1.000000"
+                }
+            },
+            "Component_1": {
+                "Type": "3",
+                "Active": "1",
+                "UUID": "315349745",
+                "Mesh": {
+                    "mesh_name": "Cube_1_2"
+                },
+                "Material": {
+                    "Name": "metal"
+                },
+                "Interior_Material": {
+                    "UUID": "1480464845"
+                },
+                "Mat_Indices_Number": "0",
+                "Mat_Indices_Start": "0",
+                "Int_Mat_Indices_Number": "0",
+                "Int_Mat_Indices_Start": "0",
+                "has_light": "1"
+            }
+        },
+        "ParentID": "320954888",
+        "IsRoot": "0",
+        "IsStatic": "0"
+    },
+    "GameObject_18": {
+        "UUID": "909613034",
+        "Name": "Cube_2_3",
+        "Tag": "Default",
+        "Layer": "Default",
+        "Active": "1",
+        "Components": {
+            "Components_Count": "2",
+            "Component_0": {
+                "Type": "0",
+                "Active": "1",
+                "UUID": "389525",
+                "position": {
+                    "value_X": "-3.384138",
+                    "value_Y": "48.633884",
+                    "value_Z": "-17.102745"
+                },
+                "rotation": {
+                    "value_X": "-0.227850",
+                    "value_Y": "0.000000",
+                    "value_Z": "0.000000",
+                    "value_W": "0.973696"
+                },
+                "scale": {
+                    "value_X": "1.000000",
+                    "value_Y": "1.000000",
+                    "value_Z": "1.000000"
+                }
+            },
+            "Component_1": {
+                "Type": "3",
+                "Active": "1",
+                "UUID": "1222752713",
+                "Mesh": {
+                    "mesh_name": "Cube_2_3"
+                },
+                "Material": {
+                    "Name": "metal"
+                },
+                "Interior_Material": {
+                    "UUID": "1480464845"
+                },
+                "Mat_Indices_Number": "0",
+                "Mat_Indices_Start": "0",
+                "Int_Mat_Indices_Number": "0",
+                "Int_Mat_Indices_Start": "0",
+                "has_light": "1"
+            }
+        },
+        "ParentID": "320954888",
+        "IsRoot": "0",
+        "IsStatic": "0"
+    },
+    "GameObject_19": {
+        "UUID": "1023773731",
+        "Name": "Cube_2_2",
+        "Tag": "Default",
+        "Layer": "Default",
+        "Active": "1",
+        "Components": {
+            "Components_Count": "2",
+            "Component_0": {
+                "Type": "0",
+                "Active": "1",
+                "UUID": "695649926",
+                "position": {
+                    "value_X": "-3.384149",
+                    "value_Y": "17.856432",
+                    "value_Z": "-26.924545"
+                },
+                "rotation": {
+                    "value_X": "-0.709976",
+                    "value_Y": "0.000000",
+                    "value_Z": "0.000000",
+                    "value_W": "0.704226"
+                },
+                "scale": {
+                    "value_X": "1.000000",
+                    "value_Y": "1.000000",
+                    "value_Z": "1.000000"
+                }
+            },
+            "Component_1": {
+                "Type": "3",
+                "Active": "1",
+                "UUID": "1547579207",
+                "Mesh": {
+                    "mesh_name": "Cube_2_2"
+                },
+                "Material": {
+                    "Name": "metal"
+                },
+                "Interior_Material": {
+                    "UUID": "1480464845"
+                },
+                "Mat_Indices_Number": "0",
+                "Mat_Indices_Start": "0",
+                "Int_Mat_Indices_Number": "0",
+                "Int_Mat_Indices_Start": "0",
+                "has_light": "1"
+            }
+        },
+        "ParentID": "320954888",
+        "IsRoot": "0",
+        "IsStatic": "0"
+    },
+    "GameObject_20": {
+        "UUID": "1168682021",
+        "Name": "Cube_3_2",
+        "Tag": "Default",
+        "Layer": "Default",
+        "Active": "1",
+        "Components": {
+            "Components_Count": "2",
+            "Component_0": {
+                "Type": "0",
+                "Active": "1",
+                "UUID": "2138851146",
+                "position": {
+                    "value_X": "-3.384149",
+                    "value_Y": "18.256632",
+                    "value_Z": "22.286871"
+                },
+                "rotation": {
+                    "value_X": "-0.709976",
+                    "value_Y": "0.000000",
+                    "value_Z": "0.000000",
+                    "value_W": "0.704226"
+                },
+                "scale": {
+                    "value_X": "1.000000",
+                    "value_Y": "1.000000",
+                    "value_Z": "1.000000"
+                }
+            },
+            "Component_1": {
+                "Type": "3",
+                "Active": "1",
+                "UUID": "1763394423",
+                "Mesh": {
+                    "mesh_name": "Cube_3_2"
+                },
+                "Material": {
+                    "Name": "metal"
+                },
+                "Interior_Material": {
+                    "UUID": "1480464845"
+                },
+                "Mat_Indices_Number": "0",
+                "Mat_Indices_Start": "0",
+                "Int_Mat_Indices_Number": "0",
+                "Int_Mat_Indices_Start": "0",
+                "has_light": "1"
+            }
+        },
+        "ParentID": "320954888",
+        "IsRoot": "0",
+        "IsStatic": "0"
+    },
+    "GameObject_21": {
+        "UUID": "950566505",
+        "Name": "Cube_4_2",
+        "Tag": "Default",
+        "Layer": "Default",
+        "Active": "1",
+        "Components": {
+            "Components_Count": "2",
+            "Component_0": {
+                "Type": "0",
+                "Active": "1",
+                "UUID": "690069564",
+                "position": {
+                    "value_X": "-3.384149",
+                    "value_Y": "-12.278223",
+                    "value_Z": "-16.622055"
+                },
+                "rotation": {
+                    "value_X": "0.233460",
+                    "value_Y": "0.000000",
+                    "value_Z": "-0.000000",
+                    "value_W": "0.972367"
+                },
+                "scale": {
+                    "value_X": "1.000000",
+                    "value_Y": "1.000000",
+                    "value_Z": "1.000000"
+                }
+            },
+            "Component_1": {
+                "Type": "3",
+                "Active": "1",
+                "UUID": "138454375",
+                "Mesh": {
+                    "mesh_name": "Cube_4_2"
+                },
+                "Material": {
+                    "Name": "metal"
+                },
+                "Interior_Material": {
+                    "UUID": "1480464845"
+                },
+                "Mat_Indices_Number": "0",
+                "Mat_Indices_Start": "0",
+                "Int_Mat_Indices_Number": "0",
+                "Int_Mat_Indices_Start": "0",
+                "has_light": "1"
+            }
+        },
+        "ParentID": "320954888",
+        "IsRoot": "0",
+        "IsStatic": "0"
+    },
+    "GameObject_22": {
+        "UUID": "387095006",
+        "Name": "Cube_5_2",
+        "Tag": "Default",
+        "Layer": "Default",
+        "Active": "1",
+        "Components": {
+            "Components_Count": "2",
+            "Component_0": {
+                "Type": "0",
+                "Active": "1",
+                "UUID": "635896155",
+                "position": {
+                    "value_X": "-3.384149",
+                    "value_Y": "-12.263092",
+                    "value_Z": "10.301314"
+                },
+                "rotation": {
+                    "value_X": "-0.215338",
+                    "value_Y": "0.000000",
+                    "value_Z": "-0.000000",
+                    "value_W": "0.976540"
+                },
+                "scale": {
+                    "value_X": "1.000000",
+                    "value_Y": "1.000000",
+                    "value_Z": "1.000000"
+                }
+            },
+            "Component_1": {
+                "Type": "3",
+                "Active": "1",
+                "UUID": "990718279",
+                "Mesh": {
+                    "mesh_name": "Cube_5_2"
+                },
+                "Material": {
+                    "Name": "metal"
+                },
+                "Interior_Material": {
+                    "UUID": "1480464845"
+                },
+                "Mat_Indices_Number": "0",
+                "Mat_Indices_Start": "0",
+                "Int_Mat_Indices_Number": "0",
+                "Int_Mat_Indices_Start": "0",
+                "has_light": "1"
+            }
+        },
+        "ParentID": "320954888",
+        "IsRoot": "0",
+        "IsStatic": "0"
+    },
+    "GameObject_23": {
+        "UUID": "1169126523",
+        "Name": "connection_to_center_2",
+        "Tag": "Default",
+        "Layer": "Default",
+        "Active": "1",
+        "Components": {
+            "Components_Count": "2",
+            "Component_0": {
+                "Type": "0",
+                "Active": "1",
+                "UUID": "1889915218",
+                "position": {
+                    "value_X": "-9.453730",
+                    "value_Y": "16.037964",
+                    "value_Z": "-2.037981"
+                },
+                "rotation": {
+                    "value_X": "0.000000",
+                    "value_Y": "0.005475",
+                    "value_Z": "0.000000",
+                    "value_W": "0.999985"
+                },
+                "scale": {
+                    "value_X": "1.000000",
+                    "value_Y": "1.000000",
+                    "value_Z": "1.000000"
+                }
+            },
+            "Component_1": {
+                "Type": "3",
+                "Active": "1",
+                "UUID": "1371865217",
+                "Mesh": {
+                    "mesh_name": "connection_to_center_2"
+                },
+                "Material": {
+                    "Name": "black"
+                },
+                "Interior_Material": {
+                    "UUID": "1480464845"
+                },
+                "Mat_Indices_Number": "0",
+                "Mat_Indices_Start": "0",
+                "Int_Mat_Indices_Number": "0",
+                "Int_Mat_Indices_Start": "0",
+                "has_light": "1"
+            }
+        },
+        "ParentID": "320954888",
+        "IsRoot": "0",
+        "IsStatic": "0"
+    },
+    "GameObject_24": {
+        "UUID": "1832469189",
+        "Name": "Extrude",
+        "Tag": "Default",
+        "Layer": "Default",
+        "Active": "1",
+        "Components": {
+            "Components_Count": "2",
+            "Component_0": {
+                "Type": "0",
+                "Active": "1",
+                "UUID": "284454858",
+                "position": {
+                    "value_X": "-5.343001",
+                    "value_Y": "22.833937",
+                    "value_Z": "82.249260"
+                },
+                "rotation": {
+                    "value_X": "0.000000",
+                    "value_Y": "0.000000",
+                    "value_Z": "0.000000",
+                    "value_W": "1.000000"
+                },
+                "scale": {
+                    "value_X": "1.000000",
+                    "value_Y": "1.000000",
+                    "value_Z": "1.000000"
+                }
+            },
+            "Component_1": {
+                "Type": "3",
+                "Active": "1",
+                "UUID": "2126242380",
+                "Mesh": {
+                    "mesh_name": "Extrude"
+                },
+                "Material": {
+                    "Name": "black"
+                },
+                "Interior_Material": {
+                    "UUID": "1480464845"
+                },
+                "Mat_Indices_Number": "0",
+                "Mat_Indices_Start": "0",
+                "Int_Mat_Indices_Number": "0",
+                "Int_Mat_Indices_Start": "0",
+                "has_light": "1"
+            }
+        },
+        "ParentID": "632910413",
+        "IsRoot": "0",
+        "IsStatic": "0"
+    },
+    "GameObject_25": {
+        "UUID": "628906393",
+        "Name": "Cube_1",
+        "Tag": "Default",
+        "Layer": "Default",
+        "Active": "1",
+        "Components": {
+            "Components_Count": "2",
+            "Component_0": {
+                "Type": "0",
+                "Active": "1",
+                "UUID": "120227462",
+                "position": {
+                    "value_X": "-3.384133",
+                    "value_Y": "46.672413",
+                    "value_Z": "12.381836"
+                },
+                "rotation": {
+                    "value_X": "0.240467",
+                    "value_Y": "0.000000",
+                    "value_Z": "0.000000",
+                    "value_W": "0.970657"
+                },
+                "scale": {
+                    "value_X": "1.000000",
+                    "value_Y": "1.000000",
+                    "value_Z": "1.000000"
+                }
+            },
+            "Component_1": {
+                "Type": "3",
+                "Active": "1",
+                "UUID": "818547219",
+                "Mesh": {
+                    "mesh_name": "Cube_1"
+                },
+                "Material": {
+                    "Name": "lambert1"
+                },
+                "Interior_Material": {
+                    "UUID": "1480464845"
+                },
+                "Mat_Indices_Number": "0",
+                "Mat_Indices_Start": "0",
+                "Int_Mat_Indices_Number": "0",
+                "Int_Mat_Indices_Start": "0",
+                "has_light": "1"
+            }
+        },
+        "ParentID": "632910413",
+        "IsRoot": "0",
+        "IsStatic": "0"
+    },
+    "GameObject_26": {
+        "UUID": "47908370",
+        "Name": "Cube",
+        "Tag": "Default",
+        "Layer": "Default",
+        "Active": "1",
+        "Components": {
+            "Components_Count": "2",
+            "Component_0": {
+                "Type": "0",
+                "Active": "1",
+                "UUID": "1159849219",
+                "position": {
+                    "value_X": "-3.384133",
+                    "value_Y": "48.633881",
+                    "value_Z": "-17.102699"
+                },
+                "rotation": {
+                    "value_X": "-0.227850",
+                    "value_Y": "0.000000",
+                    "value_Z": "0.000000",
+                    "value_W": "0.973696"
+                },
+                "scale": {
+                    "value_X": "1.000000",
+                    "value_Y": "1.000000",
+                    "value_Z": "1.000000"
+                }
+            },
+            "Component_1": {
+                "Type": "3",
+                "Active": "1",
+                "UUID": "1659438541",
+                "Mesh": {
+                    "mesh_name": "Cube"
+                },
+                "Material": {
+                    "Name": "lambert1"
+                },
+                "Interior_Material": {
+                    "UUID": "1480464845"
+                },
+                "Mat_Indices_Number": "0",
+                "Mat_Indices_Start": "0",
+                "Int_Mat_Indices_Number": "0",
+                "Int_Mat_Indices_Start": "0",
+                "has_light": "1"
+            }
+        },
+        "ParentID": "632910413",
+        "IsRoot": "0",
+        "IsStatic": "0"
+    },
+    "GameObject_27": {
+        "UUID": "386523979",
+        "Name": "Cube_2",
+        "Tag": "Default",
+        "Layer": "Default",
+        "Active": "1",
+        "Components": {
+            "Components_Count": "2",
+            "Component_0": {
+                "Type": "0",
+                "Active": "1",
+                "UUID": "617344335",
+                "position": {
+                    "value_X": "-3.384133",
+                    "value_Y": "17.856426",
+                    "value_Z": "-26.924545"
+                },
+                "rotation": {
+                    "value_X": "-0.709976",
+                    "value_Y": "0.000000",
+                    "value_Z": "0.000000",
+                    "value_W": "0.704226"
+                },
+                "scale": {
+                    "value_X": "1.000000",
+                    "value_Y": "1.000000",
+                    "value_Z": "1.000000"
+                }
+            },
+            "Component_1": {
+                "Type": "3",
+                "Active": "1",
+                "UUID": "458899465",
+                "Mesh": {
+                    "mesh_name": "Cube_2"
+                },
+                "Material": {
+                    "Name": "lambert1"
+                },
+                "Interior_Material": {
+                    "UUID": "1480464845"
+                },
+                "Mat_Indices_Number": "0",
+                "Mat_Indices_Start": "0",
+                "Int_Mat_Indices_Number": "0",
+                "Int_Mat_Indices_Start": "0",
+                "has_light": "1"
+            }
+        },
+        "ParentID": "632910413",
+        "IsRoot": "0",
+        "IsStatic": "0"
+    },
+    "GameObject_28": {
+        "UUID": "68361402",
+        "Name": "Cube_3",
+        "Tag": "Default",
+        "Layer": "Default",
+        "Active": "1",
+        "Components": {
+            "Components_Count": "2",
+            "Component_0": {
+                "Type": "0",
+                "Active": "1",
+                "UUID": "999467572",
+                "position": {
+                    "value_X": "-3.384133",
+                    "value_Y": "18.256638",
+                    "value_Z": "22.286894"
+                },
+                "rotation": {
+                    "value_X": "-0.709976",
+                    "value_Y": "0.000000",
+                    "value_Z": "0.000000",
+                    "value_W": "0.704226"
+                },
+                "scale": {
+                    "value_X": "1.000000",
+                    "value_Y": "1.000000",
+                    "value_Z": "1.000000"
+                }
+            },
+            "Component_1": {
+                "Type": "3",
+                "Active": "1",
+                "UUID": "407451150",
+                "Mesh": {
+                    "mesh_name": "Cube_3"
+                },
+                "Material": {
+                    "Name": "lambert1"
+                },
+                "Interior_Material": {
+                    "UUID": "1480464845"
+                },
+                "Mat_Indices_Number": "0",
+                "Mat_Indices_Start": "0",
+                "Int_Mat_Indices_Number": "0",
+                "Int_Mat_Indices_Start": "0",
+                "has_light": "1"
+            }
+        },
+        "ParentID": "632910413",
+        "IsRoot": "0",
+        "IsStatic": "0"
+    },
+    "GameObject_29": {
+        "UUID": "565406890",
+        "Name": "Cube_4",
+        "Tag": "Default",
+        "Layer": "Default",
+        "Active": "1",
+        "Components": {
+            "Components_Count": "2",
+            "Component_0": {
+                "Type": "0",
+                "Active": "1",
+                "UUID": "803481954",
+                "position": {
+                    "value_X": "-3.384133",
+                    "value_Y": "-12.278217",
+                    "value_Z": "-16.622055"
+                },
+                "rotation": {
+                    "value_X": "0.233460",
+                    "value_Y": "0.000000",
+                    "value_Z": "0.000000",
+                    "value_W": "0.972367"
+                },
+                "scale": {
+                    "value_X": "1.000000",
+                    "value_Y": "1.000000",
+                    "value_Z": "1.000000"
+                }
+            },
+            "Component_1": {
+                "Type": "3",
+                "Active": "1",
+                "UUID": "1771910660",
+                "Mesh": {
+                    "mesh_name": "Cube_4"
+                },
+                "Material": {
+                    "Name": "lambert1"
+                },
+                "Interior_Material": {
+                    "UUID": "1480464845"
+                },
+                "Mat_Indices_Number": "0",
+                "Mat_Indices_Start": "0",
+                "Int_Mat_Indices_Number": "0",
+                "Int_Mat_Indices_Start": "0",
+                "has_light": "1"
+            }
+        },
+        "ParentID": "632910413",
+        "IsRoot": "0",
+        "IsStatic": "0"
+    },
+    "GameObject_30": {
+        "UUID": "817839180",
+        "Name": "Cube_5",
+        "Tag": "Default",
+        "Layer": "Default",
+        "Active": "1",
+        "Components": {
+            "Components_Count": "2",
+            "Component_0": {
+                "Type": "0",
+                "Active": "1",
+                "UUID": "252883657",
+                "position": {
+                    "value_X": "-3.384133",
+                    "value_Y": "-12.263081",
+                    "value_Z": "10.301338"
+                },
+                "rotation": {
+                    "value_X": "-0.215338",
+                    "value_Y": "0.000000",
+                    "value_Z": "0.000000",
+                    "value_W": "0.976540"
+                },
+                "scale": {
+                    "value_X": "1.000000",
+                    "value_Y": "1.000000",
+                    "value_Z": "1.000000"
+                }
+            },
+            "Component_1": {
+                "Type": "3",
+                "Active": "1",
+                "UUID": "398563343",
+                "Mesh": {
+                    "mesh_name": "Cube_5"
+                },
+                "Material": {
+                    "Name": "lambert1"
+                },
+                "Interior_Material": {
+                    "UUID": "1480464845"
+                },
+                "Mat_Indices_Number": "0",
+                "Mat_Indices_Start": "0",
+                "Int_Mat_Indices_Number": "0",
+                "Int_Mat_Indices_Start": "0",
+                "has_light": "1"
+            }
+        },
+        "ParentID": "632910413",
+        "IsRoot": "0",
+        "IsStatic": "0"
+    },
+    "GameObject_31": {
+        "UUID": "400134222",
+        "Name": "connection_to_center",
+        "Tag": "Default",
+        "Layer": "Default",
+        "Active": "1",
+        "Components": {
+            "Components_Count": "2",
+            "Component_0": {
+                "Type": "0",
+                "Active": "1",
+                "UUID": "482410981",
+                "position": {
+                    "value_X": "-8.770522",
+                    "value_Y": "14.810049",
+                    "value_Z": "-3.587200"
+                },
+                "rotation": {
+                    "value_X": "0.000000",
+                    "value_Y": "-0.000574",
+                    "value_Z": "0.000000",
+                    "value_W": "1.000000"
+                },
+                "scale": {
+                    "value_X": "1.000000",
+                    "value_Y": "1.000000",
+                    "value_Z": "1.000000"
+                }
+            },
+            "Component_1": {
+                "Type": "3",
+                "Active": "1",
+                "UUID": "1356303200",
+                "Mesh": {
+                    "mesh_name": "connection_to_center"
+                },
+                "Material": {
+                    "Name": "black"
+                },
+                "Interior_Material": {
+                    "UUID": "1480464845"
+                },
+                "Mat_Indices_Number": "0",
+                "Mat_Indices_Start": "0",
+                "Int_Mat_Indices_Number": "0",
+                "Int_Mat_Indices_Start": "0",
+                "has_light": "1"
+            }
+        },
+        "ParentID": "632910413",
+        "IsRoot": "0",
+        "IsStatic": "0"
+    }
+}
