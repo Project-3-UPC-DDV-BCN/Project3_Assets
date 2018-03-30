@@ -5,7 +5,7 @@
     "prefab_name": "Asteroid2_PF",
     "GameObjects_Count": "2",
     "GameObject_0": {
-        "UUID": "604724873",
+        "UUID": "1651308726",
         "Name": "Asteroid2_PF",
         "Tag": "Default",
         "Layer": "Default",
@@ -39,7 +39,7 @@
         "IsStatic": "0"
     },
     "GameObject_1": {
-        "UUID": "133483698",
+        "UUID": "227770701",
         "Name": "Asteroid_2(3)",
         "Tag": "Default",
         "Layer": "Default",
@@ -87,7 +87,7 @@
                 "has_light": "1"
             }
         },
-        "ParentID": "604724873",
+        "ParentID": "1651308726",
         "IsRoot": "0",
         "IsStatic": "0"
     }

@@ -1,0 +1,12 @@
+{
+    "Type": "0",
+    "UUID": "1882291648",
+    "Time_Created": "Fri Mar 30 11:24:47 2018\n",
+    "Library_path": "./Project/Library/Textures/Empire_Body_Base_Color.dds",
+    "Name": "Empire_Body_Base_Color",
+    "Width": "1024",
+    "Height": "1024",
+    "Texture_Type": "bgra",
+    "Format": "tga",
+    "Compression": ""
+}

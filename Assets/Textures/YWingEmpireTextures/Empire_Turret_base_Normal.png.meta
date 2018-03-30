@@ -1,0 +1,12 @@
+{
+    "Type": "0",
+    "UUID": "563989874",
+    "Time_Created": "Fri Mar 30 11:24:49 2018\n",
+    "Library_path": "./Project/Library/Textures/Empire_Turret_base_Normal.dds",
+    "Name": "Empire_Turret_base_Normal",
+    "Width": "1024",
+    "Height": "1024",
+    "Texture_Type": "bgra",
+    "Format": "tga",
+    "Compression": ""
+}

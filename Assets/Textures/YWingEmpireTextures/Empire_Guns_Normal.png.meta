@@ -1,0 +1,12 @@
+{
+    "Type": "0",
+    "UUID": "1342915035",
+    "Time_Created": "Fri Mar 30 11:24:48 2018\n",
+    "Library_path": "./Project/Library/Textures/Empire_Guns_Normal.dds",
+    "Name": "Empire_Guns_Normal",
+    "Width": "1024",
+    "Height": "1024",
+    "Texture_Type": "bgra",
+    "Format": "tga",
+    "Compression": ""
+}

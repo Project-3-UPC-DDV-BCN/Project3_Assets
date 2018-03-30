@@ -1,0 +1,12 @@
+{
+    "Type": "0",
+    "UUID": "1999955332",
+    "Time_Created": "Fri Mar 30 12:18:56 2018\n",
+    "Library_path": "./Project/Library/Textures/Panel_Buttons_DiffuseGlossiness.dds",
+    "Name": "Panel_Buttons_DiffuseGlossiness",
+    "Width": "300",
+    "Height": "300",
+    "Texture_Type": "bgra",
+    "Format": "tga",
+    "Compression": ""
+}

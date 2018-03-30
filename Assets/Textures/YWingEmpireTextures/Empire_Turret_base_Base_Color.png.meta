@@ -1,0 +1,12 @@
+{
+    "Type": "0",
+    "UUID": "92112296",
+    "Time_Created": "Fri Mar 30 11:24:48 2018\n",
+    "Library_path": "./Project/Library/Textures/Empire_Turret_base_Base_Color.dds",
+    "Name": "Empire_Turret_base_Base_Color",
+    "Width": "1024",
+    "Height": "1024",
+    "Texture_Type": "bgra",
+    "Format": "tga",
+    "Compression": ""
+}
