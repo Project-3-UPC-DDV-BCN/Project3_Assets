@@ -1,0 +1,12 @@
+{
+    "Type": "0",
+    "UUID": "1126628491",
+    "Time_Created": "Sat Mar 31 20:26:23 2018\n",
+    "Library_path": ".\\Project\\Library\\Textures\\Textbox.dds",
+    "Name": "Textbox",
+    "Width": "1500",
+    "Height": "1500",
+    "Texture_Type": "bgra",
+    "Format": "tga",
+    "Compression": ""
+}

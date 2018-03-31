@@ -1,6 +1,6 @@
 {
     "GameObject_5": {
-        "UUID": "1434871363",
+        "UUID": "929663225",
         "Name": "SlaveI_Collision",
         "Tag": "Default",
         "Layer": "Default",
@@ -10,7 +10,7 @@
             "Component_0": {
                 "Type": "0",
                 "Active": "1",
-                "UUID": "1874307051",
+                "UUID": "505105850",
                 "position": {
                     "value_X": "0.000000",
                     "value_Y": "0.000000",
@@ -34,7 +34,7 @@
         "IsStatic": "0"
     },
     "GameObject_6": {
-        "UUID": "723015486",
+        "UUID": "631909911",
         "Name": "Collision",
         "Tag": "Default",
         "Layer": "Default",
@@ -44,7 +44,7 @@
             "Component_0": {
                 "Type": "0",
                 "Active": "1",
-                "UUID": "976358037",
+                "UUID": "1698137762",
                 "position": {
                     "value_X": "0.000000",
                     "value_Y": "0.000000",
@@ -65,7 +65,7 @@
             "Component_1": {
                 "Type": "3",
                 "Active": "1",
-                "UUID": "44465126",
+                "UUID": "849921289",
                 "Mesh": {
                     "mesh_name": "Collision"
                 },
@@ -82,7 +82,7 @@
                 "has_light": "1"
             }
         },
-        "ParentID": "1434871363",
+        "ParentID": "929663225",
         "IsRoot": "0",
         "IsStatic": "0"
     },
@@ -90,10 +90,10 @@
     "library_path": "./Project/Library/Prefabs/SlaveI_Collision.jprefab",
     "assets_path": ".\\Project\\Assets\\FBX\\SlaveOne\\SlaveI_Collision.fbx",
     "prefab_name": "SlaveI_Collision",
-    "UUID": "987016217",
+    "UUID": "607444601",
     "GameObjects_Count": "2",
     "GameObject_0": {
-        "UUID": "1182601919",
+        "UUID": "605652031",
         "Name": "SlaveI_Collision",
         "Tag": "Default",
         "Layer": "Default",
@@ -103,7 +103,7 @@
             "Component_0": {
                 "Type": "0",
                 "Active": "1",
-                "UUID": "1874307051",
+                "UUID": "505105850",
                 "position": {
                     "value_X": "0.000000",
                     "value_Y": "0.000000",
@@ -127,7 +127,7 @@
         "IsStatic": "0"
     },
     "GameObject_1": {
-        "UUID": "1552660366",
+        "UUID": "258641406",
         "Name": "Collision",
         "Tag": "Default",
         "Layer": "Default",
@@ -137,7 +137,7 @@
             "Component_0": {
                 "Type": "0",
                 "Active": "1",
-                "UUID": "976358037",
+                "UUID": "1698137762",
                 "position": {
                     "value_X": "0.000000",
                     "value_Y": "0.000000",
@@ -158,7 +158,7 @@
             "Component_1": {
                 "Type": "3",
                 "Active": "1",
-                "UUID": "44465126",
+                "UUID": "849921289",
                 "Mesh": {
                     "mesh_name": "Collision"
                 },
@@ -175,7 +175,7 @@
                 "has_light": "1"
             }
         },
-        "ParentID": "1182601919",
+        "ParentID": "605652031",
         "IsRoot": "0",
         "IsStatic": "0"
     }

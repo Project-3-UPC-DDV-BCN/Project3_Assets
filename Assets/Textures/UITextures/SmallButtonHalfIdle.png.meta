@@ -1,0 +1,12 @@
+{
+    "Type": "0",
+    "UUID": "659679939",
+    "Time_Created": "Sat Mar 31 20:22:51 2018\n",
+    "Library_path": "./Project/Library/Textures/SmallButtonHalfIdle.dds",
+    "Name": "SmallButtonHalfIdle",
+    "Width": "211",
+    "Height": "211",
+    "Texture_Type": "bgra",
+    "Format": "tga",
+    "Compression": ""
+}

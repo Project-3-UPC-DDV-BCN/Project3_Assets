@@ -1,0 +1,12 @@
+{
+    "Type": "0",
+    "UUID": "133777194",
+    "Time_Created": "Sat Mar 31 20:26:24 2018\n",
+    "Library_path": ".\\Project\\Library\\Textures\\Triangle_Image_v1.dds",
+    "Name": "Triangle_Image_v1",
+    "Width": "1920",
+    "Height": "1920",
+    "Texture_Type": "bgra",
+    "Format": "tga",
+    "Compression": ""
+}

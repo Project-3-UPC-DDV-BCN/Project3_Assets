@@ -1,0 +1,12 @@
+{
+    "Type": "0",
+    "UUID": "1868546588",
+    "Time_Created": "Sat Mar 31 20:26:23 2018\n",
+    "Library_path": "./Project/Library/Textures/Radar_8.dds",
+    "Name": "Radar_8",
+    "Width": "500",
+    "Height": "500",
+    "Texture_Type": "bgra",
+    "Format": "tga",
+    "Compression": ""
+}

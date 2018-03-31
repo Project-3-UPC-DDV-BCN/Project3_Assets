@@ -1,0 +1,12 @@
+{
+    "Type": "0",
+    "UUID": "1886263629",
+    "Time_Created": "Sat Mar 31 20:49:37 2018\n",
+    "Library_path": "./Project/Library/Textures/RebelsMarker.dds",
+    "Name": "RebelsMarker",
+    "Width": "24",
+    "Height": "24",
+    "Texture_Type": "bgra",
+    "Format": "tga",
+    "Compression": ""
+}

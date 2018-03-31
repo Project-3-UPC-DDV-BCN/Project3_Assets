@@ -1,0 +1,12 @@
+{
+    "Type": "0",
+    "UUID": "2013445502",
+    "Time_Created": "Sat Mar 31 20:22:53 2018\n",
+    "Library_path": "./Project/Library/Textures/Ackbar_20.dds",
+    "Name": "Ackbar_20",
+    "Width": "300",
+    "Height": "300",
+    "Texture_Type": "bgra",
+    "Format": "tga",
+    "Compression": ""
+}
