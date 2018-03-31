@@ -1,10 +1,23 @@
 using TheEngine;
 using TheEngine.TheConsole;
 
+// READ PLS
+
+// The prefab should have an audio emmiter that contains an audio source, or the ship itself at least should have an
+// audio source component with the Enemy.bnk as a soundbank. So I guess the prefabs must be redone if we want to have 
+// audio for the enemies.
+// At the start the source should play the engine fx : audio_source.Play("Play_Enemy_Engine");
+// Each update the actua speed of the ship must be sent to wwise so the fx changes according the speed.
+// When shooting the source must play the shoot fx : audio_source.Play("Play_Shoot");
+// When the ship is destroyed the explosion fx should play : audio_source.Play("Play_Enemy_Explosions");
+
+
 public class Ai_Starship_Movement {
 
 	TheTransform transform;
 	TheGameObject gameobject;
+	public TheGameObject audio_emiter;
+	TheAudioSource audio_source;
 
 	TheGameObject target = null;
 	public TheVector3 target_pos = TheVector3.Zero;
@@ -41,6 +54,7 @@ public class Ai_Starship_Movement {
 		transform = TheGameObject.Self.GetComponent<TheTransform>();
 		gameobject = TheGameObject.Self;
 		laser_factory = TheGameObject.Self.GetComponent<TheFactory>();
+		audio_source = audio_emiter.GetComponent<TheAudioSource>();
 		laser_factory.StartFactory();
 		if(laser_spawner_L == null)
 			laser_spawner_L = laser_spawner_R;
@@ -48,6 +62,7 @@ public class Ai_Starship_Movement {
 			laser_spawner_R = laser_spawner_L;
 	
 		GetNewTarget();
+		
 		
 	}
 	

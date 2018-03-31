@@ -1,7 +1,7 @@
 using TheEngine;
 
 using TheEngine.TheConsole;
-using TheEngine.TheMath;
+using TheEngine.Math;
 
 
 public class StarShipShooting {
@@ -43,20 +43,25 @@ public class StarShipShooting {
     public int num_weapons = 2;
     public int weapon = 0; //SELECTED WEAPON
     bool cooling = false;
+	bool charging = false;
+	float cahrging_percent = 0.0;
 
     void Start () {
+		
+		TheConsole.Log("Before Audio source");
+		audio_source = audio_emiter.GetComponent<TheAudioSource>();
+		if(audio_source == null) TheConsole.Log("Audio source");
+        weapons_bar = weapons_energy.GetComponent<TheProgressBar>();
+		if(weapons_bar == null) TheConsole.Log("weapons_bar");
+        curr_overheat_inc = overheat_increment;
+		if(curr_overheat_inc == null) TheConsole.Log("curr_overheat_inc");
+		overheat_bar_bar = overheat_bar_obj.GetComponent<TheProgressBar>();
+		if(overheat_bar_bar == null) TheConsole.Log("overheat_bar_bar");
+		crosshair_2.SetActive(false);
+		
 		laser_factory = TheGameObject.Self.GetComponent<TheFactory>();
 
         laser_factory.StartFactory();
-		TheConsole.Log("Before Audio source");
-		audio_source = audio_emiter.GetComponent<TheAudioSource>();
-		if(audio_source == null) TheConsole.Log("no audio");
-        weapons_bar = weapons_energy.GetComponent<TheProgressBar>();
-		if(weapons_bar == null) TheConsole.Log("no weapon bar");
-        curr_overheat_inc = overheat_increment;
-		overheat_bar_bar = overheat_bar_obj.GetComponent<TheProgressBar>();
-		if(overheat_bar_bar == null) TheConsole.Log("no overheat");
-		crosshair_2.SetActive(false);
     }	
 
 	void Update () {
@@ -68,8 +73,8 @@ public class StarShipShooting {
 		{
 			if(TheInput.GetControllerJoystickMove(0,"LEFT_TRIGGER") >= 20000)
 			{
-
                 TheVector3 offset;
+				
                 switch (weapon)
                 {
                     case 0:
@@ -90,40 +95,37 @@ public class StarShipShooting {
                                 used_left_laser = true;
                             }
 
-                            laser_factory.SetSpawnPosition(laser_spawner.GetComponent<TheTransform>().GlobalPosition/* + offset*/);
+                            laser_factory.SetSpawnPosition(laser_spawner.GetComponent<TheTransform>().GlobalPosition + offset);
 
                             //Calculate the rotation
-                           // TheVector3 Z = new TheVector3(0, 0, 1);
+                            TheVector3 Z = new TheVector3(0, 0, 1);
                             TheVector3 ship_rot = laser_spawner.GetComponent<TheTransform>().GlobalRotation;
 
-                            /*float prod = Z.x * ship_rot.x + Z.y * ship_rot.y + Z.z * ship_rot.z;
+                            float prod = Z.x * ship_rot.x + Z.y * ship_rot.y + Z.z * ship_rot.z;
                             float magnitude_prod = Z.Length * ship_rot.Length;
 
                             float angle = TheMath.Acos(prod / magnitude_prod);
 
                             /// get the axis of this rotation
-                            TheVector3 axis = TheVector3.CrossProduct(Z, ship_rot);*/
-							
-							TheConsole.Log("ship_rot" + ship_rot);
+                            TheVector3 axis = TheVector3.CrossProduct(Z, ship_rot);
 
-                            //TheVector3 laser_rot = ().ToEulerAngles();// ship_rot + new TheVector3(0, 90, 0);
+                            TheVector3 laser_rot = new TheVector3(0, 90 + ship_rot.y, 0);
 
-                            //laser_factory.SetSpawnRotation(laser_rot);
+                            laser_factory.SetSpawnRotation(laser_rot);
 
                             TheGameObject go = laser_factory.Spawn();
 
 
-							//laser_factory.SetSpawnPosition(laser_spawner.GetComponent<TheTransform>().GlobalPosition + offset);
+							laser_factory.SetSpawnPosition(laser_spawner.GetComponent<TheTransform>().GlobalPosition + offset);
 				
                             TheVector3 vec = laser_spawner.GetComponent<TheTransform>().ForwardDirection * 20000 * TheTime.DeltaTime;
 
                             go.GetComponent<TheRigidBody>().SetLinearVelocity(vec.x, vec.y, vec.z);
-							TheVector3 laser_rot = (ship_rot.ToQuaternion() * go.GetComponent<TheTransform>().GlobalRotation.ToQuaternion()).ToEulerAngles();
-							go.GetComponent<TheRigidBody>().SetRotation(laser_rot.x, laser_rot.y, laser_rot.z);
 
                             timer = spawn_time;
 
                             audio_source.Play("Play_shot");
+							
 
                             //Add heat
                             overheat += curr_overheat_inc;
@@ -138,10 +140,27 @@ public class StarShipShooting {
                     case 1:
                         {
                             if (!cooling)
-                            {
+                            {	
+								if(charging == false)
+								{
+									//audio_source.Play("Play_Charging_beam");
+									//charging_percent = 0.0;
+									//charging = true;
+								}
+								
+								if(charging)
+								{
+									//audio_source.SetMyRTPCvalue("Charging",charging_percent);
+									//charging_percent+=0.1;
+								}
+								
+								
+								
+								
                                 overheat += curr_overheat_inc;
                                 overheat_timer = 1.0f;
                             }
+							
                             break;
                         }
                 }
@@ -166,6 +185,7 @@ public class StarShipShooting {
                     go.GetComponent<TheRigidBody>().SetLinearVelocity(vec.x, vec.y, vec.z);
                     overheat_timer = 0.0f;
                     cooling = true;
+					//charging = false;
                 }
             }
 
@@ -202,6 +222,8 @@ public class StarShipShooting {
 
         if(TheInput.IsKeyDown("C"))
         {
+			audio_source.Play("Play_change_weapon");
+
             weapon++;
             weapon %= num_weapons;
 

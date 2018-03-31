@@ -1,6 +1,6 @@
 {
     "GameObject_2": {
-        "UUID": "475580871",
+        "UUID": "2020838959",
         "Name": "ShieldGate",
         "Tag": "Default",
         "Layer": "Default",
@@ -10,7 +10,7 @@
             "Component_0": {
                 "Type": "0",
                 "Active": "1",
-                "UUID": "30913865",
+                "UUID": "1919010370",
                 "position": {
                     "value_X": "0.000000",
                     "value_Y": "0.000000",
@@ -34,7 +34,7 @@
         "IsStatic": "0"
     },
     "GameObject_3": {
-        "UUID": "1437713424",
+        "UUID": "1056241575",
         "Name": "ShortBrifge",
         "Tag": "Default",
         "Layer": "Default",
@@ -44,7 +44,7 @@
             "Component_0": {
                 "Type": "0",
                 "Active": "1",
-                "UUID": "1617365382",
+                "UUID": "1911717014",
                 "position": {
                     "value_X": "0.000000",
                     "value_Y": "0.000000",
@@ -65,7 +65,7 @@
             "Component_1": {
                 "Type": "3",
                 "Active": "1",
-                "UUID": "833505634",
+                "UUID": "312168854",
                 "Mesh": {
                     "mesh_name": "ShortBrifge"
                 },
@@ -82,12 +82,12 @@
                 "has_light": "1"
             }
         },
-        "ParentID": "475580871",
+        "ParentID": "2020838959",
         "IsRoot": "0",
         "IsStatic": "0"
     },
     "GameObject_4": {
-        "UUID": "1148384997",
+        "UUID": "370924622",
         "Name": "LargeBrifge",
         "Tag": "Default",
         "Layer": "Default",
@@ -97,7 +97,7 @@
             "Component_0": {
                 "Type": "0",
                 "Active": "1",
-                "UUID": "439377565",
+                "UUID": "945199183",
                 "position": {
                     "value_X": "0.000000",
                     "value_Y": "0.000000",
@@ -118,7 +118,7 @@
             "Component_1": {
                 "Type": "3",
                 "Active": "1",
-                "UUID": "895698327",
+                "UUID": "652253087",
                 "Mesh": {
                     "mesh_name": "LargeBrifge"
                 },
@@ -135,12 +135,12 @@
                 "has_light": "1"
             }
         },
-        "ParentID": "475580871",
+        "ParentID": "2020838959",
         "IsRoot": "0",
         "IsStatic": "0"
     },
     "GameObject_5": {
-        "UUID": "972042665",
+        "UUID": "623790871",
         "Name": "Rings",
         "Tag": "Default",
         "Layer": "Default",
@@ -150,7 +150,7 @@
             "Component_0": {
                 "Type": "0",
                 "Active": "1",
-                "UUID": "818063312",
+                "UUID": "1589839645",
                 "position": {
                     "value_X": "0.000000",
                     "value_Y": "0.000000",
@@ -171,7 +171,7 @@
             "Component_1": {
                 "Type": "3",
                 "Active": "1",
-                "UUID": "930212054",
+                "UUID": "382436610",
                 "Mesh": {
                     "mesh_name": "Rings"
                 },
@@ -188,12 +188,12 @@
                 "has_light": "1"
             }
         },
-        "ParentID": "475580871",
+        "ParentID": "2020838959",
         "IsRoot": "0",
         "IsStatic": "0"
     },
     "GameObject_6": {
-        "UUID": "1592582275",
+        "UUID": "1168085660",
         "Name": "Extras",
         "Tag": "Default",
         "Layer": "Default",
@@ -203,7 +203,7 @@
             "Component_0": {
                 "Type": "0",
                 "Active": "1",
-                "UUID": "628219137",
+                "UUID": "1989572267",
                 "position": {
                     "value_X": "0.000000",
                     "value_Y": "0.000000",
@@ -224,7 +224,7 @@
             "Component_1": {
                 "Type": "3",
                 "Active": "1",
-                "UUID": "442389518",
+                "UUID": "233506617",
                 "Mesh": {
                     "mesh_name": "Extras"
                 },
@@ -241,7 +241,7 @@
                 "has_light": "1"
             }
         },
-        "ParentID": "475580871",
+        "ParentID": "2020838959",
         "IsRoot": "0",
         "IsStatic": "0"
     },
@@ -249,10 +249,10 @@
     "library_path": "./Project/Library/Prefabs/ShieldGate.jprefab",
     "assets_path": ".\\Project\\Assets\\FBX\\ShieldGate\\ShieldGate.fbx",
     "prefab_name": "ShieldGate",
-    "UUID": "610676551",
+    "UUID": "14432339",
     "GameObjects_Count": "5",
     "GameObject_0": {
-        "UUID": "390167404",
+        "UUID": "512974367",
         "Name": "ShieldGate",
         "Tag": "Default",
         "Layer": "Default",
@@ -262,7 +262,7 @@
             "Component_0": {
                 "Type": "0",
                 "Active": "1",
-                "UUID": "30913865",
+                "UUID": "1919010370",
                 "position": {
                     "value_X": "0.000000",
                     "value_Y": "0.000000",
@@ -286,7 +286,7 @@
         "IsStatic": "0"
     },
     "GameObject_1": {
-        "UUID": "324182981",
+        "UUID": "1135355297",
         "Name": "ShortBrifge",
         "Tag": "Default",
         "Layer": "Default",
@@ -296,7 +296,7 @@
             "Component_0": {
                 "Type": "0",
                 "Active": "1",
-                "UUID": "1617365382",
+                "UUID": "1911717014",
                 "position": {
                     "value_X": "0.000000",
                     "value_Y": "0.000000",
@@ -317,7 +317,7 @@
             "Component_1": {
                 "Type": "3",
                 "Active": "1",
-                "UUID": "833505634",
+                "UUID": "312168854",
                 "Mesh": {
                     "mesh_name": "ShortBrifge"
                 },
@@ -334,12 +334,12 @@
                 "has_light": "1"
             }
         },
-        "ParentID": "390167404",
+        "ParentID": "512974367",
         "IsRoot": "0",
         "IsStatic": "0"
     },
     "GameObject_2": {
-        "UUID": "2037673878",
+        "UUID": "2140537308",
         "Name": "LargeBrifge",
         "Tag": "Default",
         "Layer": "Default",
@@ -349,7 +349,7 @@
             "Component_0": {
                 "Type": "0",
                 "Active": "1",
-                "UUID": "439377565",
+                "UUID": "945199183",
                 "position": {
                     "value_X": "0.000000",
                     "value_Y": "0.000000",
@@ -370,7 +370,7 @@
             "Component_1": {
                 "Type": "3",
                 "Active": "1",
-                "UUID": "895698327",
+                "UUID": "652253087",
                 "Mesh": {
                     "mesh_name": "LargeBrifge"
                 },
@@ -387,12 +387,12 @@
                 "has_light": "1"
             }
         },
-        "ParentID": "390167404",
+        "ParentID": "512974367",
         "IsRoot": "0",
         "IsStatic": "0"
     },
     "GameObject_3": {
-        "UUID": "2123339418",
+        "UUID": "1720236703",
         "Name": "Rings",
         "Tag": "Default",
         "Layer": "Default",
@@ -402,7 +402,7 @@
             "Component_0": {
                 "Type": "0",
                 "Active": "1",
-                "UUID": "818063312",
+                "UUID": "1589839645",
                 "position": {
                     "value_X": "0.000000",
                     "value_Y": "0.000000",
@@ -423,7 +423,7 @@
             "Component_1": {
                 "Type": "3",
                 "Active": "1",
-                "UUID": "930212054",
+                "UUID": "382436610",
                 "Mesh": {
                     "mesh_name": "Rings"
                 },
@@ -440,12 +440,12 @@
                 "has_light": "1"
             }
         },
-        "ParentID": "390167404",
+        "ParentID": "512974367",
         "IsRoot": "0",
         "IsStatic": "0"
     },
     "GameObject_4": {
-        "UUID": "534328392",
+        "UUID": "1583990020",
         "Name": "Extras",
         "Tag": "Default",
         "Layer": "Default",
@@ -455,7 +455,7 @@
             "Component_0": {
                 "Type": "0",
                 "Active": "1",
-                "UUID": "628219137",
+                "UUID": "1989572267",
                 "position": {
                     "value_X": "0.000000",
                     "value_Y": "0.000000",
@@ -476,7 +476,7 @@
             "Component_1": {
                 "Type": "3",
                 "Active": "1",
-                "UUID": "442389518",
+                "UUID": "233506617",
                 "Mesh": {
                     "mesh_name": "Extras"
                 },
@@ -493,7 +493,7 @@
                 "has_light": "1"
             }
         },
-        "ParentID": "390167404",
+        "ParentID": "512974367",
         "IsRoot": "0",
         "IsStatic": "0"
     }
