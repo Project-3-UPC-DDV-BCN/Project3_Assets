@@ -93,13 +93,29 @@ public class Ai_Starship_Movement {
 				// Clunky Rotation
 				transform.LookAt(ttrans.GlobalPosition);
 			}
-		}
+            if (TheVector3.Magnitude(ttrans.GlobalPosition - transform.GlobalPosition) < target_min_range)
+            {
+                GetNewTarget();
+                return;
+            }
+        }
 		else { // Targeting
 			GetNewTarget();
 			return;
 		}
 
-		transform.LocalPosition += spdDir.Normalized * currSpd * TheTime.DeltaTime;
+        // Separation
+        TheVector3 separation_vector = TheVector3.Zero;
+        foreach (TheGameObject go in TheGameObject.GetSceneGameObjects())
+        {
+            TheVector3 goOffset = go.GetComponent<TheTransform>().GlobalPosition - transform.GlobalPosition;
+            if (TheVector3.Magnitude(goOffset) < separation_max_range)
+            {
+                separation_vector += -goOffset.Normalized * (TheVector3.Magnitude(goOffset) / separation_max_range);
+            }
+        }
+        transform.LocalPosition += separation_vector.Normalized * separation_force * TheTime.DeltaTime;
+        transform.LocalPosition += spdDir.Normalized * currSpd * TheTime.DeltaTime;
 		
 		// Shooting
 		if(target != null) {
