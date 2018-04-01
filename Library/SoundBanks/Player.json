@@ -5,11 +5,11 @@
   "SchemaVersion": "11",
   "SoundbankVersion": "128",
   "RootPaths": {
-   "ProjectRoot": "C:\\Users\\rogerbd1\\Desktop\\StarWars\\",
-   "SourceFilesRoot": "C:\\Users\\rogerbd1\\Desktop\\StarWars\\.cache\\Windows\\",
-   "SoundBanksRoot": "C:\\Users\\rogerbd1\\Desktop\\StarWars\\..\\Player\\",
+   "ProjectRoot": "C:\\Users\\USUARIO\\Desktop\\StarWars\\",
+   "SourceFilesRoot": "C:\\Users\\USUARIO\\Desktop\\StarWars\\.cache\\Windows\\",
+   "SoundBanksRoot": "C:\\Users\\USUARIO\\Desktop\\StarWars\\..\\Player_Soundbank\\",
    "ExternalSourcesInputFile": "",
-   "ExternalSourcesOutputRoot": "C:\\Users\\rogerbd1\\Desktop\\StarWars\\GeneratedSoundBanks\\Windows\\"
+   "ExternalSourcesOutputRoot": "C:\\Users\\USUARIO\\Desktop\\StarWars\\GeneratedSoundBanks\\Windows\\"
   },
   "SoundBanks": [
    {
@@ -20,34 +20,9 @@
     "Path": "Player.bnk",
     "IncludedEvents": [
      {
-      "Id": "1287401009",
-      "Name": "Play_Ackbar_dialogue_01",
-      "ObjectPath": "\\Events\\Default Work Unit\\Play_Ackbar_dialogue_01"
-     },
-     {
-      "Id": "1287401010",
-      "Name": "Play_Ackbar_dialogue_02",
-      "ObjectPath": "\\Events\\Default Work Unit\\Play_Ackbar_dialogue_02"
-     },
-     {
-      "Id": "1287401011",
-      "Name": "Play_Ackbar_dialogue_03",
-      "ObjectPath": "\\Events\\Default Work Unit\\Play_Ackbar_dialogue_03"
-     },
-     {
-      "Id": "1287401012",
-      "Name": "Play_Ackbar_dialogue_04",
-      "ObjectPath": "\\Events\\Default Work Unit\\Play_Ackbar_dialogue_04"
-     },
-     {
       "Id": "2491293469",
       "Name": "Play_change_weapon",
       "ObjectPath": "\\Events\\Default Work Unit\\Play_change_weapon"
-     },
-     {
-      "Id": "3489188287",
-      "Name": "Play_Charging_beam",
-      "ObjectPath": "\\Events\\Default Work Unit\\Play_Charging_beam"
      },
      {
       "Id": "1712192651",
@@ -65,32 +40,33 @@
       "ObjectPath": "\\Events\\Default Work Unit\\Play_Engine"
      },
      {
-      "Id": "3026324229",
-      "Name": "Play_long_droid_phrase",
-      "ObjectPath": "\\Events\\Default Work Unit\\Play_long_droid_phrase"
+      "Id": "1958147595",
+      "Name": "Play_Shield_up",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_Shield_up"
      },
      {
-      "Id": "1864892471",
-      "Name": "Play_Player_hit",
-      "ObjectPath": "\\Events\\Default Work Unit\\Play_Player_hit"
+      "Id": "1630832142",
+      "Name": "Play_Shields_hit",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_Shields_hit"
      },
      {
-      "Id": "2100514341",
-      "Name": "Play_short_droid_phrase",
-      "ObjectPath": "\\Events\\Default Work Unit\\Play_short_droid_phrase"
+      "Id": "3935467706",
+      "Name": "Play_Ship_hit",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_Ship_hit"
      },
      {
       "Id": "268953978",
       "Name": "Play_shot",
       "ObjectPath": "\\Events\\Default Work Unit\\Play_shot"
-     },
-     {
-      "Id": "2323075249",
-      "Name": "Play_shot_2",
-      "ObjectPath": "\\Events\\Default Work Unit\\Play_shot_2"
      }
     ],
     "IncludedMemoryFiles": [
+     {
+      "Id": "27322232",
+      "Language": "SFX",
+      "ShortName": "Ship_hit.wav",
+      "Path": "SFX\\Ship_hit_1C9C67B2.wem"
+     },
      {
       "Id": "104676683",
       "Language": "SFX",
@@ -98,10 +74,16 @@
       "Path": "SFX\\eng_xwing_low_lp_F17FB28C.wem"
      },
      {
-      "Id": "236546423",
+      "Id": "141289488",
       "Language": "SFX",
-      "ShortName": "Dialogue2.wav",
-      "Path": "SFX\\Dialogue2_1C9C67B2.wem"
+      "ShortName": "Shield_up.wav",
+      "Path": "SFX\\Shield_up_1C9C67B2.wem"
+     },
+     {
+      "Id": "220581319",
+      "Language": "SFX",
+      "ShortName": "Shields_hit.wav",
+      "Path": "SFX\\Shields_hit_1C9C67B2.wem"
      },
      {
       "Id": "376536248",
@@ -110,40 +92,16 @@
       "Path": "SFX\\droid_speed_up_1C9C67B2.wem"
      },
      {
-      "Id": "386923776",
-      "Language": "SFX",
-      "ShortName": "exp_debris_metal_med02.wav",
-      "Path": "SFX\\exp_debris_metal_med02_1C9C67B2.wem"
-     },
-     {
       "Id": "390753520",
       "Language": "SFX",
       "ShortName": "shotgun-reload-mossberg590-RA_The_Sun_God-1398444554.wav",
       "Path": "SFX\\shotgun-reload-mossberg590-RA_The_Sun_God-1398444554_1C9C67B2.wem"
      },
      {
-      "Id": "462969167",
-      "Language": "SFX",
-      "ShortName": "droid_r5_chatter_04.wav",
-      "Path": "SFX\\droid_r5_chatter_04_1C9C67B2.wem"
-     },
-     {
       "Id": "466525598",
       "Language": "SFX",
       "ShortName": "wpn_geonFighter_blaster_fire.wav",
       "Path": "SFX\\wpn_geonFighter_blaster_fire_1C9C67B2.wem"
-     },
-     {
-      "Id": "501717638",
-      "Language": "SFX",
-      "ShortName": "Charging_beam.wav",
-      "Path": "SFX\\Charging_beam_F17FB28C.wem"
-     },
-     {
-      "Id": "641201256",
-      "Language": "SFX",
-      "ShortName": "wpn_drdFghtr_missile_fire.wav",
-      "Path": "SFX\\wpn_drdFghtr_missile_fire_1C9C67B2.wem"
      },
      {
       "Id": "673363346",
@@ -158,28 +116,10 @@
       "Path": "SFX\\droid_speed_down_1C9C67B2.wem"
      },
      {
-      "Id": "742823025",
-      "Language": "SFX",
-      "ShortName": "Dialogue1.wav",
-      "Path": "SFX\\Dialogue1_1C9C67B2.wem"
-     },
-     {
       "Id": "762634605",
       "Language": "SFX",
       "ShortName": "droid_r5_chatter_01.wav",
       "Path": "SFX\\droid_r5_chatter_01_1C9C67B2.wem"
-     },
-     {
-      "Id": "862128156",
-      "Language": "SFX",
-      "ShortName": "Dialogue3.wav",
-      "Path": "SFX\\Dialogue3_1C9C67B2.wem"
-     },
-     {
-      "Id": "948668134",
-      "Language": "SFX",
-      "ShortName": "Dialogue4.wav",
-      "Path": "SFX\\Dialogue4_1C9C67B2.wem"
      }
     ]
    }
