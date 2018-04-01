@@ -1,6 +1,6 @@
 {
     "GameObject_5": {
-        "UUID": "1725912618",
+        "UUID": "2084944277",
         "Name": "Panel_Buttons",
         "Tag": "Default",
         "Layer": "Default",
@@ -10,7 +10,7 @@
             "Component_0": {
                 "Type": "0",
                 "Active": "1",
-                "UUID": "1198551450",
+                "UUID": "1905285113",
                 "position": {
                     "value_X": "0.000000",
                     "value_Y": "0.000000",
@@ -34,7 +34,7 @@
         "IsStatic": "0"
     },
     "GameObject_6": {
-        "UUID": "809039192",
+        "UUID": "791663906",
         "Name": "Panel",
         "Tag": "Default",
         "Layer": "Default",
@@ -44,7 +44,7 @@
             "Component_0": {
                 "Type": "0",
                 "Active": "1",
-                "UUID": "1940615550",
+                "UUID": "947426091",
                 "position": {
                     "value_X": "0.000000",
                     "value_Y": "0.000000",
@@ -65,12 +65,12 @@
             "Component_1": {
                 "Type": "3",
                 "Active": "1",
-                "UUID": "1916492716",
+                "UUID": "1264999371",
                 "Mesh": {
                     "mesh_name": "Panel"
                 },
                 "Material": {
-                    "Name": "JoinedMaterial_#3"
+                    "Name": "Panel"
                 },
                 "Interior_Material": {
                     "UUID": "1480464845"
@@ -82,12 +82,12 @@
                 "has_light": "1"
             }
         },
-        "ParentID": "1725912618",
+        "ParentID": "2084944277",
         "IsRoot": "0",
         "IsStatic": "0"
     },
     "GameObject_7": {
-        "UUID": "2106477756",
+        "UUID": "1462747062",
         "Name": "HUD",
         "Tag": "Default",
         "Layer": "Default",
@@ -97,7 +97,7 @@
             "Component_0": {
                 "Type": "0",
                 "Active": "1",
-                "UUID": "755957085",
+                "UUID": "1458018698",
                 "position": {
                     "value_X": "0.000000",
                     "value_Y": "0.000000",
@@ -118,12 +118,12 @@
             "Component_1": {
                 "Type": "3",
                 "Active": "1",
-                "UUID": "1282113199",
+                "UUID": "2091179115",
                 "Mesh": {
                     "mesh_name": "HUD"
                 },
                 "Material": {
-                    "Name": "JoinedMaterial_#3"
+                    "Name": "Panel"
                 },
                 "Interior_Material": {
                     "UUID": "1480464845"
@@ -135,12 +135,12 @@
                 "has_light": "1"
             }
         },
-        "ParentID": "1725912618",
+        "ParentID": "2084944277",
         "IsRoot": "0",
         "IsStatic": "0"
     },
     "GameObject_8": {
-        "UUID": "1286714078",
+        "UUID": "1410937889",
         "Name": "Buttons",
         "Tag": "Default",
         "Layer": "Default",
@@ -150,7 +150,7 @@
             "Component_0": {
                 "Type": "0",
                 "Active": "1",
-                "UUID": "688980070",
+                "UUID": "771523993",
                 "position": {
                     "value_X": "0.000000",
                     "value_Y": "0.000000",
@@ -171,12 +171,12 @@
             "Component_1": {
                 "Type": "3",
                 "Active": "1",
-                "UUID": "40489833",
+                "UUID": "709788995",
                 "Mesh": {
                     "mesh_name": "Buttons"
                 },
                 "Material": {
-                    "Name": "JoinedMaterial_#3"
+                    "Name": "Panel"
                 },
                 "Interior_Material": {
                     "UUID": "1480464845"
@@ -188,12 +188,12 @@
                 "has_light": "1"
             }
         },
-        "ParentID": "1725912618",
+        "ParentID": "2084944277",
         "IsRoot": "0",
         "IsStatic": "0"
     },
     "GameObject_9": {
-        "UUID": "1737080728",
+        "UUID": "971206016",
         "Name": "Wall",
         "Tag": "Default",
         "Layer": "Default",
@@ -203,7 +203,7 @@
             "Component_0": {
                 "Type": "0",
                 "Active": "1",
-                "UUID": "79760163",
+                "UUID": "379349982",
                 "position": {
                     "value_X": "0.000000",
                     "value_Y": "0.000000",
@@ -224,12 +224,12 @@
             "Component_1": {
                 "Type": "3",
                 "Active": "1",
-                "UUID": "1755783283",
+                "UUID": "663930494",
                 "Mesh": {
                     "mesh_name": "Wall"
                 },
                 "Material": {
-                    "Name": "JoinedMaterial_#3"
+                    "Name": "Panel"
                 },
                 "Interior_Material": {
                     "UUID": "1480464845"
@@ -241,7 +241,7 @@
                 "has_light": "1"
             }
         },
-        "ParentID": "1725912618",
+        "ParentID": "2084944277",
         "IsRoot": "0",
         "IsStatic": "0"
     },
@@ -249,10 +249,10 @@
     "library_path": "./Project/Library/Prefabs/Panel_Buttons.jprefab",
     "assets_path": ".\\Project\\Assets\\FBX\\SlaveOne\\Panel_Buttons.fbx",
     "prefab_name": "Panel_Buttons",
-    "UUID": "199709968",
+    "UUID": "1956362421",
     "GameObjects_Count": "5",
     "GameObject_0": {
-        "UUID": "323791209",
+        "UUID": "1066904746",
         "Name": "Panel_Buttons",
         "Tag": "Default",
         "Layer": "Default",
@@ -262,7 +262,7 @@
             "Component_0": {
                 "Type": "0",
                 "Active": "1",
-                "UUID": "1198551450",
+                "UUID": "1905285113",
                 "position": {
                     "value_X": "0.000000",
                     "value_Y": "0.000000",
@@ -286,7 +286,7 @@
         "IsStatic": "0"
     },
     "GameObject_1": {
-        "UUID": "531919230",
+        "UUID": "1810938830",
         "Name": "Panel",
         "Tag": "Default",
         "Layer": "Default",
@@ -296,7 +296,7 @@
             "Component_0": {
                 "Type": "0",
                 "Active": "1",
-                "UUID": "1940615550",
+                "UUID": "947426091",
                 "position": {
                     "value_X": "0.000000",
                     "value_Y": "0.000000",
@@ -317,12 +317,12 @@
             "Component_1": {
                 "Type": "3",
                 "Active": "1",
-                "UUID": "1916492716",
+                "UUID": "1264999371",
                 "Mesh": {
                     "mesh_name": "Panel"
                 },
                 "Material": {
-                    "Name": "JoinedMaterial_#3"
+                    "Name": "Panel"
                 },
                 "Interior_Material": {
                     "UUID": "1480464845"
@@ -334,12 +334,12 @@
                 "has_light": "1"
             }
         },
-        "ParentID": "323791209",
+        "ParentID": "1066904746",
         "IsRoot": "0",
         "IsStatic": "0"
     },
     "GameObject_2": {
-        "UUID": "1540702962",
+        "UUID": "607368060",
         "Name": "HUD",
         "Tag": "Default",
         "Layer": "Default",
@@ -349,7 +349,7 @@
             "Component_0": {
                 "Type": "0",
                 "Active": "1",
-                "UUID": "755957085",
+                "UUID": "1458018698",
                 "position": {
                     "value_X": "0.000000",
                     "value_Y": "0.000000",
@@ -370,12 +370,12 @@
             "Component_1": {
                 "Type": "3",
                 "Active": "1",
-                "UUID": "1282113199",
+                "UUID": "2091179115",
                 "Mesh": {
                     "mesh_name": "HUD"
                 },
                 "Material": {
-                    "Name": "JoinedMaterial_#3"
+                    "Name": "Panel"
                 },
                 "Interior_Material": {
                     "UUID": "1480464845"
@@ -387,12 +387,12 @@
                 "has_light": "1"
             }
         },
-        "ParentID": "323791209",
+        "ParentID": "1066904746",
         "IsRoot": "0",
         "IsStatic": "0"
     },
     "GameObject_3": {
-        "UUID": "620233399",
+        "UUID": "1618695830",
         "Name": "Buttons",
         "Tag": "Default",
         "Layer": "Default",
@@ -402,7 +402,7 @@
             "Component_0": {
                 "Type": "0",
                 "Active": "1",
-                "UUID": "688980070",
+                "UUID": "771523993",
                 "position": {
                     "value_X": "0.000000",
                     "value_Y": "0.000000",
@@ -423,12 +423,12 @@
             "Component_1": {
                 "Type": "3",
                 "Active": "1",
-                "UUID": "40489833",
+                "UUID": "709788995",
                 "Mesh": {
                     "mesh_name": "Buttons"
                 },
                 "Material": {
-                    "Name": "JoinedMaterial_#3"
+                    "Name": "Panel"
                 },
                 "Interior_Material": {
                     "UUID": "1480464845"
@@ -440,12 +440,12 @@
                 "has_light": "1"
             }
         },
-        "ParentID": "323791209",
+        "ParentID": "1066904746",
         "IsRoot": "0",
         "IsStatic": "0"
     },
     "GameObject_4": {
-        "UUID": "1815781550",
+        "UUID": "1723036811",
         "Name": "Wall",
         "Tag": "Default",
         "Layer": "Default",
@@ -455,7 +455,7 @@
             "Component_0": {
                 "Type": "0",
                 "Active": "1",
-                "UUID": "79760163",
+                "UUID": "379349982",
                 "position": {
                     "value_X": "0.000000",
                     "value_Y": "0.000000",
@@ -476,12 +476,12 @@
             "Component_1": {
                 "Type": "3",
                 "Active": "1",
-                "UUID": "1755783283",
+                "UUID": "663930494",
                 "Mesh": {
                     "mesh_name": "Wall"
                 },
                 "Material": {
-                    "Name": "JoinedMaterial_#3"
+                    "Name": "Panel"
                 },
                 "Interior_Material": {
                     "UUID": "1480464845"
@@ -493,7 +493,7 @@
                 "has_light": "1"
             }
         },
-        "ParentID": "323791209",
+        "ParentID": "1066904746",
         "IsRoot": "0",
         "IsStatic": "0"
     }

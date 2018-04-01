@@ -203,7 +203,7 @@ public class Slave1Movement {
 		
 		if(TheInput.IsKeyDown("LEFT_ARROW"))
 		{
-			audio_source.Play("Play_droid_speed_up");
+			audio_source.Play("Play_Shield_up");
 			if(weapon_energy < max_energy_on_system-1)
 			{
 				weapon_energy += 2;
@@ -550,7 +550,7 @@ public class Slave1Movement {
 
     public void DamageSlaveOne(float dmg)
     {
-		audio_source.Play("Play_Player_hit");
+		
         switch(TheRandom.RandomInt() % ship_parts)
         {
             case 0:

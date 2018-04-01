@@ -1,6 +1,6 @@
 {
     "GameObject_5": {
-        "UUID": "774526268",
+        "UUID": "667887931",
         "Name": "Cockpit_Low",
         "Tag": "Default",
         "Layer": "Default",
@@ -10,7 +10,7 @@
             "Component_0": {
                 "Type": "0",
                 "Active": "1",
-                "UUID": "1096223781",
+                "UUID": "467008091",
                 "position": {
                     "value_X": "0.000000",
                     "value_Y": "0.000000",
@@ -34,7 +34,7 @@
         "IsStatic": "0"
     },
     "GameObject_6": {
-        "UUID": "1716681789",
+        "UUID": "975728322",
         "Name": "cockpit",
         "Tag": "Default",
         "Layer": "Default",
@@ -44,7 +44,7 @@
             "Component_0": {
                 "Type": "0",
                 "Active": "1",
-                "UUID": "1843064766",
+                "UUID": "1644286731",
                 "position": {
                     "value_X": "0.000000",
                     "value_Y": "0.000000",
@@ -65,7 +65,7 @@
             "Component_1": {
                 "Type": "3",
                 "Active": "1",
-                "UUID": "1047941831",
+                "UUID": "1978784058",
                 "Mesh": {
                     "mesh_name": "cockpit"
                 },
@@ -82,7 +82,7 @@
                 "has_light": "1"
             }
         },
-        "ParentID": "774526268",
+        "ParentID": "667887931",
         "IsRoot": "0",
         "IsStatic": "0"
     },
@@ -90,10 +90,10 @@
     "library_path": "./Project/Library/Prefabs/Cockpit_Low.jprefab",
     "assets_path": ".\\Project\\Assets\\FBX\\SlaveOne\\Cockpit_Low.fbx",
     "prefab_name": "Cockpit_Low",
-    "UUID": "1669828406",
+    "UUID": "45750352",
     "GameObjects_Count": "2",
     "GameObject_0": {
-        "UUID": "148792873",
+        "UUID": "1701463321",
         "Name": "Cockpit_Low",
         "Tag": "Default",
         "Layer": "Default",
@@ -103,7 +103,7 @@
             "Component_0": {
                 "Type": "0",
                 "Active": "1",
-                "UUID": "1096223781",
+                "UUID": "467008091",
                 "position": {
                     "value_X": "0.000000",
                     "value_Y": "0.000000",
@@ -127,7 +127,7 @@
         "IsStatic": "0"
     },
     "GameObject_1": {
-        "UUID": "1794981652",
+        "UUID": "232419174",
         "Name": "cockpit",
         "Tag": "Default",
         "Layer": "Default",
@@ -137,7 +137,7 @@
             "Component_0": {
                 "Type": "0",
                 "Active": "1",
-                "UUID": "1843064766",
+                "UUID": "1644286731",
                 "position": {
                     "value_X": "0.000000",
                     "value_Y": "0.000000",
@@ -158,7 +158,7 @@
             "Component_1": {
                 "Type": "3",
                 "Active": "1",
-                "UUID": "1047941831",
+                "UUID": "1978784058",
                 "Mesh": {
                     "mesh_name": "cockpit"
                 },
@@ -175,7 +175,7 @@
                 "has_light": "1"
             }
         },
-        "ParentID": "148792873",
+        "ParentID": "1701463321",
         "IsRoot": "0",
         "IsStatic": "0"
     }
