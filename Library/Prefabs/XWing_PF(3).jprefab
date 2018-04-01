@@ -1,21 +1,21 @@
 {
-    "UUID": "114918090",
-    "assets_path": "./Project/Assets/Prefabs/YWing_Alliance_PF(4).jprefab",
-    "library_path": "./Project/Library/Prefabs/YWing_Alliance_PF(4).jprefab",
-    "prefab_name": "YWing_Alliance_PF(4)",
-    "GameObjects_Count": "9",
+    "UUID": "1711019326",
+    "assets_path": "./Project/Assets/Prefabs/XWing_PF(3).jprefab",
+    "library_path": "./Project/Library/Prefabs/XWing_PF(3).jprefab",
+    "prefab_name": "XWing_PF(3)",
+    "GameObjects_Count": "10",
     "GameObject_0": {
-        "UUID": "1335758815",
-        "Name": "YWing_Alliance_PF(4)",
+        "UUID": "1768765629",
+        "Name": "XWing_PF(3)",
         "Tag": "Alliance",
         "Layer": "Default",
         "Active": "1",
         "Components": {
-            "Components_Count": "5",
+            "Components_Count": "6",
             "Component_0": {
                 "Type": "0",
                 "Active": "1",
-                "UUID": "2046544490",
+                "UUID": "867952885",
                 "position": {
                     "value_X": "0.000000",
                     "value_Y": "0.000000",
@@ -28,26 +28,26 @@
                     "value_W": "1.000000"
                 },
                 "scale": {
-                    "value_X": "0.015000",
-                    "value_Y": "0.015000",
-                    "value_Z": "0.015000"
+                    "value_X": "1.000000",
+                    "value_Y": "1.000000",
+                    "value_Z": "1.000000"
                 }
             },
             "Component_1": {
                 "Type": "10",
                 "Active": "1",
-                "UUID": "2108690898",
+                "UUID": "1457616280",
                 "Script": {
                     "library_path": ".\\Project\\Library\\Scripts\\AI_Starship_Movement.dll",
                     "assets_path": "",
                     "script_name": "Ai_Starship_Movement",
-                    "UUID": "744449797",
+                    "UUID": "1363290895",
                     "int_fields_count": "2",
                     "double_fields_count": "0",
                     "float_fields_count": "7",
                     "bool_fields_count": "1",
                     "string_fields_count": "0",
-                    "gameobject_fields_count": "2",
+                    "gameobject_fields_count": "3",
                     "vec2_fields_count": "0",
                     "vec3_fields_count": "1",
                     "vec4_fields_count": "0",
@@ -101,12 +101,16 @@
                     "string_fields": {},
                     "gameobject_fields": {
                         "field_0": {
-                            "field_name": "laser_spawner_L",
-                            "field_value": "495420071"
+                            "field_name": "audio_emiter",
+                            "field_value": "0"
                         },
                         "field_1": {
+                            "field_name": "laser_spawner_L",
+                            "field_value": "290671395"
+                        },
+                        "field_2": {
                             "field_name": "laser_spawner_R",
-                            "field_value": "817082761"
+                            "field_value": "1094785614"
                         }
                     },
                     "vec2_fields": {},
@@ -126,7 +130,7 @@
             "Component_2": {
                 "Type": "12",
                 "Active": "1",
-                "UUID": "1968980239",
+                "UUID": "1340654336",
                 "Object_count": "100",
                 "Spawn_position": {
                     "value_X": "0.000000",
@@ -143,18 +147,18 @@
                     "value_Y": "0.000000",
                     "value_Z": "0.000000"
                 },
-                "Life_time": "0.200000",
+                "Life_time": "2.000000",
                 "Prefab_UID": "0"
             },
             "Component_3": {
                 "Type": "10",
                 "Active": "1",
-                "UUID": "894323056",
+                "UUID": "144289225",
                 "Script": {
                     "library_path": ".\\Project\\Library\\Scripts\\ShipProperties.dll",
                     "assets_path": "",
                     "script_name": "ShipProperties",
-                    "UUID": "1672104305",
+                    "UUID": "1779116706",
                     "int_fields_count": "0",
                     "double_fields_count": "0",
                     "float_fields_count": "0",
@@ -183,12 +187,12 @@
             "Component_4": {
                 "Type": "10",
                 "Active": "1",
-                "UUID": "632798182",
+                "UUID": "1322396760",
                 "Script": {
                     "library_path": ".\\Project\\Library\\Scripts\\ShipDestruction.dll",
                     "assets_path": "",
                     "script_name": "ShipDestruction",
-                    "UUID": "415210817",
+                    "UUID": "1813397423",
                     "int_fields_count": "0",
                     "double_fields_count": "0",
                     "float_fields_count": "1",
@@ -213,6 +217,13 @@
                     "vec3_fields": {},
                     "vec4_fields": {}
                 }
+            },
+            "Component_5": {
+                "Type": "8",
+                "Active": "1",
+                "UUID": "237688926",
+                "Sound_ID": "104",
+                "SoundBank_Name": "Enemy.bnk"
             }
         },
         "ParentID": "0",
@@ -220,273 +231,8 @@
         "IsStatic": "0"
     },
     "GameObject_1": {
-        "UUID": "85125780",
-        "Name": "Y_Wing(6)",
-        "Tag": "Default",
-        "Layer": "Default",
-        "Active": "1",
-        "Components": {
-            "Components_Count": "2",
-            "Component_0": {
-                "Type": "0",
-                "Active": "1",
-                "UUID": "169899980",
-                "position": {
-                    "value_X": "0.000000",
-                    "value_Y": "0.000000",
-                    "value_Z": "0.000000"
-                },
-                "rotation": {
-                    "value_X": "0.000000",
-                    "value_Y": "0.000000",
-                    "value_Z": "0.000000",
-                    "value_W": "1.000000"
-                },
-                "scale": {
-                    "value_X": "1.000000",
-                    "value_Y": "1.000000",
-                    "value_Z": "1.000000"
-                }
-            },
-            "Component_1": {
-                "Type": "3",
-                "Active": "1",
-                "UUID": "1005819010",
-                "Mesh": {
-                    "mesh_name": "Y_Wing"
-                },
-                "Material": {
-                    "Name": "YWing_Alliance"
-                },
-                "Interior_Material": {
-                    "UUID": "1480464845"
-                },
-                "Mat_Indices_Number": "0",
-                "Mat_Indices_Start": "0",
-                "Int_Mat_Indices_Number": "0",
-                "Int_Mat_Indices_Start": "0",
-                "has_light": "1"
-            }
-        },
-        "ParentID": "1335758815",
-        "IsRoot": "0",
-        "IsStatic": "0"
-    },
-    "GameObject_2": {
-        "UUID": "1634547307",
-        "Name": "Turret_base(6)",
-        "Tag": "Default",
-        "Layer": "Default",
-        "Active": "1",
-        "Components": {
-            "Components_Count": "2",
-            "Component_0": {
-                "Type": "0",
-                "Active": "1",
-                "UUID": "1880323133",
-                "position": {
-                    "value_X": "0.000000",
-                    "value_Y": "0.000000",
-                    "value_Z": "0.000000"
-                },
-                "rotation": {
-                    "value_X": "0.000000",
-                    "value_Y": "0.000000",
-                    "value_Z": "0.000000",
-                    "value_W": "1.000000"
-                },
-                "scale": {
-                    "value_X": "1.000000",
-                    "value_Y": "1.000000",
-                    "value_Z": "1.000000"
-                }
-            },
-            "Component_1": {
-                "Type": "3",
-                "Active": "1",
-                "UUID": "370640421",
-                "Mesh": {
-                    "mesh_name": "Turret_base"
-                },
-                "Material": {
-                    "Name": "YWing_Turret_Alliance"
-                },
-                "Interior_Material": {
-                    "UUID": "1480464845"
-                },
-                "Mat_Indices_Number": "0",
-                "Mat_Indices_Start": "0",
-                "Int_Mat_Indices_Number": "0",
-                "Int_Mat_Indices_Start": "0",
-                "has_light": "1"
-            }
-        },
-        "ParentID": "1335758815",
-        "IsRoot": "0",
-        "IsStatic": "0"
-    },
-    "GameObject_3": {
-        "UUID": "1512122470",
-        "Name": "Guns(6)",
-        "Tag": "Default",
-        "Layer": "Default",
-        "Active": "1",
-        "Components": {
-            "Components_Count": "2",
-            "Component_0": {
-                "Type": "0",
-                "Active": "1",
-                "UUID": "140155814",
-                "position": {
-                    "value_X": "0.000000",
-                    "value_Y": "0.000000",
-                    "value_Z": "0.000000"
-                },
-                "rotation": {
-                    "value_X": "0.000000",
-                    "value_Y": "0.000000",
-                    "value_Z": "0.000000",
-                    "value_W": "1.000000"
-                },
-                "scale": {
-                    "value_X": "1.000000",
-                    "value_Y": "1.000000",
-                    "value_Z": "1.000000"
-                }
-            },
-            "Component_1": {
-                "Type": "3",
-                "Active": "1",
-                "UUID": "1969643102",
-                "Mesh": {
-                    "mesh_name": "Guns"
-                },
-                "Material": {
-                    "Name": "YWing_Guns_Alliance"
-                },
-                "Interior_Material": {
-                    "UUID": "1480464845"
-                },
-                "Mat_Indices_Number": "0",
-                "Mat_Indices_Start": "0",
-                "Int_Mat_Indices_Number": "0",
-                "Int_Mat_Indices_Start": "0",
-                "has_light": "1"
-            }
-        },
-        "ParentID": "1335758815",
-        "IsRoot": "0",
-        "IsStatic": "0"
-    },
-    "GameObject_4": {
-        "UUID": "1535140636",
-        "Name": "Body(6)",
-        "Tag": "Default",
-        "Layer": "Default",
-        "Active": "1",
-        "Components": {
-            "Components_Count": "2",
-            "Component_0": {
-                "Type": "0",
-                "Active": "1",
-                "UUID": "1183386493",
-                "position": {
-                    "value_X": "0.000000",
-                    "value_Y": "0.000000",
-                    "value_Z": "0.000000"
-                },
-                "rotation": {
-                    "value_X": "0.000000",
-                    "value_Y": "0.000000",
-                    "value_Z": "0.000000",
-                    "value_W": "1.000000"
-                },
-                "scale": {
-                    "value_X": "1.000000",
-                    "value_Y": "1.000000",
-                    "value_Z": "1.000000"
-                }
-            },
-            "Component_1": {
-                "Type": "3",
-                "Active": "1",
-                "UUID": "644946114",
-                "Mesh": {
-                    "mesh_name": "Body"
-                },
-                "Material": {
-                    "Name": "YWing_Body_Alliance"
-                },
-                "Interior_Material": {
-                    "UUID": "1480464845"
-                },
-                "Mat_Indices_Number": "0",
-                "Mat_Indices_Start": "0",
-                "Int_Mat_Indices_Number": "0",
-                "Int_Mat_Indices_Start": "0",
-                "has_light": "1"
-            }
-        },
-        "ParentID": "1335758815",
-        "IsRoot": "0",
-        "IsStatic": "0"
-    },
-    "GameObject_5": {
-        "UUID": "2060075060",
-        "Name": "Cockpit(6)",
-        "Tag": "Default",
-        "Layer": "Default",
-        "Active": "1",
-        "Components": {
-            "Components_Count": "2",
-            "Component_0": {
-                "Type": "0",
-                "Active": "1",
-                "UUID": "1635928213",
-                "position": {
-                    "value_X": "0.000000",
-                    "value_Y": "0.000000",
-                    "value_Z": "0.000000"
-                },
-                "rotation": {
-                    "value_X": "0.000000",
-                    "value_Y": "0.000000",
-                    "value_Z": "0.000000",
-                    "value_W": "1.000000"
-                },
-                "scale": {
-                    "value_X": "1.000000",
-                    "value_Y": "1.000000",
-                    "value_Z": "1.000000"
-                }
-            },
-            "Component_1": {
-                "Type": "3",
-                "Active": "1",
-                "UUID": "1192216608",
-                "Mesh": {
-                    "mesh_name": "Cockpit"
-                },
-                "Material": {
-                    "Name": "YWing_Cockpit_Alliance"
-                },
-                "Interior_Material": {
-                    "UUID": "1480464845"
-                },
-                "Mat_Indices_Number": "0",
-                "Mat_Indices_Start": "0",
-                "Int_Mat_Indices_Number": "0",
-                "Int_Mat_Indices_Start": "0",
-                "has_light": "1"
-            }
-        },
-        "ParentID": "1335758815",
-        "IsRoot": "0",
-        "IsStatic": "0"
-    },
-    "GameObject_6": {
-        "UUID": "495420071",
-        "Name": "LaserLeft(3)",
+        "UUID": "77086688",
+        "Name": "Xwing_XWING(6)",
         "Tag": "Default",
         "Layer": "Default",
         "Active": "1",
@@ -495,11 +241,11 @@
             "Component_0": {
                 "Type": "0",
                 "Active": "1",
-                "UUID": "745176900",
+                "UUID": "406261095",
                 "position": {
-                    "value_X": "100.388580",
-                    "value_Y": "-170.000000",
-                    "value_Z": "2442.579590"
+                    "value_X": "0.000000",
+                    "value_Y": "0.000000",
+                    "value_Z": "0.000000"
                 },
                 "rotation": {
                     "value_X": "0.000000",
@@ -514,13 +260,81 @@
                 }
             }
         },
-        "ParentID": "1335758815",
+        "ParentID": "1768765629",
         "IsRoot": "0",
         "IsStatic": "0"
     },
-    "GameObject_7": {
-        "UUID": "905908624",
-        "Name": "OA(3)",
+    "GameObject_2": {
+        "UUID": "290671395",
+        "Name": "LaserSpawner_Left(5)",
+        "Tag": "Default",
+        "Layer": "Default",
+        "Active": "1",
+        "Components": {
+            "Components_Count": "1",
+            "Component_0": {
+                "Type": "0",
+                "Active": "1",
+                "UUID": "1613777095",
+                "position": {
+                    "value_X": "-14.000000",
+                    "value_Y": "0.000000",
+                    "value_Z": "8.750000"
+                },
+                "rotation": {
+                    "value_X": "0.000000",
+                    "value_Y": "0.000000",
+                    "value_Z": "0.000000",
+                    "value_W": "1.000000"
+                },
+                "scale": {
+                    "value_X": "1.000000",
+                    "value_Y": "1.000000",
+                    "value_Z": "1.000000"
+                }
+            }
+        },
+        "ParentID": "1768765629",
+        "IsRoot": "0",
+        "IsStatic": "0"
+    },
+    "GameObject_3": {
+        "UUID": "1094785614",
+        "Name": "LaserSpawner_Right(5)",
+        "Tag": "Default",
+        "Layer": "Default",
+        "Active": "1",
+        "Components": {
+            "Components_Count": "1",
+            "Component_0": {
+                "Type": "0",
+                "Active": "1",
+                "UUID": "1371683307",
+                "position": {
+                    "value_X": "14.000000",
+                    "value_Y": "0.000000",
+                    "value_Z": "8.750000"
+                },
+                "rotation": {
+                    "value_X": "0.000000",
+                    "value_Y": "0.000000",
+                    "value_Z": "0.000000",
+                    "value_W": "1.000000"
+                },
+                "scale": {
+                    "value_X": "1.000000",
+                    "value_Y": "1.000000",
+                    "value_Z": "1.000000"
+                }
+            }
+        },
+        "ParentID": "1768765629",
+        "IsRoot": "0",
+        "IsStatic": "0"
+    },
+    "GameObject_4": {
+        "UUID": "1579632970",
+        "Name": "OA_Check(7)",
         "Tag": "Default",
         "Layer": "Default",
         "Active": "1",
@@ -529,7 +343,7 @@
             "Component_0": {
                 "Type": "0",
                 "Active": "1",
-                "UUID": "1203830323",
+                "UUID": "511826158",
                 "position": {
                     "value_X": "0.000000",
                     "value_Y": "0.000000",
@@ -550,7 +364,7 @@
             "Component_1": {
                 "Type": "2",
                 "Active": "1",
-                "UUID": "2706927",
+                "UUID": "796910126",
                 "Mass": "1.000000",
                 "IsUsingGravity": "0",
                 "IsKinematic": "0",
@@ -592,7 +406,7 @@
             "Component_2": {
                 "Type": "4",
                 "Active": "1",
-                "UUID": "1627887378",
+                "UUID": "1439862001",
                 "IsConvex": "0",
                 "IsTrigger": "1",
                 "CapsuleDir": "0",
@@ -600,25 +414,25 @@
                 "ColliderCenter": {
                     "value_X": "0.000000",
                     "value_Y": "0.000000",
-                    "value_Z": "40.000000"
+                    "value_Z": "50.000000"
                 },
                 "Box": {
                     "BoxSize": {
-                        "value_X": "60.000000",
-                        "value_Y": "25.000000",
-                        "value_Z": "110.000000"
+                        "value_X": "58.000000",
+                        "value_Y": "38.500000",
+                        "value_Z": "100.000000"
                     }
                 }
             },
             "Component_3": {
                 "Type": "10",
                 "Active": "1",
-                "UUID": "1697673313",
+                "UUID": "1266835965",
                 "Script": {
                     "library_path": ".\\Project\\Library\\Scripts\\Ai_OA.dll",
                     "assets_path": "",
                     "script_name": "Ai_OA",
-                    "UUID": "508760787",
+                    "UUID": "1233336975",
                     "int_fields_count": "0",
                     "double_fields_count": "0",
                     "float_fields_count": "1",
@@ -641,7 +455,7 @@
                     "gameobject_fields": {
                         "field_0": {
                             "field_name": "parent",
-                            "field_value": "1335758815"
+                            "field_value": "1768765629"
                         }
                     },
                     "vec2_fields": {},
@@ -650,26 +464,26 @@
                 }
             }
         },
-        "ParentID": "1335758815",
+        "ParentID": "1768765629",
         "IsRoot": "0",
         "IsStatic": "0"
     },
-    "GameObject_8": {
-        "UUID": "817082761",
-        "Name": "LaserRight(3)",
+    "GameObject_5": {
+        "UUID": "841957853",
+        "Name": "Body_XWING(6)",
         "Tag": "Default",
         "Layer": "Default",
         "Active": "1",
         "Components": {
-            "Components_Count": "1",
+            "Components_Count": "2",
             "Component_0": {
                 "Type": "0",
                 "Active": "1",
-                "UUID": "1766107600",
+                "UUID": "2029874636",
                 "position": {
-                    "value_X": "-87.552872",
-                    "value_Y": "-170.514420",
-                    "value_Z": "2442.000000"
+                    "value_X": "0.000000",
+                    "value_Y": "0.000000",
+                    "value_Z": "0.000000"
                 },
                 "rotation": {
                     "value_X": "0.000000",
@@ -682,9 +496,240 @@
                     "value_Y": "1.000000",
                     "value_Z": "1.000000"
                 }
+            },
+            "Component_1": {
+                "Type": "3",
+                "Active": "1",
+                "UUID": "643727231",
+                "Mesh": {
+                    "mesh_name": "Body_XWING"
+                },
+                "Material": {
+                    "Name": "lambert4.002"
+                },
+                "Interior_Material": {
+                    "UUID": "1480464845"
+                },
+                "Mat_Indices_Number": "0",
+                "Mat_Indices_Start": "0",
+                "Int_Mat_Indices_Number": "0",
+                "Int_Mat_Indices_Start": "0",
+                "has_light": "1"
             }
         },
-        "ParentID": "1335758815",
+        "ParentID": "77086688",
+        "IsRoot": "0",
+        "IsStatic": "0"
+    },
+    "GameObject_6": {
+        "UUID": "234055201",
+        "Name": "BotRight_Wing_XWING(6)",
+        "Tag": "Default",
+        "Layer": "Default",
+        "Active": "1",
+        "Components": {
+            "Components_Count": "2",
+            "Component_0": {
+                "Type": "0",
+                "Active": "1",
+                "UUID": "1946942790",
+                "position": {
+                    "value_X": "0.000000",
+                    "value_Y": "0.000000",
+                    "value_Z": "0.000000"
+                },
+                "rotation": {
+                    "value_X": "0.000000",
+                    "value_Y": "0.000000",
+                    "value_Z": "0.000000",
+                    "value_W": "1.000000"
+                },
+                "scale": {
+                    "value_X": "1.000000",
+                    "value_Y": "1.000000",
+                    "value_Z": "1.000000"
+                }
+            },
+            "Component_1": {
+                "Type": "3",
+                "Active": "1",
+                "UUID": "626284333",
+                "Mesh": {
+                    "mesh_name": "BotRight_Wing_XWING"
+                },
+                "Material": {
+                    "Name": "lambert4.002"
+                },
+                "Interior_Material": {
+                    "UUID": "1480464845"
+                },
+                "Mat_Indices_Number": "0",
+                "Mat_Indices_Start": "0",
+                "Int_Mat_Indices_Number": "0",
+                "Int_Mat_Indices_Start": "0",
+                "has_light": "1"
+            }
+        },
+        "ParentID": "77086688",
+        "IsRoot": "0",
+        "IsStatic": "0"
+    },
+    "GameObject_7": {
+        "UUID": "51235385",
+        "Name": "BotLeft_Wing_XWING(6)",
+        "Tag": "Default",
+        "Layer": "Default",
+        "Active": "1",
+        "Components": {
+            "Components_Count": "2",
+            "Component_0": {
+                "Type": "0",
+                "Active": "1",
+                "UUID": "1348661269",
+                "position": {
+                    "value_X": "0.000000",
+                    "value_Y": "0.000000",
+                    "value_Z": "0.000000"
+                },
+                "rotation": {
+                    "value_X": "0.000000",
+                    "value_Y": "0.000000",
+                    "value_Z": "0.000000",
+                    "value_W": "1.000000"
+                },
+                "scale": {
+                    "value_X": "1.000000",
+                    "value_Y": "1.000000",
+                    "value_Z": "1.000000"
+                }
+            },
+            "Component_1": {
+                "Type": "3",
+                "Active": "1",
+                "UUID": "1028214328",
+                "Mesh": {
+                    "mesh_name": "BotLeft_Wing_XWING"
+                },
+                "Material": {
+                    "Name": "lambert4.002"
+                },
+                "Interior_Material": {
+                    "UUID": "1480464845"
+                },
+                "Mat_Indices_Number": "0",
+                "Mat_Indices_Start": "0",
+                "Int_Mat_Indices_Number": "0",
+                "Int_Mat_Indices_Start": "0",
+                "has_light": "1"
+            }
+        },
+        "ParentID": "77086688",
+        "IsRoot": "0",
+        "IsStatic": "0"
+    },
+    "GameObject_8": {
+        "UUID": "88401418",
+        "Name": "TopRight_Wing_XWING(6)",
+        "Tag": "Default",
+        "Layer": "Default",
+        "Active": "1",
+        "Components": {
+            "Components_Count": "2",
+            "Component_0": {
+                "Type": "0",
+                "Active": "1",
+                "UUID": "899500586",
+                "position": {
+                    "value_X": "0.000000",
+                    "value_Y": "0.000000",
+                    "value_Z": "0.000000"
+                },
+                "rotation": {
+                    "value_X": "0.000000",
+                    "value_Y": "0.000000",
+                    "value_Z": "0.000000",
+                    "value_W": "1.000000"
+                },
+                "scale": {
+                    "value_X": "1.000000",
+                    "value_Y": "1.000000",
+                    "value_Z": "1.000000"
+                }
+            },
+            "Component_1": {
+                "Type": "3",
+                "Active": "1",
+                "UUID": "348497159",
+                "Mesh": {
+                    "mesh_name": "TopRight_Wing_XWING"
+                },
+                "Material": {
+                    "Name": "lambert4.002"
+                },
+                "Interior_Material": {
+                    "UUID": "1480464845"
+                },
+                "Mat_Indices_Number": "0",
+                "Mat_Indices_Start": "0",
+                "Int_Mat_Indices_Number": "0",
+                "Int_Mat_Indices_Start": "0",
+                "has_light": "1"
+            }
+        },
+        "ParentID": "77086688",
+        "IsRoot": "0",
+        "IsStatic": "0"
+    },
+    "GameObject_9": {
+        "UUID": "2054473923",
+        "Name": "TopLeft_Wing_XWING(6)",
+        "Tag": "Default",
+        "Layer": "Default",
+        "Active": "1",
+        "Components": {
+            "Components_Count": "2",
+            "Component_0": {
+                "Type": "0",
+                "Active": "1",
+                "UUID": "1976161252",
+                "position": {
+                    "value_X": "0.000000",
+                    "value_Y": "0.000000",
+                    "value_Z": "0.000000"
+                },
+                "rotation": {
+                    "value_X": "0.000000",
+                    "value_Y": "0.000000",
+                    "value_Z": "0.000000",
+                    "value_W": "1.000000"
+                },
+                "scale": {
+                    "value_X": "1.000000",
+                    "value_Y": "1.000000",
+                    "value_Z": "1.000000"
+                }
+            },
+            "Component_1": {
+                "Type": "3",
+                "Active": "1",
+                "UUID": "1632621826",
+                "Mesh": {
+                    "mesh_name": "TopLeft_Wing_XWING"
+                },
+                "Material": {
+                    "Name": "lambert4.002"
+                },
+                "Interior_Material": {
+                    "UUID": "1480464845"
+                },
+                "Mat_Indices_Number": "0",
+                "Mat_Indices_Start": "0",
+                "Int_Mat_Indices_Number": "0",
+                "Int_Mat_Indices_Start": "0",
+                "has_light": "1"
+            }
+        },
+        "ParentID": "77086688",
         "IsRoot": "0",
         "IsStatic": "0"
     }

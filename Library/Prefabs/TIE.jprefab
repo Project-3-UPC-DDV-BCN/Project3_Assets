@@ -1,6 +1,6 @@
 {
     "GameObject_2": {
-        "UUID": "1017413484",
+        "UUID": "1297603348",
         "Name": "TIE",
         "Tag": "Default",
         "Layer": "Default",
@@ -10,7 +10,7 @@
             "Component_0": {
                 "Type": "0",
                 "Active": "1",
-                "UUID": "480184073",
+                "UUID": "442587624",
                 "position": {
                     "value_X": "0.000000",
                     "value_Y": "0.000000",
@@ -34,7 +34,7 @@
         "IsStatic": "0"
     },
     "GameObject_3": {
-        "UUID": "2082737901",
+        "UUID": "807750038",
         "Name": "Tie_Fighter_TIE",
         "Tag": "Default",
         "Layer": "Default",
@@ -44,7 +44,7 @@
             "Component_0": {
                 "Type": "0",
                 "Active": "1",
-                "UUID": "743556916",
+                "UUID": "100629112",
                 "position": {
                     "value_X": "0.000000",
                     "value_Y": "0.000000",
@@ -63,12 +63,12 @@
                 }
             }
         },
-        "ParentID": "1017413484",
+        "ParentID": "1297603348",
         "IsRoot": "0",
         "IsStatic": "0"
     },
     "GameObject_4": {
-        "UUID": "8806082",
+        "UUID": "1439580780",
         "Name": "Wings_TIE",
         "Tag": "Default",
         "Layer": "Default",
@@ -78,7 +78,7 @@
             "Component_0": {
                 "Type": "0",
                 "Active": "1",
-                "UUID": "1968827545",
+                "UUID": "1815670121",
                 "position": {
                     "value_X": "0.000000",
                     "value_Y": "0.000000",
@@ -99,7 +99,7 @@
             "Component_1": {
                 "Type": "3",
                 "Active": "1",
-                "UUID": "1055395527",
+                "UUID": "1991678890",
                 "Mesh": {
                     "mesh_name": "Wings_TIE"
                 },
@@ -116,12 +116,12 @@
                 "has_light": "1"
             }
         },
-        "ParentID": "2082737901",
+        "ParentID": "807750038",
         "IsRoot": "0",
         "IsStatic": "0"
     },
     "GameObject_5": {
-        "UUID": "1310111949",
+        "UUID": "147254055",
         "Name": "WingConnect_TIE",
         "Tag": "Default",
         "Layer": "Default",
@@ -131,7 +131,7 @@
             "Component_0": {
                 "Type": "0",
                 "Active": "1",
-                "UUID": "390058184",
+                "UUID": "463237481",
                 "position": {
                     "value_X": "0.000000",
                     "value_Y": "0.000000",
@@ -152,7 +152,7 @@
             "Component_1": {
                 "Type": "3",
                 "Active": "1",
-                "UUID": "1231062298",
+                "UUID": "2035116024",
                 "Mesh": {
                     "mesh_name": "WingConnect_TIE"
                 },
@@ -169,12 +169,12 @@
                 "has_light": "1"
             }
         },
-        "ParentID": "2082737901",
+        "ParentID": "807750038",
         "IsRoot": "0",
         "IsStatic": "0"
     },
     "GameObject_6": {
-        "UUID": "117288885",
+        "UUID": "18596488",
         "Name": "FrontWindow_TIE",
         "Tag": "Default",
         "Layer": "Default",
@@ -184,7 +184,7 @@
             "Component_0": {
                 "Type": "0",
                 "Active": "1",
-                "UUID": "1715897288",
+                "UUID": "136645138",
                 "position": {
                     "value_X": "0.000000",
                     "value_Y": "0.000000",
@@ -203,12 +203,12 @@
                 }
             }
         },
-        "ParentID": "2082737901",
+        "ParentID": "807750038",
         "IsRoot": "0",
         "IsStatic": "0"
     },
     "GameObject_7": {
-        "UUID": "610176746",
+        "UUID": "1047044121",
         "Name": "Wind8_TIE",
         "Tag": "Default",
         "Layer": "Default",
@@ -218,7 +218,7 @@
             "Component_0": {
                 "Type": "0",
                 "Active": "1",
-                "UUID": "1200139382",
+                "UUID": "762604462",
                 "position": {
                     "value_X": "0.000000",
                     "value_Y": "0.000000",
@@ -239,7 +239,7 @@
             "Component_1": {
                 "Type": "3",
                 "Active": "1",
-                "UUID": "1741211959",
+                "UUID": "2073834373",
                 "Mesh": {
                     "mesh_name": "Wind8_TIE"
                 },
@@ -256,12 +256,12 @@
                 "has_light": "1"
             }
         },
-        "ParentID": "117288885",
+        "ParentID": "18596488",
         "IsRoot": "0",
         "IsStatic": "0"
     },
     "GameObject_8": {
-        "UUID": "1850621429",
+        "UUID": "183667986",
         "Name": "Wind7_TIE",
         "Tag": "Default",
         "Layer": "Default",
@@ -271,7 +271,7 @@
             "Component_0": {
                 "Type": "0",
                 "Active": "1",
-                "UUID": "801234374",
+                "UUID": "1955566559",
                 "position": {
                     "value_X": "0.000000",
                     "value_Y": "0.000000",
@@ -292,7 +292,7 @@
             "Component_1": {
                 "Type": "3",
                 "Active": "1",
-                "UUID": "1685622997",
+                "UUID": "1031219068",
                 "Mesh": {
                     "mesh_name": "Wind7_TIE"
                 },
@@ -309,12 +309,12 @@
                 "has_light": "1"
             }
         },
-        "ParentID": "117288885",
+        "ParentID": "18596488",
         "IsRoot": "0",
         "IsStatic": "0"
     },
     "GameObject_9": {
-        "UUID": "1037101208",
+        "UUID": "1388952339",
         "Name": "Wind6_TIE",
         "Tag": "Default",
         "Layer": "Default",
@@ -324,7 +324,7 @@
             "Component_0": {
                 "Type": "0",
                 "Active": "1",
-                "UUID": "458191626",
+                "UUID": "1494939514",
                 "position": {
                     "value_X": "0.000000",
                     "value_Y": "0.000000",
@@ -345,7 +345,7 @@
             "Component_1": {
                 "Type": "3",
                 "Active": "1",
-                "UUID": "1328022734",
+                "UUID": "1209652756",
                 "Mesh": {
                     "mesh_name": "Wind6_TIE"
                 },
@@ -362,12 +362,12 @@
                 "has_light": "1"
             }
         },
-        "ParentID": "117288885",
+        "ParentID": "18596488",
         "IsRoot": "0",
         "IsStatic": "0"
     },
     "GameObject_10": {
-        "UUID": "968726609",
+        "UUID": "1147275189",
         "Name": "Wind5_TIE",
         "Tag": "Default",
         "Layer": "Default",
@@ -377,7 +377,7 @@
             "Component_0": {
                 "Type": "0",
                 "Active": "1",
-                "UUID": "977595380",
+                "UUID": "1591728730",
                 "position": {
                     "value_X": "0.000000",
                     "value_Y": "0.000000",
@@ -398,7 +398,7 @@
             "Component_1": {
                 "Type": "3",
                 "Active": "1",
-                "UUID": "1991311154",
+                "UUID": "939166851",
                 "Mesh": {
                     "mesh_name": "Wind5_TIE"
                 },
@@ -415,12 +415,12 @@
                 "has_light": "1"
             }
         },
-        "ParentID": "117288885",
+        "ParentID": "18596488",
         "IsRoot": "0",
         "IsStatic": "0"
     },
     "GameObject_11": {
-        "UUID": "2106561328",
+        "UUID": "1696080590",
         "Name": "Wind4_TIE",
         "Tag": "Default",
         "Layer": "Default",
@@ -430,7 +430,7 @@
             "Component_0": {
                 "Type": "0",
                 "Active": "1",
-                "UUID": "1247662704",
+                "UUID": "1112523359",
                 "position": {
                     "value_X": "0.000000",
                     "value_Y": "0.000000",
@@ -451,7 +451,7 @@
             "Component_1": {
                 "Type": "3",
                 "Active": "1",
-                "UUID": "658028470",
+                "UUID": "1290942448",
                 "Mesh": {
                     "mesh_name": "Wind4_TIE"
                 },
@@ -468,12 +468,12 @@
                 "has_light": "1"
             }
         },
-        "ParentID": "117288885",
+        "ParentID": "18596488",
         "IsRoot": "0",
         "IsStatic": "0"
     },
     "GameObject_12": {
-        "UUID": "721187997",
+        "UUID": "1397679521",
         "Name": "Wind3_TIE",
         "Tag": "Default",
         "Layer": "Default",
@@ -483,7 +483,7 @@
             "Component_0": {
                 "Type": "0",
                 "Active": "1",
-                "UUID": "303528537",
+                "UUID": "547309002",
                 "position": {
                     "value_X": "0.000000",
                     "value_Y": "0.000000",
@@ -504,7 +504,7 @@
             "Component_1": {
                 "Type": "3",
                 "Active": "1",
-                "UUID": "1661872277",
+                "UUID": "1066918677",
                 "Mesh": {
                     "mesh_name": "Wind3_TIE"
                 },
@@ -521,12 +521,12 @@
                 "has_light": "1"
             }
         },
-        "ParentID": "117288885",
+        "ParentID": "18596488",
         "IsRoot": "0",
         "IsStatic": "0"
     },
     "GameObject_13": {
-        "UUID": "1883260429",
+        "UUID": "858821050",
         "Name": "Wind2_TIE",
         "Tag": "Default",
         "Layer": "Default",
@@ -536,7 +536,7 @@
             "Component_0": {
                 "Type": "0",
                 "Active": "1",
-                "UUID": "1906978710",
+                "UUID": "2001258210",
                 "position": {
                     "value_X": "0.000000",
                     "value_Y": "0.000000",
@@ -557,7 +557,7 @@
             "Component_1": {
                 "Type": "3",
                 "Active": "1",
-                "UUID": "2007743471",
+                "UUID": "1740622276",
                 "Mesh": {
                     "mesh_name": "Wind2_TIE"
                 },
@@ -574,12 +574,12 @@
                 "has_light": "1"
             }
         },
-        "ParentID": "117288885",
+        "ParentID": "18596488",
         "IsRoot": "0",
         "IsStatic": "0"
     },
     "GameObject_14": {
-        "UUID": "1509503964",
+        "UUID": "1632951853",
         "Name": "Wind1_TIE",
         "Tag": "Default",
         "Layer": "Default",
@@ -589,7 +589,7 @@
             "Component_0": {
                 "Type": "0",
                 "Active": "1",
-                "UUID": "609556511",
+                "UUID": "730657102",
                 "position": {
                     "value_X": "0.000000",
                     "value_Y": "0.000000",
@@ -610,7 +610,7 @@
             "Component_1": {
                 "Type": "3",
                 "Active": "1",
-                "UUID": "1768244405",
+                "UUID": "2104169180",
                 "Mesh": {
                     "mesh_name": "Wind1_TIE"
                 },
@@ -627,12 +627,12 @@
                 "has_light": "1"
             }
         },
-        "ParentID": "117288885",
+        "ParentID": "18596488",
         "IsRoot": "0",
         "IsStatic": "0"
     },
     "GameObject_15": {
-        "UUID": "1758735109",
+        "UUID": "127311710",
         "Name": "Window_TIE",
         "Tag": "Default",
         "Layer": "Default",
@@ -642,7 +642,7 @@
             "Component_0": {
                 "Type": "0",
                 "Active": "1",
-                "UUID": "1840906196",
+                "UUID": "1708803003",
                 "position": {
                     "value_X": "0.000000",
                     "value_Y": "0.000000",
@@ -663,7 +663,7 @@
             "Component_1": {
                 "Type": "3",
                 "Active": "1",
-                "UUID": "1821922690",
+                "UUID": "903550741",
                 "Mesh": {
                     "mesh_name": "Window_TIE"
                 },
@@ -680,12 +680,12 @@
                 "has_light": "1"
             }
         },
-        "ParentID": "117288885",
+        "ParentID": "18596488",
         "IsRoot": "0",
         "IsStatic": "0"
     },
     "GameObject_16": {
-        "UUID": "193098298",
+        "UUID": "135202756",
         "Name": "Engines_TIE",
         "Tag": "Default",
         "Layer": "Default",
@@ -695,7 +695,7 @@
             "Component_0": {
                 "Type": "0",
                 "Active": "1",
-                "UUID": "1012778776",
+                "UUID": "1737612667",
                 "position": {
                     "value_X": "0.000000",
                     "value_Y": "0.000000",
@@ -716,7 +716,7 @@
             "Component_1": {
                 "Type": "3",
                 "Active": "1",
-                "UUID": "448974838",
+                "UUID": "530250675",
                 "Mesh": {
                     "mesh_name": "Engines_TIE"
                 },
@@ -733,12 +733,12 @@
                 "has_light": "1"
             }
         },
-        "ParentID": "2082737901",
+        "ParentID": "807750038",
         "IsRoot": "0",
         "IsStatic": "0"
     },
     "GameObject_17": {
-        "UUID": "1687944711",
+        "UUID": "1208520974",
         "Name": "EngineTube_TIE",
         "Tag": "Default",
         "Layer": "Default",
@@ -748,7 +748,7 @@
             "Component_0": {
                 "Type": "0",
                 "Active": "1",
-                "UUID": "1533346261",
+                "UUID": "253689462",
                 "position": {
                     "value_X": "0.000000",
                     "value_Y": "0.000000",
@@ -769,7 +769,7 @@
             "Component_1": {
                 "Type": "3",
                 "Active": "1",
-                "UUID": "1798593397",
+                "UUID": "29441394",
                 "Mesh": {
                     "mesh_name": "EngineTube_TIE"
                 },
@@ -786,12 +786,12 @@
                 "has_light": "1"
             }
         },
-        "ParentID": "2082737901",
+        "ParentID": "807750038",
         "IsRoot": "0",
         "IsStatic": "0"
     },
     "GameObject_18": {
-        "UUID": "993393073",
+        "UUID": "1607102558",
         "Name": "Guns_TIE",
         "Tag": "Default",
         "Layer": "Default",
@@ -801,7 +801,7 @@
             "Component_0": {
                 "Type": "0",
                 "Active": "1",
-                "UUID": "1491664226",
+                "UUID": "235095445",
                 "position": {
                     "value_X": "0.000000",
                     "value_Y": "0.000000",
@@ -822,7 +822,7 @@
             "Component_1": {
                 "Type": "3",
                 "Active": "1",
-                "UUID": "1308283698",
+                "UUID": "2041698171",
                 "Mesh": {
                     "mesh_name": "Guns_TIE"
                 },
@@ -839,12 +839,12 @@
                 "has_light": "1"
             }
         },
-        "ParentID": "2082737901",
+        "ParentID": "807750038",
         "IsRoot": "0",
         "IsStatic": "0"
     },
     "GameObject_19": {
-        "UUID": "318940169",
+        "UUID": "952403658",
         "Name": "Body_TIE",
         "Tag": "Default",
         "Layer": "Default",
@@ -854,7 +854,7 @@
             "Component_0": {
                 "Type": "0",
                 "Active": "1",
-                "UUID": "1960781365",
+                "UUID": "1709246689",
                 "position": {
                     "value_X": "0.000000",
                     "value_Y": "0.000000",
@@ -875,7 +875,7 @@
             "Component_1": {
                 "Type": "3",
                 "Active": "1",
-                "UUID": "2100079616",
+                "UUID": "1589988846",
                 "Mesh": {
                     "mesh_name": "Body_TIE"
                 },
@@ -892,12 +892,12 @@
                 "has_light": "1"
             }
         },
-        "ParentID": "2082737901",
+        "ParentID": "807750038",
         "IsRoot": "0",
         "IsStatic": "0"
     },
     "GameObject_20": {
-        "UUID": "1880904789",
+        "UUID": "741777244",
         "Name": "MainEngine_TIE",
         "Tag": "Default",
         "Layer": "Default",
@@ -907,7 +907,7 @@
             "Component_0": {
                 "Type": "0",
                 "Active": "1",
-                "UUID": "270879976",
+                "UUID": "1368310084",
                 "position": {
                     "value_X": "0.000000",
                     "value_Y": "0.000000",
@@ -928,7 +928,7 @@
             "Component_1": {
                 "Type": "3",
                 "Active": "1",
-                "UUID": "1214488203",
+                "UUID": "586761468",
                 "Mesh": {
                     "mesh_name": "MainEngine_TIE"
                 },
@@ -945,7 +945,7 @@
                 "has_light": "1"
             }
         },
-        "ParentID": "2082737901",
+        "ParentID": "807750038",
         "IsRoot": "0",
         "IsStatic": "0"
     },
@@ -953,10 +953,10 @@
     "library_path": "./Project/Library/Prefabs/TIE.jprefab",
     "assets_path": ".\\Project\\Assets\\FBX\\TieFighter\\TIE.fbx",
     "prefab_name": "TIE",
-    "UUID": "672219464",
+    "UUID": "886501524",
     "GameObjects_Count": "19",
     "GameObject_0": {
-        "UUID": "1009547732",
+        "UUID": "1486230394",
         "Name": "TIE",
         "Tag": "Default",
         "Layer": "Default",
@@ -966,7 +966,7 @@
             "Component_0": {
                 "Type": "0",
                 "Active": "1",
-                "UUID": "480184073",
+                "UUID": "442587624",
                 "position": {
                     "value_X": "0.000000",
                     "value_Y": "0.000000",
@@ -990,7 +990,7 @@
         "IsStatic": "0"
     },
     "GameObject_1": {
-        "UUID": "730366909",
+        "UUID": "641697273",
         "Name": "Tie_Fighter_TIE",
         "Tag": "Default",
         "Layer": "Default",
@@ -1000,7 +1000,7 @@
             "Component_0": {
                 "Type": "0",
                 "Active": "1",
-                "UUID": "743556916",
+                "UUID": "100629112",
                 "position": {
                     "value_X": "0.000000",
                     "value_Y": "0.000000",
@@ -1019,12 +1019,12 @@
                 }
             }
         },
-        "ParentID": "1009547732",
+        "ParentID": "1486230394",
         "IsRoot": "0",
         "IsStatic": "0"
     },
     "GameObject_2": {
-        "UUID": "756777823",
+        "UUID": "1503534992",
         "Name": "Wings_TIE",
         "Tag": "Default",
         "Layer": "Default",
@@ -1034,7 +1034,7 @@
             "Component_0": {
                 "Type": "0",
                 "Active": "1",
-                "UUID": "1968827545",
+                "UUID": "1815670121",
                 "position": {
                     "value_X": "0.000000",
                     "value_Y": "0.000000",
@@ -1055,7 +1055,7 @@
             "Component_1": {
                 "Type": "3",
                 "Active": "1",
-                "UUID": "1055395527",
+                "UUID": "1991678890",
                 "Mesh": {
                     "mesh_name": "Wings_TIE"
                 },
@@ -1072,12 +1072,12 @@
                 "has_light": "1"
             }
         },
-        "ParentID": "730366909",
+        "ParentID": "641697273",
         "IsRoot": "0",
         "IsStatic": "0"
     },
     "GameObject_3": {
-        "UUID": "1265019585",
+        "UUID": "666788664",
         "Name": "WingConnect_TIE",
         "Tag": "Default",
         "Layer": "Default",
@@ -1087,7 +1087,7 @@
             "Component_0": {
                 "Type": "0",
                 "Active": "1",
-                "UUID": "390058184",
+                "UUID": "463237481",
                 "position": {
                     "value_X": "0.000000",
                     "value_Y": "0.000000",
@@ -1108,7 +1108,7 @@
             "Component_1": {
                 "Type": "3",
                 "Active": "1",
-                "UUID": "1231062298",
+                "UUID": "2035116024",
                 "Mesh": {
                     "mesh_name": "WingConnect_TIE"
                 },
@@ -1125,12 +1125,12 @@
                 "has_light": "1"
             }
         },
-        "ParentID": "730366909",
+        "ParentID": "641697273",
         "IsRoot": "0",
         "IsStatic": "0"
     },
     "GameObject_4": {
-        "UUID": "1476680168",
+        "UUID": "339579145",
         "Name": "FrontWindow_TIE",
         "Tag": "Default",
         "Layer": "Default",
@@ -1140,7 +1140,7 @@
             "Component_0": {
                 "Type": "0",
                 "Active": "1",
-                "UUID": "1715897288",
+                "UUID": "136645138",
                 "position": {
                     "value_X": "0.000000",
                     "value_Y": "0.000000",
@@ -1159,12 +1159,12 @@
                 }
             }
         },
-        "ParentID": "730366909",
+        "ParentID": "641697273",
         "IsRoot": "0",
         "IsStatic": "0"
     },
     "GameObject_5": {
-        "UUID": "1465343497",
+        "UUID": "192184222",
         "Name": "Engines_TIE",
         "Tag": "Default",
         "Layer": "Default",
@@ -1174,7 +1174,7 @@
             "Component_0": {
                 "Type": "0",
                 "Active": "1",
-                "UUID": "1012778776",
+                "UUID": "1737612667",
                 "position": {
                     "value_X": "0.000000",
                     "value_Y": "0.000000",
@@ -1195,7 +1195,7 @@
             "Component_1": {
                 "Type": "3",
                 "Active": "1",
-                "UUID": "448974838",
+                "UUID": "530250675",
                 "Mesh": {
                     "mesh_name": "Engines_TIE"
                 },
@@ -1212,12 +1212,12 @@
                 "has_light": "1"
             }
         },
-        "ParentID": "730366909",
+        "ParentID": "641697273",
         "IsRoot": "0",
         "IsStatic": "0"
     },
     "GameObject_6": {
-        "UUID": "321470255",
+        "UUID": "1234599052",
         "Name": "EngineTube_TIE",
         "Tag": "Default",
         "Layer": "Default",
@@ -1227,7 +1227,7 @@
             "Component_0": {
                 "Type": "0",
                 "Active": "1",
-                "UUID": "1533346261",
+                "UUID": "253689462",
                 "position": {
                     "value_X": "0.000000",
                     "value_Y": "0.000000",
@@ -1248,7 +1248,7 @@
             "Component_1": {
                 "Type": "3",
                 "Active": "1",
-                "UUID": "1798593397",
+                "UUID": "29441394",
                 "Mesh": {
                     "mesh_name": "EngineTube_TIE"
                 },
@@ -1265,12 +1265,12 @@
                 "has_light": "1"
             }
         },
-        "ParentID": "730366909",
+        "ParentID": "641697273",
         "IsRoot": "0",
         "IsStatic": "0"
     },
     "GameObject_7": {
-        "UUID": "6054321",
+        "UUID": "987628117",
         "Name": "Guns_TIE",
         "Tag": "Default",
         "Layer": "Default",
@@ -1280,7 +1280,7 @@
             "Component_0": {
                 "Type": "0",
                 "Active": "1",
-                "UUID": "1491664226",
+                "UUID": "235095445",
                 "position": {
                     "value_X": "0.000000",
                     "value_Y": "0.000000",
@@ -1301,7 +1301,7 @@
             "Component_1": {
                 "Type": "3",
                 "Active": "1",
-                "UUID": "1308283698",
+                "UUID": "2041698171",
                 "Mesh": {
                     "mesh_name": "Guns_TIE"
                 },
@@ -1318,12 +1318,12 @@
                 "has_light": "1"
             }
         },
-        "ParentID": "730366909",
+        "ParentID": "641697273",
         "IsRoot": "0",
         "IsStatic": "0"
     },
     "GameObject_8": {
-        "UUID": "601087529",
+        "UUID": "1525724011",
         "Name": "Body_TIE",
         "Tag": "Default",
         "Layer": "Default",
@@ -1333,7 +1333,7 @@
             "Component_0": {
                 "Type": "0",
                 "Active": "1",
-                "UUID": "1960781365",
+                "UUID": "1709246689",
                 "position": {
                     "value_X": "0.000000",
                     "value_Y": "0.000000",
@@ -1354,7 +1354,7 @@
             "Component_1": {
                 "Type": "3",
                 "Active": "1",
-                "UUID": "2100079616",
+                "UUID": "1589988846",
                 "Mesh": {
                     "mesh_name": "Body_TIE"
                 },
@@ -1371,12 +1371,12 @@
                 "has_light": "1"
             }
         },
-        "ParentID": "730366909",
+        "ParentID": "641697273",
         "IsRoot": "0",
         "IsStatic": "0"
     },
     "GameObject_9": {
-        "UUID": "301027420",
+        "UUID": "1447738270",
         "Name": "MainEngine_TIE",
         "Tag": "Default",
         "Layer": "Default",
@@ -1386,7 +1386,7 @@
             "Component_0": {
                 "Type": "0",
                 "Active": "1",
-                "UUID": "270879976",
+                "UUID": "1368310084",
                 "position": {
                     "value_X": "0.000000",
                     "value_Y": "0.000000",
@@ -1407,7 +1407,7 @@
             "Component_1": {
                 "Type": "3",
                 "Active": "1",
-                "UUID": "1214488203",
+                "UUID": "586761468",
                 "Mesh": {
                     "mesh_name": "MainEngine_TIE"
                 },
@@ -1424,12 +1424,12 @@
                 "has_light": "1"
             }
         },
-        "ParentID": "730366909",
+        "ParentID": "641697273",
         "IsRoot": "0",
         "IsStatic": "0"
     },
     "GameObject_10": {
-        "UUID": "537096747",
+        "UUID": "841123725",
         "Name": "Wind8_TIE",
         "Tag": "Default",
         "Layer": "Default",
@@ -1439,7 +1439,7 @@
             "Component_0": {
                 "Type": "0",
                 "Active": "1",
-                "UUID": "1200139382",
+                "UUID": "762604462",
                 "position": {
                     "value_X": "0.000000",
                     "value_Y": "0.000000",
@@ -1460,7 +1460,7 @@
             "Component_1": {
                 "Type": "3",
                 "Active": "1",
-                "UUID": "1741211959",
+                "UUID": "2073834373",
                 "Mesh": {
                     "mesh_name": "Wind8_TIE"
                 },
@@ -1477,12 +1477,12 @@
                 "has_light": "1"
             }
         },
-        "ParentID": "1476680168",
+        "ParentID": "339579145",
         "IsRoot": "0",
         "IsStatic": "0"
     },
     "GameObject_11": {
-        "UUID": "1227361323",
+        "UUID": "143288182",
         "Name": "Wind7_TIE",
         "Tag": "Default",
         "Layer": "Default",
@@ -1492,7 +1492,7 @@
             "Component_0": {
                 "Type": "0",
                 "Active": "1",
-                "UUID": "801234374",
+                "UUID": "1955566559",
                 "position": {
                     "value_X": "0.000000",
                     "value_Y": "0.000000",
@@ -1513,7 +1513,7 @@
             "Component_1": {
                 "Type": "3",
                 "Active": "1",
-                "UUID": "1685622997",
+                "UUID": "1031219068",
                 "Mesh": {
                     "mesh_name": "Wind7_TIE"
                 },
@@ -1530,12 +1530,12 @@
                 "has_light": "1"
             }
         },
-        "ParentID": "1476680168",
+        "ParentID": "339579145",
         "IsRoot": "0",
         "IsStatic": "0"
     },
     "GameObject_12": {
-        "UUID": "1748354453",
+        "UUID": "804978707",
         "Name": "Wind6_TIE",
         "Tag": "Default",
         "Layer": "Default",
@@ -1545,7 +1545,7 @@
             "Component_0": {
                 "Type": "0",
                 "Active": "1",
-                "UUID": "458191626",
+                "UUID": "1494939514",
                 "position": {
                     "value_X": "0.000000",
                     "value_Y": "0.000000",
@@ -1566,7 +1566,7 @@
             "Component_1": {
                 "Type": "3",
                 "Active": "1",
-                "UUID": "1328022734",
+                "UUID": "1209652756",
                 "Mesh": {
                     "mesh_name": "Wind6_TIE"
                 },
@@ -1583,12 +1583,12 @@
                 "has_light": "1"
             }
         },
-        "ParentID": "1476680168",
+        "ParentID": "339579145",
         "IsRoot": "0",
         "IsStatic": "0"
     },
     "GameObject_13": {
-        "UUID": "664776706",
+        "UUID": "541824288",
         "Name": "Wind5_TIE",
         "Tag": "Default",
         "Layer": "Default",
@@ -1598,7 +1598,7 @@
             "Component_0": {
                 "Type": "0",
                 "Active": "1",
-                "UUID": "977595380",
+                "UUID": "1591728730",
                 "position": {
                     "value_X": "0.000000",
                     "value_Y": "0.000000",
@@ -1619,7 +1619,7 @@
             "Component_1": {
                 "Type": "3",
                 "Active": "1",
-                "UUID": "1991311154",
+                "UUID": "939166851",
                 "Mesh": {
                     "mesh_name": "Wind5_TIE"
                 },
@@ -1636,12 +1636,12 @@
                 "has_light": "1"
             }
         },
-        "ParentID": "1476680168",
+        "ParentID": "339579145",
         "IsRoot": "0",
         "IsStatic": "0"
     },
     "GameObject_14": {
-        "UUID": "1998971929",
+        "UUID": "1798495293",
         "Name": "Wind4_TIE",
         "Tag": "Default",
         "Layer": "Default",
@@ -1651,7 +1651,7 @@
             "Component_0": {
                 "Type": "0",
                 "Active": "1",
-                "UUID": "1247662704",
+                "UUID": "1112523359",
                 "position": {
                     "value_X": "0.000000",
                     "value_Y": "0.000000",
@@ -1672,7 +1672,7 @@
             "Component_1": {
                 "Type": "3",
                 "Active": "1",
-                "UUID": "658028470",
+                "UUID": "1290942448",
                 "Mesh": {
                     "mesh_name": "Wind4_TIE"
                 },
@@ -1689,12 +1689,12 @@
                 "has_light": "1"
             }
         },
-        "ParentID": "1476680168",
+        "ParentID": "339579145",
         "IsRoot": "0",
         "IsStatic": "0"
     },
     "GameObject_15": {
-        "UUID": "599441427",
+        "UUID": "1859271971",
         "Name": "Wind3_TIE",
         "Tag": "Default",
         "Layer": "Default",
@@ -1704,7 +1704,7 @@
             "Component_0": {
                 "Type": "0",
                 "Active": "1",
-                "UUID": "303528537",
+                "UUID": "547309002",
                 "position": {
                     "value_X": "0.000000",
                     "value_Y": "0.000000",
@@ -1725,7 +1725,7 @@
             "Component_1": {
                 "Type": "3",
                 "Active": "1",
-                "UUID": "1661872277",
+                "UUID": "1066918677",
                 "Mesh": {
                     "mesh_name": "Wind3_TIE"
                 },
@@ -1742,12 +1742,12 @@
                 "has_light": "1"
             }
         },
-        "ParentID": "1476680168",
+        "ParentID": "339579145",
         "IsRoot": "0",
         "IsStatic": "0"
     },
     "GameObject_16": {
-        "UUID": "1661877016",
+        "UUID": "502102772",
         "Name": "Wind2_TIE",
         "Tag": "Default",
         "Layer": "Default",
@@ -1757,7 +1757,7 @@
             "Component_0": {
                 "Type": "0",
                 "Active": "1",
-                "UUID": "1906978710",
+                "UUID": "2001258210",
                 "position": {
                     "value_X": "0.000000",
                     "value_Y": "0.000000",
@@ -1778,7 +1778,7 @@
             "Component_1": {
                 "Type": "3",
                 "Active": "1",
-                "UUID": "2007743471",
+                "UUID": "1740622276",
                 "Mesh": {
                     "mesh_name": "Wind2_TIE"
                 },
@@ -1795,12 +1795,12 @@
                 "has_light": "1"
             }
         },
-        "ParentID": "1476680168",
+        "ParentID": "339579145",
         "IsRoot": "0",
         "IsStatic": "0"
     },
     "GameObject_17": {
-        "UUID": "1563281517",
+        "UUID": "158283546",
         "Name": "Wind1_TIE",
         "Tag": "Default",
         "Layer": "Default",
@@ -1810,7 +1810,7 @@
             "Component_0": {
                 "Type": "0",
                 "Active": "1",
-                "UUID": "609556511",
+                "UUID": "730657102",
                 "position": {
                     "value_X": "0.000000",
                     "value_Y": "0.000000",
@@ -1831,7 +1831,7 @@
             "Component_1": {
                 "Type": "3",
                 "Active": "1",
-                "UUID": "1768244405",
+                "UUID": "2104169180",
                 "Mesh": {
                     "mesh_name": "Wind1_TIE"
                 },
@@ -1848,12 +1848,12 @@
                 "has_light": "1"
             }
         },
-        "ParentID": "1476680168",
+        "ParentID": "339579145",
         "IsRoot": "0",
         "IsStatic": "0"
     },
     "GameObject_18": {
-        "UUID": "603781450",
+        "UUID": "1120163309",
         "Name": "Window_TIE",
         "Tag": "Default",
         "Layer": "Default",
@@ -1863,7 +1863,7 @@
             "Component_0": {
                 "Type": "0",
                 "Active": "1",
-                "UUID": "1840906196",
+                "UUID": "1708803003",
                 "position": {
                     "value_X": "0.000000",
                     "value_Y": "0.000000",
@@ -1884,7 +1884,7 @@
             "Component_1": {
                 "Type": "3",
                 "Active": "1",
-                "UUID": "1821922690",
+                "UUID": "903550741",
                 "Mesh": {
                     "mesh_name": "Window_TIE"
                 },
@@ -1901,7 +1901,7 @@
                 "has_light": "1"
             }
         },
-        "ParentID": "1476680168",
+        "ParentID": "339579145",
         "IsRoot": "0",
         "IsStatic": "0"
     }

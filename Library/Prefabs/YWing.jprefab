@@ -1,6 +1,6 @@
 {
     "GameObject_7": {
-        "UUID": "1697505116",
+        "UUID": "519341896",
         "Name": "YWing",
         "Tag": "Default",
         "Layer": "Default",
@@ -10,7 +10,7 @@
             "Component_0": {
                 "Type": "0",
                 "Active": "1",
-                "UUID": "1469527383",
+                "UUID": "2084998441",
                 "position": {
                     "value_X": "0.000000",
                     "value_Y": "0.000000",
@@ -34,7 +34,7 @@
         "IsStatic": "0"
     },
     "GameObject_8": {
-        "UUID": "1131179098",
+        "UUID": "804015973",
         "Name": "Y_Wing",
         "Tag": "Default",
         "Layer": "Default",
@@ -44,7 +44,7 @@
             "Component_0": {
                 "Type": "0",
                 "Active": "1",
-                "UUID": "1309092618",
+                "UUID": "1430217582",
                 "position": {
                     "value_X": "0.000000",
                     "value_Y": "0.000000",
@@ -65,7 +65,7 @@
             "Component_1": {
                 "Type": "3",
                 "Active": "1",
-                "UUID": "1299679074",
+                "UUID": "87313531",
                 "Mesh": {
                     "mesh_name": "Y_Wing"
                 },
@@ -82,12 +82,12 @@
                 "has_light": "1"
             }
         },
-        "ParentID": "1697505116",
+        "ParentID": "519341896",
         "IsRoot": "0",
         "IsStatic": "0"
     },
     "GameObject_9": {
-        "UUID": "1940749577",
+        "UUID": "1105959599",
         "Name": "Turret_base",
         "Tag": "Default",
         "Layer": "Default",
@@ -97,7 +97,7 @@
             "Component_0": {
                 "Type": "0",
                 "Active": "1",
-                "UUID": "1908799411",
+                "UUID": "1622943624",
                 "position": {
                     "value_X": "0.000000",
                     "value_Y": "0.000000",
@@ -118,7 +118,7 @@
             "Component_1": {
                 "Type": "3",
                 "Active": "1",
-                "UUID": "1550198371",
+                "UUID": "2134562441",
                 "Mesh": {
                     "mesh_name": "Turret_base"
                 },
@@ -135,12 +135,12 @@
                 "has_light": "1"
             }
         },
-        "ParentID": "1697505116",
+        "ParentID": "519341896",
         "IsRoot": "0",
         "IsStatic": "0"
     },
     "GameObject_10": {
-        "UUID": "346612529",
+        "UUID": "1332282156",
         "Name": "Guns",
         "Tag": "Default",
         "Layer": "Default",
@@ -150,7 +150,7 @@
             "Component_0": {
                 "Type": "0",
                 "Active": "1",
-                "UUID": "2123089959",
+                "UUID": "339256222",
                 "position": {
                     "value_X": "0.000000",
                     "value_Y": "0.000000",
@@ -171,7 +171,7 @@
             "Component_1": {
                 "Type": "3",
                 "Active": "1",
-                "UUID": "237140170",
+                "UUID": "702301652",
                 "Mesh": {
                     "mesh_name": "Guns"
                 },
@@ -188,12 +188,12 @@
                 "has_light": "1"
             }
         },
-        "ParentID": "1697505116",
+        "ParentID": "519341896",
         "IsRoot": "0",
         "IsStatic": "0"
     },
     "GameObject_11": {
-        "UUID": "1755636123",
+        "UUID": "1479197610",
         "Name": "Body",
         "Tag": "Default",
         "Layer": "Default",
@@ -203,7 +203,7 @@
             "Component_0": {
                 "Type": "0",
                 "Active": "1",
-                "UUID": "281057140",
+                "UUID": "459092491",
                 "position": {
                     "value_X": "0.000000",
                     "value_Y": "0.000000",
@@ -224,7 +224,7 @@
             "Component_1": {
                 "Type": "3",
                 "Active": "1",
-                "UUID": "815783084",
+                "UUID": "638513925",
                 "Mesh": {
                     "mesh_name": "Body"
                 },
@@ -241,12 +241,12 @@
                 "has_light": "1"
             }
         },
-        "ParentID": "1697505116",
+        "ParentID": "519341896",
         "IsRoot": "0",
         "IsStatic": "0"
     },
     "GameObject_12": {
-        "UUID": "606502491",
+        "UUID": "644405001",
         "Name": "Cockpit",
         "Tag": "Default",
         "Layer": "Default",
@@ -256,7 +256,7 @@
             "Component_0": {
                 "Type": "0",
                 "Active": "1",
-                "UUID": "1327160453",
+                "UUID": "123915000",
                 "position": {
                     "value_X": "0.000000",
                     "value_Y": "0.000000",
@@ -277,7 +277,7 @@
             "Component_1": {
                 "Type": "3",
                 "Active": "1",
-                "UUID": "1486458597",
+                "UUID": "1039705144",
                 "Mesh": {
                     "mesh_name": "Cockpit"
                 },
@@ -294,7 +294,7 @@
                 "has_light": "1"
             }
         },
-        "ParentID": "1697505116",
+        "ParentID": "519341896",
         "IsRoot": "0",
         "IsStatic": "0"
     },
@@ -302,10 +302,10 @@
     "library_path": "./Project/Library/Prefabs/YWing.jprefab",
     "assets_path": ".\\Project\\Assets\\FBX\\YWing\\YWing.fbx",
     "prefab_name": "YWing",
-    "UUID": "959342130",
+    "UUID": "97347006",
     "GameObjects_Count": "6",
     "GameObject_0": {
-        "UUID": "1497032807",
+        "UUID": "80540995",
         "Name": "YWing",
         "Tag": "Default",
         "Layer": "Default",
@@ -315,7 +315,7 @@
             "Component_0": {
                 "Type": "0",
                 "Active": "1",
-                "UUID": "1469527383",
+                "UUID": "2084998441",
                 "position": {
                     "value_X": "0.000000",
                     "value_Y": "0.000000",
@@ -339,7 +339,7 @@
         "IsStatic": "0"
     },
     "GameObject_1": {
-        "UUID": "1097216296",
+        "UUID": "264810578",
         "Name": "Y_Wing",
         "Tag": "Default",
         "Layer": "Default",
@@ -349,7 +349,7 @@
             "Component_0": {
                 "Type": "0",
                 "Active": "1",
-                "UUID": "1309092618",
+                "UUID": "1430217582",
                 "position": {
                     "value_X": "0.000000",
                     "value_Y": "0.000000",
@@ -370,7 +370,7 @@
             "Component_1": {
                 "Type": "3",
                 "Active": "1",
-                "UUID": "1299679074",
+                "UUID": "87313531",
                 "Mesh": {
                     "mesh_name": "Y_Wing"
                 },
@@ -387,12 +387,12 @@
                 "has_light": "1"
             }
         },
-        "ParentID": "1497032807",
+        "ParentID": "80540995",
         "IsRoot": "0",
         "IsStatic": "0"
     },
     "GameObject_2": {
-        "UUID": "1154936379",
+        "UUID": "230141443",
         "Name": "Turret_base",
         "Tag": "Default",
         "Layer": "Default",
@@ -402,7 +402,7 @@
             "Component_0": {
                 "Type": "0",
                 "Active": "1",
-                "UUID": "1908799411",
+                "UUID": "1622943624",
                 "position": {
                     "value_X": "0.000000",
                     "value_Y": "0.000000",
@@ -423,7 +423,7 @@
             "Component_1": {
                 "Type": "3",
                 "Active": "1",
-                "UUID": "1550198371",
+                "UUID": "2134562441",
                 "Mesh": {
                     "mesh_name": "Turret_base"
                 },
@@ -440,12 +440,12 @@
                 "has_light": "1"
             }
         },
-        "ParentID": "1497032807",
+        "ParentID": "80540995",
         "IsRoot": "0",
         "IsStatic": "0"
     },
     "GameObject_3": {
-        "UUID": "1742931385",
+        "UUID": "301912836",
         "Name": "Guns",
         "Tag": "Default",
         "Layer": "Default",
@@ -455,7 +455,7 @@
             "Component_0": {
                 "Type": "0",
                 "Active": "1",
-                "UUID": "2123089959",
+                "UUID": "339256222",
                 "position": {
                     "value_X": "0.000000",
                     "value_Y": "0.000000",
@@ -476,7 +476,7 @@
             "Component_1": {
                 "Type": "3",
                 "Active": "1",
-                "UUID": "237140170",
+                "UUID": "702301652",
                 "Mesh": {
                     "mesh_name": "Guns"
                 },
@@ -493,12 +493,12 @@
                 "has_light": "1"
             }
         },
-        "ParentID": "1497032807",
+        "ParentID": "80540995",
         "IsRoot": "0",
         "IsStatic": "0"
     },
     "GameObject_4": {
-        "UUID": "1062481350",
+        "UUID": "2051101967",
         "Name": "Body",
         "Tag": "Default",
         "Layer": "Default",
@@ -508,7 +508,7 @@
             "Component_0": {
                 "Type": "0",
                 "Active": "1",
-                "UUID": "281057140",
+                "UUID": "459092491",
                 "position": {
                     "value_X": "0.000000",
                     "value_Y": "0.000000",
@@ -529,7 +529,7 @@
             "Component_1": {
                 "Type": "3",
                 "Active": "1",
-                "UUID": "815783084",
+                "UUID": "638513925",
                 "Mesh": {
                     "mesh_name": "Body"
                 },
@@ -546,12 +546,12 @@
                 "has_light": "1"
             }
         },
-        "ParentID": "1497032807",
+        "ParentID": "80540995",
         "IsRoot": "0",
         "IsStatic": "0"
     },
     "GameObject_5": {
-        "UUID": "939847435",
+        "UUID": "697453595",
         "Name": "Cockpit",
         "Tag": "Default",
         "Layer": "Default",
@@ -561,7 +561,7 @@
             "Component_0": {
                 "Type": "0",
                 "Active": "1",
-                "UUID": "1327160453",
+                "UUID": "123915000",
                 "position": {
                     "value_X": "0.000000",
                     "value_Y": "0.000000",
@@ -582,7 +582,7 @@
             "Component_1": {
                 "Type": "3",
                 "Active": "1",
-                "UUID": "1486458597",
+                "UUID": "1039705144",
                 "Mesh": {
                     "mesh_name": "Cockpit"
                 },
@@ -599,7 +599,7 @@
                 "has_light": "1"
             }
         },
-        "ParentID": "1497032807",
+        "ParentID": "80540995",
         "IsRoot": "0",
         "IsStatic": "0"
     }

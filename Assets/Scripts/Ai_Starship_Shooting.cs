@@ -10,6 +10,7 @@ public class Ai_Starship_Shooting {
 	public float time_between_lasers = 0.02f;
 	TheVector3 spawn_pos = new TheVector3();
 	TheVector3 spawn_dir = new TheVector3();
+	TheAudioSource audio_source;
 	float timer = 0.0f;
 
 	public bool shooting = false;
@@ -17,6 +18,7 @@ public class Ai_Starship_Shooting {
 	void Start () {
 		laser_factory = TheGameObject.Self.GetComponent<TheFactory>();
 		laser_factory.StartFactory();
+		audio_source = GetComponent<TheAudioSource>();
 		if(laser_spawner_L == null)
 			laser_spawner_L = laser_spawner_R;
 		if(laser_spawner_R == null)
@@ -42,6 +44,7 @@ public class Ai_Starship_Shooting {
 				laser_factory.SetSpawnPosition(spawn_pos);
 				TheGameObject laser = laser_factory.Spawn();
 				TheVector3 laser_velocity = spawn_dir.Normalized * laser_speed * TheTime.DeltaTime;
+				audio_source.Play("Play_Shoot");
 				laser.GetComponent<TheRigidBody>().SetLinearVelocity(laser_velocity.x, laser_velocity.y, laser_velocity.z);				
 
 				timer = 0.0f;

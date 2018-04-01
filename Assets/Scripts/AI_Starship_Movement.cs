@@ -16,7 +16,6 @@ public class Ai_Starship_Movement {
 
 	TheTransform transform;
 	TheGameObject gameobject;
-	public TheGameObject audio_emiter;
 	TheAudioSource audio_source;
 
 	TheGameObject target = null;
@@ -54,7 +53,7 @@ public class Ai_Starship_Movement {
 		transform = TheGameObject.Self.GetComponent<TheTransform>();
 		gameobject = TheGameObject.Self;
 		laser_factory = TheGameObject.Self.GetComponent<TheFactory>();
-		audio_source = audio_emiter.GetComponent<TheAudioSource>();
+		audio_source = GetComponent<TheAudioSource>();
 		laser_factory.StartFactory();
 		if(laser_spawner_L == null)
 			laser_spawner_L = laser_spawner_R;
@@ -62,11 +61,14 @@ public class Ai_Starship_Movement {
 			laser_spawner_R = laser_spawner_L;
 	
 		GetNewTarget();
+		audio_source.Play("Play_Enemy_Engine");
+		audio_source.SetMyRTPCvalue("Speed",currSpd);
 		
 		
 	}
 	
 	void Update () {
+		audio_source.SetMyRTPCvalue("Speed",currSpd);
 		if(transform == null)
 			return;
 		if(currSpd < minSpd)
@@ -93,29 +95,13 @@ public class Ai_Starship_Movement {
 				// Clunky Rotation
 				transform.LookAt(ttrans.GlobalPosition);
 			}
-            if (TheVector3.Magnitude(ttrans.GlobalPosition - transform.GlobalPosition) < target_min_range)
-            {
-                GetNewTarget();
-                return;
-            }
-        }
+		}
 		else { // Targeting
 			GetNewTarget();
 			return;
 		}
 
-        // Separation
-        TheVector3 separation_vector = TheVector3.Zero;
-        foreach (TheGameObject go in TheGameObject.GetSceneGameObjects())
-        {
-            TheVector3 goOffset = go.GetComponent<TheTransform>().GlobalPosition - transform.GlobalPosition;
-            if (TheVector3.Magnitude(goOffset) < separation_max_range)
-            {
-                separation_vector += -goOffset.Normalized * (TheVector3.Magnitude(goOffset) / separation_max_range);
-            }
-        }
-        transform.LocalPosition += separation_vector.Normalized * separation_force * TheTime.DeltaTime;
-        transform.LocalPosition += spdDir.Normalized * currSpd * TheTime.DeltaTime;
+		transform.LocalPosition += spdDir.Normalized * currSpd * TheTime.DeltaTime;
 		
 		// Shooting
 		if(target != null) {
