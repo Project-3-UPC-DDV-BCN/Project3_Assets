@@ -138,7 +138,7 @@ public class Ai_Starship_Movement {
 	}
 
 	bool isEnemy(string your_tag, string other_tag) {
-		return (your_tag == "Alliance" && other_tag == "Empire" || your_tag == "Empire" && other_tag == "Alliance");
+		return (your_tag == "XWING" || your_tag == "YWING") && (other_tag == "TIEFIGHTER" || other_tag == "LANDCRAFTING") || (other_tag == "XWING" || other_tag == "YWING") && (your_tag == "TIEFIGHTER" || your_tag == "LANDCRAFTING");
 	}
 
 	void GetNewTarget() {
@@ -147,7 +147,7 @@ public class Ai_Starship_Movement {
         int nship = 0;
         foreach (TheGameObject go in TheGameObject.GetSceneGameObjects())
         {
-  	      if(gameobject.tag == "Alliance" && go.tag == "Empire" || gameobject.tag == "Empire" && go.tag == "Alliance")
+  	      if(isEnemy(gameobject.tag, go.tag))
           {
    			//ships_in_scene.Add(go);               
 			ships_in_scene[nship++] = go;
