@@ -21,6 +21,11 @@ public class Ai_Starship_Movement {
 	TheGameObject target = null;
 	public TheVector3 target_pos = TheVector3.Zero;
 
+	public float min_target_distance = 10f;
+
+	public float separation_max_range = 10f;
+	public float separation_force = 20f;
+
 	public float Spd = 50.0f;
 	public float minSpd = 5.0f;
 	float currSpd = 0f;
@@ -28,8 +33,6 @@ public class Ai_Starship_Movement {
 	public int mov_state = 1;
 
 	TheVector3 spdDir = TheVector3.Zero;
-
-	public int debugTest = 0;
 
 	public TheGameObject laser_spawner_L = null;
 	public TheGameObject laser_spawner_R = null;
@@ -46,29 +49,33 @@ public class Ai_Starship_Movement {
 
 	public bool shooting = false;
 	bool ships_in_scene = false;
-	
-	TheGameObject debugGO = null; 
 
 	void Start () {
 		transform = TheGameObject.Self.GetComponent<TheTransform>();
 		gameobject = TheGameObject.Self;
 		laser_factory = TheGameObject.Self.GetComponent<TheFactory>();
-		audio_source = GetComponent<TheAudioSource>();
-		laser_factory.StartFactory();
+		audio_source = TheGameObject.Self.GetComponent<TheAudioSource>();
+		if(laser_factory != null) laser_factory.StartFactory();
 		if(laser_spawner_L == null)
 			laser_spawner_L = laser_spawner_R;
 		if(laser_spawner_R == null)
 			laser_spawner_R = laser_spawner_L;
 	
 		GetNewTarget();
-		audio_source.Play("Play_Enemy_Engine");
-		audio_source.SetMyRTPCvalue("Speed",currSpd);
+		if(audio_source != null) {
+			audio_source.Play("Play_Enemy_Engine");
+			audio_source.SetMyRTPCvalue("Speed",currSpd);
+		}
 		
 		
 	}
 	
 	void Update () {
-		audio_source.SetMyRTPCvalue("Speed",currSpd);
+
+		TheConsole.Log("Speed");
+
+		if(audio_source != null)
+			audio_source.SetMyRTPCvalue("Speed",currSpd);
 		if(transform == null)
 			return;
 		if(currSpd < minSpd)
@@ -86,6 +93,8 @@ public class Ai_Starship_Movement {
 				break;
 		}
 		spdDir = transform.ForwardDirection;
+
+		TheConsole.Log("Target");
 		if(target != null) {
 			TheTransform ttrans = target.GetComponent<TheTransform>();
 			if(ttrans != null) {
@@ -94,6 +103,10 @@ public class Ai_Starship_Movement {
 				spdDir = transform.ForwardDirection;
 				// Clunky Rotation
 				transform.LookAt(ttrans.GlobalPosition);
+				//if(TheVector3.Magnitude(ttrans.GlobalPosition - transform.GlobalPosition) < min_target_distance) {
+				//	GetNewTarget();
+				//	return;
+				//}
 			}
 		}
 		else { // Targeting
@@ -101,8 +114,23 @@ public class Ai_Starship_Movement {
 			return;
 		}
 
+		TheConsole.Log("Separation");
+
+	// Separation
+		TheVector3 separation_vector = TheVector3.Zero;
+		foreach(TheGameObject go in TheGameObject.GetSceneGameObjects()) {
+			TheVector3 goOffset = go.GetComponent<TheTransform>().GlobalPosition - transform.GlobalPosition;
+			if(TheVector3.Magnitude(goOffset) < separation_max_range) {
+				separation_vector += -goOffset.Normalized * (TheVector3.Magnitude(goOffset) / separation_max_range);
+			}
+		}
+
+		transform.LocalPosition += separation_vector.Normalized * separation_force * TheTime.DeltaTime;
 		transform.LocalPosition += spdDir.Normalized * currSpd * TheTime.DeltaTime;
-		
+
+				
+		TheConsole.Log("Shooting");
+
 		// Shooting
 		if(target != null) {
 			TheTransform ttrans = target.GetComponent<TheTransform>();
