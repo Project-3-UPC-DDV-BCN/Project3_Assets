@@ -1,6 +1,6 @@
 {
     "GameObject_2": {
-        "UUID": "1030063700",
+        "UUID": "1027412477",
         "Name": "Laser_Mesh",
         "Tag": "Default",
         "Layer": "Default",
@@ -10,7 +10,7 @@
             "Component_0": {
                 "Type": "0",
                 "Active": "1",
-                "UUID": "807607574",
+                "UUID": "699710525",
                 "position": {
                     "value_X": "0.000000",
                     "value_Y": "0.000000",
@@ -34,7 +34,7 @@
         "IsStatic": "0"
     },
     "GameObject_3": {
-        "UUID": "350641407",
+        "UUID": "924248584",
         "Name": "Laser_Mesh_v1_1_",
         "Tag": "Default",
         "Layer": "Default",
@@ -44,7 +44,7 @@
             "Component_0": {
                 "Type": "0",
                 "Active": "1",
-                "UUID": "1067778286",
+                "UUID": "345789574",
                 "position": {
                     "value_X": "0.000000",
                     "value_Y": "0.000000",
@@ -65,7 +65,7 @@
             "Component_1": {
                 "Type": "3",
                 "Active": "1",
-                "UUID": "1558781298",
+                "UUID": "2058151603",
                 "Mesh": {
                     "mesh_name": "Laser_Mesh_v1_1_"
                 },
@@ -82,7 +82,7 @@
                 "has_light": "1"
             }
         },
-        "ParentID": "1030063700",
+        "ParentID": "1027412477",
         "IsRoot": "0",
         "IsStatic": "0"
     },
@@ -90,10 +90,10 @@
     "library_path": "./Project/Library/Prefabs/Laser_Mesh.jprefab",
     "assets_path": ".\\Project\\Assets\\FBX\\Bullets\\Laser_Mesh.fbx",
     "prefab_name": "Laser_Mesh",
-    "UUID": "1083361748",
+    "UUID": "1070312618",
     "GameObjects_Count": "2",
     "GameObject_0": {
-        "UUID": "826646913",
+        "UUID": "1873890035",
         "Name": "Laser_Mesh",
         "Tag": "Default",
         "Layer": "Default",
@@ -103,7 +103,7 @@
             "Component_0": {
                 "Type": "0",
                 "Active": "1",
-                "UUID": "807607574",
+                "UUID": "699710525",
                 "position": {
                     "value_X": "0.000000",
                     "value_Y": "0.000000",
@@ -127,7 +127,7 @@
         "IsStatic": "0"
     },
     "GameObject_1": {
-        "UUID": "1570474020",
+        "UUID": "319087838",
         "Name": "Laser_Mesh_v1_1_",
         "Tag": "Default",
         "Layer": "Default",
@@ -137,7 +137,7 @@
             "Component_0": {
                 "Type": "0",
                 "Active": "1",
-                "UUID": "1067778286",
+                "UUID": "345789574",
                 "position": {
                     "value_X": "0.000000",
                     "value_Y": "0.000000",
@@ -158,7 +158,7 @@
             "Component_1": {
                 "Type": "3",
                 "Active": "1",
-                "UUID": "1558781298",
+                "UUID": "2058151603",
                 "Mesh": {
                     "mesh_name": "Laser_Mesh_v1_1_"
                 },
@@ -175,7 +175,7 @@
                 "has_light": "1"
             }
         },
-        "ParentID": "826646913",
+        "ParentID": "1873890035",
         "IsRoot": "0",
         "IsStatic": "0"
     }

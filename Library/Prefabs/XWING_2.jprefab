@@ -1,0 +1,674 @@
+{
+    "GameObject_7": {
+        "UUID": "2001601684",
+        "Name": "XWING_2",
+        "Tag": "Default",
+        "Layer": "Default",
+        "Active": "1",
+        "Components": {
+            "Components_Count": "1",
+            "Component_0": {
+                "Type": "0",
+                "Active": "1",
+                "UUID": "1166044418",
+                "position": {
+                    "value_X": "0.000000",
+                    "value_Y": "0.000000",
+                    "value_Z": "0.000000"
+                },
+                "rotation": {
+                    "value_X": "0.000000",
+                    "value_Y": "0.000000",
+                    "value_Z": "0.000000",
+                    "value_W": "1.000000"
+                },
+                "scale": {
+                    "value_X": "1.000000",
+                    "value_Y": "1.000000",
+                    "value_Z": "1.000000"
+                }
+            }
+        },
+        "ParentID": "0",
+        "IsRoot": "1",
+        "IsStatic": "0"
+    },
+    "GameObject_8": {
+        "UUID": "1512376125",
+        "Name": "Xwing_XWING",
+        "Tag": "Default",
+        "Layer": "Default",
+        "Active": "1",
+        "Components": {
+            "Components_Count": "1",
+            "Component_0": {
+                "Type": "0",
+                "Active": "1",
+                "UUID": "1149504287",
+                "position": {
+                    "value_X": "0.000000",
+                    "value_Y": "0.000000",
+                    "value_Z": "0.000000"
+                },
+                "rotation": {
+                    "value_X": "0.000000",
+                    "value_Y": "0.000000",
+                    "value_Z": "0.000000",
+                    "value_W": "1.000000"
+                },
+                "scale": {
+                    "value_X": "1.000000",
+                    "value_Y": "1.000000",
+                    "value_Z": "1.000000"
+                }
+            }
+        },
+        "ParentID": "2001601684",
+        "IsRoot": "0",
+        "IsStatic": "0"
+    },
+    "GameObject_9": {
+        "UUID": "80079391",
+        "Name": "Body_XWING",
+        "Tag": "Default",
+        "Layer": "Default",
+        "Active": "1",
+        "Components": {
+            "Components_Count": "2",
+            "Component_0": {
+                "Type": "0",
+                "Active": "1",
+                "UUID": "986034240",
+                "position": {
+                    "value_X": "0.000000",
+                    "value_Y": "0.000000",
+                    "value_Z": "0.000000"
+                },
+                "rotation": {
+                    "value_X": "0.000000",
+                    "value_Y": "0.000000",
+                    "value_Z": "0.000000",
+                    "value_W": "1.000000"
+                },
+                "scale": {
+                    "value_X": "1.000000",
+                    "value_Y": "1.000000",
+                    "value_Z": "1.000000"
+                }
+            },
+            "Component_1": {
+                "Type": "3",
+                "Active": "1",
+                "UUID": "339733199",
+                "Mesh": {
+                    "mesh_name": "Body_XWING"
+                },
+                "Material": {
+                    "Name": "lambert4.002"
+                },
+                "Interior_Material": {
+                    "UUID": "1480464845"
+                },
+                "Mat_Indices_Number": "0",
+                "Mat_Indices_Start": "0",
+                "Int_Mat_Indices_Number": "0",
+                "Int_Mat_Indices_Start": "0",
+                "has_light": "1"
+            }
+        },
+        "ParentID": "1512376125",
+        "IsRoot": "0",
+        "IsStatic": "0"
+    },
+    "GameObject_10": {
+        "UUID": "739270897",
+        "Name": "BotRight_Wing_XWING",
+        "Tag": "Default",
+        "Layer": "Default",
+        "Active": "1",
+        "Components": {
+            "Components_Count": "2",
+            "Component_0": {
+                "Type": "0",
+                "Active": "1",
+                "UUID": "1581513061",
+                "position": {
+                    "value_X": "0.000000",
+                    "value_Y": "0.000000",
+                    "value_Z": "0.000000"
+                },
+                "rotation": {
+                    "value_X": "0.000000",
+                    "value_Y": "0.000000",
+                    "value_Z": "0.000000",
+                    "value_W": "1.000000"
+                },
+                "scale": {
+                    "value_X": "1.000000",
+                    "value_Y": "1.000000",
+                    "value_Z": "1.000000"
+                }
+            },
+            "Component_1": {
+                "Type": "3",
+                "Active": "1",
+                "UUID": "38552388",
+                "Mesh": {
+                    "mesh_name": "BotRight_Wing_XWING"
+                },
+                "Material": {
+                    "Name": "lambert4.002"
+                },
+                "Interior_Material": {
+                    "UUID": "1480464845"
+                },
+                "Mat_Indices_Number": "0",
+                "Mat_Indices_Start": "0",
+                "Int_Mat_Indices_Number": "0",
+                "Int_Mat_Indices_Start": "0",
+                "has_light": "1"
+            }
+        },
+        "ParentID": "1512376125",
+        "IsRoot": "0",
+        "IsStatic": "0"
+    },
+    "GameObject_11": {
+        "UUID": "1756320155",
+        "Name": "BotLeft_Wing_XWING",
+        "Tag": "Default",
+        "Layer": "Default",
+        "Active": "1",
+        "Components": {
+            "Components_Count": "2",
+            "Component_0": {
+                "Type": "0",
+                "Active": "1",
+                "UUID": "988155800",
+                "position": {
+                    "value_X": "0.000000",
+                    "value_Y": "0.000000",
+                    "value_Z": "0.000000"
+                },
+                "rotation": {
+                    "value_X": "0.000000",
+                    "value_Y": "0.000000",
+                    "value_Z": "0.000000",
+                    "value_W": "1.000000"
+                },
+                "scale": {
+                    "value_X": "1.000000",
+                    "value_Y": "1.000000",
+                    "value_Z": "1.000000"
+                }
+            },
+            "Component_1": {
+                "Type": "3",
+                "Active": "1",
+                "UUID": "1194134722",
+                "Mesh": {
+                    "mesh_name": "BotLeft_Wing_XWING"
+                },
+                "Material": {
+                    "Name": "lambert4.002"
+                },
+                "Interior_Material": {
+                    "UUID": "1480464845"
+                },
+                "Mat_Indices_Number": "0",
+                "Mat_Indices_Start": "0",
+                "Int_Mat_Indices_Number": "0",
+                "Int_Mat_Indices_Start": "0",
+                "has_light": "1"
+            }
+        },
+        "ParentID": "1512376125",
+        "IsRoot": "0",
+        "IsStatic": "0"
+    },
+    "GameObject_12": {
+        "UUID": "322316506",
+        "Name": "TopRight_Wing_XWING",
+        "Tag": "Default",
+        "Layer": "Default",
+        "Active": "1",
+        "Components": {
+            "Components_Count": "2",
+            "Component_0": {
+                "Type": "0",
+                "Active": "1",
+                "UUID": "1018888010",
+                "position": {
+                    "value_X": "0.000000",
+                    "value_Y": "0.000000",
+                    "value_Z": "0.000000"
+                },
+                "rotation": {
+                    "value_X": "0.000000",
+                    "value_Y": "0.000000",
+                    "value_Z": "0.000000",
+                    "value_W": "1.000000"
+                },
+                "scale": {
+                    "value_X": "1.000000",
+                    "value_Y": "1.000000",
+                    "value_Z": "1.000000"
+                }
+            },
+            "Component_1": {
+                "Type": "3",
+                "Active": "1",
+                "UUID": "940836723",
+                "Mesh": {
+                    "mesh_name": "TopRight_Wing_XWING"
+                },
+                "Material": {
+                    "Name": "lambert4.002"
+                },
+                "Interior_Material": {
+                    "UUID": "1480464845"
+                },
+                "Mat_Indices_Number": "0",
+                "Mat_Indices_Start": "0",
+                "Int_Mat_Indices_Number": "0",
+                "Int_Mat_Indices_Start": "0",
+                "has_light": "1"
+            }
+        },
+        "ParentID": "1512376125",
+        "IsRoot": "0",
+        "IsStatic": "0"
+    },
+    "GameObject_13": {
+        "UUID": "1890829936",
+        "Name": "TopLeft_Wing_XWING",
+        "Tag": "Default",
+        "Layer": "Default",
+        "Active": "1",
+        "Components": {
+            "Components_Count": "2",
+            "Component_0": {
+                "Type": "0",
+                "Active": "1",
+                "UUID": "619339962",
+                "position": {
+                    "value_X": "0.000000",
+                    "value_Y": "0.000000",
+                    "value_Z": "0.000000"
+                },
+                "rotation": {
+                    "value_X": "0.000000",
+                    "value_Y": "0.000000",
+                    "value_Z": "0.000000",
+                    "value_W": "1.000000"
+                },
+                "scale": {
+                    "value_X": "1.000000",
+                    "value_Y": "1.000000",
+                    "value_Z": "1.000000"
+                }
+            },
+            "Component_1": {
+                "Type": "3",
+                "Active": "1",
+                "UUID": "723413156",
+                "Mesh": {
+                    "mesh_name": "TopLeft_Wing_XWING"
+                },
+                "Material": {
+                    "Name": "lambert4.002"
+                },
+                "Interior_Material": {
+                    "UUID": "1480464845"
+                },
+                "Mat_Indices_Number": "0",
+                "Mat_Indices_Start": "0",
+                "Int_Mat_Indices_Number": "0",
+                "Int_Mat_Indices_Start": "0",
+                "has_light": "1"
+            }
+        },
+        "ParentID": "1512376125",
+        "IsRoot": "0",
+        "IsStatic": "0"
+    },
+    "GameObjectsCount": "14",
+    "library_path": "./Project/Library/Prefabs/XWING_2.jprefab",
+    "assets_path": ".\\Project\\Assets\\FBX\\XWing\\XWING_2.fbx",
+    "prefab_name": "XWING_2",
+    "UUID": "1440555972",
+    "GameObjects_Count": "7",
+    "GameObject_0": {
+        "UUID": "1960844432",
+        "Name": "XWING_2",
+        "Tag": "Default",
+        "Layer": "Default",
+        "Active": "1",
+        "Components": {
+            "Components_Count": "1",
+            "Component_0": {
+                "Type": "0",
+                "Active": "1",
+                "UUID": "1166044418",
+                "position": {
+                    "value_X": "0.000000",
+                    "value_Y": "0.000000",
+                    "value_Z": "0.000000"
+                },
+                "rotation": {
+                    "value_X": "0.000000",
+                    "value_Y": "0.000000",
+                    "value_Z": "0.000000",
+                    "value_W": "1.000000"
+                },
+                "scale": {
+                    "value_X": "1.000000",
+                    "value_Y": "1.000000",
+                    "value_Z": "1.000000"
+                }
+            }
+        },
+        "ParentID": "0",
+        "IsRoot": "1",
+        "IsStatic": "0"
+    },
+    "GameObject_1": {
+        "UUID": "414760482",
+        "Name": "Xwing_XWING",
+        "Tag": "Default",
+        "Layer": "Default",
+        "Active": "1",
+        "Components": {
+            "Components_Count": "1",
+            "Component_0": {
+                "Type": "0",
+                "Active": "1",
+                "UUID": "1149504287",
+                "position": {
+                    "value_X": "0.000000",
+                    "value_Y": "0.000000",
+                    "value_Z": "0.000000"
+                },
+                "rotation": {
+                    "value_X": "0.000000",
+                    "value_Y": "0.000000",
+                    "value_Z": "0.000000",
+                    "value_W": "1.000000"
+                },
+                "scale": {
+                    "value_X": "1.000000",
+                    "value_Y": "1.000000",
+                    "value_Z": "1.000000"
+                }
+            }
+        },
+        "ParentID": "1960844432",
+        "IsRoot": "0",
+        "IsStatic": "0"
+    },
+    "GameObject_2": {
+        "UUID": "974399760",
+        "Name": "Body_XWING",
+        "Tag": "Default",
+        "Layer": "Default",
+        "Active": "1",
+        "Components": {
+            "Components_Count": "2",
+            "Component_0": {
+                "Type": "0",
+                "Active": "1",
+                "UUID": "986034240",
+                "position": {
+                    "value_X": "0.000000",
+                    "value_Y": "0.000000",
+                    "value_Z": "0.000000"
+                },
+                "rotation": {
+                    "value_X": "0.000000",
+                    "value_Y": "0.000000",
+                    "value_Z": "0.000000",
+                    "value_W": "1.000000"
+                },
+                "scale": {
+                    "value_X": "1.000000",
+                    "value_Y": "1.000000",
+                    "value_Z": "1.000000"
+                }
+            },
+            "Component_1": {
+                "Type": "3",
+                "Active": "1",
+                "UUID": "339733199",
+                "Mesh": {
+                    "mesh_name": "Body_XWING"
+                },
+                "Material": {
+                    "Name": "lambert4.002"
+                },
+                "Interior_Material": {
+                    "UUID": "1480464845"
+                },
+                "Mat_Indices_Number": "0",
+                "Mat_Indices_Start": "0",
+                "Int_Mat_Indices_Number": "0",
+                "Int_Mat_Indices_Start": "0",
+                "has_light": "1"
+            }
+        },
+        "ParentID": "414760482",
+        "IsRoot": "0",
+        "IsStatic": "0"
+    },
+    "GameObject_3": {
+        "UUID": "1824765877",
+        "Name": "BotRight_Wing_XWING",
+        "Tag": "Default",
+        "Layer": "Default",
+        "Active": "1",
+        "Components": {
+            "Components_Count": "2",
+            "Component_0": {
+                "Type": "0",
+                "Active": "1",
+                "UUID": "1581513061",
+                "position": {
+                    "value_X": "0.000000",
+                    "value_Y": "0.000000",
+                    "value_Z": "0.000000"
+                },
+                "rotation": {
+                    "value_X": "0.000000",
+                    "value_Y": "0.000000",
+                    "value_Z": "0.000000",
+                    "value_W": "1.000000"
+                },
+                "scale": {
+                    "value_X": "1.000000",
+                    "value_Y": "1.000000",
+                    "value_Z": "1.000000"
+                }
+            },
+            "Component_1": {
+                "Type": "3",
+                "Active": "1",
+                "UUID": "38552388",
+                "Mesh": {
+                    "mesh_name": "BotRight_Wing_XWING"
+                },
+                "Material": {
+                    "Name": "lambert4.002"
+                },
+                "Interior_Material": {
+                    "UUID": "1480464845"
+                },
+                "Mat_Indices_Number": "0",
+                "Mat_Indices_Start": "0",
+                "Int_Mat_Indices_Number": "0",
+                "Int_Mat_Indices_Start": "0",
+                "has_light": "1"
+            }
+        },
+        "ParentID": "414760482",
+        "IsRoot": "0",
+        "IsStatic": "0"
+    },
+    "GameObject_4": {
+        "UUID": "1187533391",
+        "Name": "BotLeft_Wing_XWING",
+        "Tag": "Default",
+        "Layer": "Default",
+        "Active": "1",
+        "Components": {
+            "Components_Count": "2",
+            "Component_0": {
+                "Type": "0",
+                "Active": "1",
+                "UUID": "988155800",
+                "position": {
+                    "value_X": "0.000000",
+                    "value_Y": "0.000000",
+                    "value_Z": "0.000000"
+                },
+                "rotation": {
+                    "value_X": "0.000000",
+                    "value_Y": "0.000000",
+                    "value_Z": "0.000000",
+                    "value_W": "1.000000"
+                },
+                "scale": {
+                    "value_X": "1.000000",
+                    "value_Y": "1.000000",
+                    "value_Z": "1.000000"
+                }
+            },
+            "Component_1": {
+                "Type": "3",
+                "Active": "1",
+                "UUID": "1194134722",
+                "Mesh": {
+                    "mesh_name": "BotLeft_Wing_XWING"
+                },
+                "Material": {
+                    "Name": "lambert4.002"
+                },
+                "Interior_Material": {
+                    "UUID": "1480464845"
+                },
+                "Mat_Indices_Number": "0",
+                "Mat_Indices_Start": "0",
+                "Int_Mat_Indices_Number": "0",
+                "Int_Mat_Indices_Start": "0",
+                "has_light": "1"
+            }
+        },
+        "ParentID": "414760482",
+        "IsRoot": "0",
+        "IsStatic": "0"
+    },
+    "GameObject_5": {
+        "UUID": "1289288958",
+        "Name": "TopRight_Wing_XWING",
+        "Tag": "Default",
+        "Layer": "Default",
+        "Active": "1",
+        "Components": {
+            "Components_Count": "2",
+            "Component_0": {
+                "Type": "0",
+                "Active": "1",
+                "UUID": "1018888010",
+                "position": {
+                    "value_X": "0.000000",
+                    "value_Y": "0.000000",
+                    "value_Z": "0.000000"
+                },
+                "rotation": {
+                    "value_X": "0.000000",
+                    "value_Y": "0.000000",
+                    "value_Z": "0.000000",
+                    "value_W": "1.000000"
+                },
+                "scale": {
+                    "value_X": "1.000000",
+                    "value_Y": "1.000000",
+                    "value_Z": "1.000000"
+                }
+            },
+            "Component_1": {
+                "Type": "3",
+                "Active": "1",
+                "UUID": "940836723",
+                "Mesh": {
+                    "mesh_name": "TopRight_Wing_XWING"
+                },
+                "Material": {
+                    "Name": "lambert4.002"
+                },
+                "Interior_Material": {
+                    "UUID": "1480464845"
+                },
+                "Mat_Indices_Number": "0",
+                "Mat_Indices_Start": "0",
+                "Int_Mat_Indices_Number": "0",
+                "Int_Mat_Indices_Start": "0",
+                "has_light": "1"
+            }
+        },
+        "ParentID": "414760482",
+        "IsRoot": "0",
+        "IsStatic": "0"
+    },
+    "GameObject_6": {
+        "UUID": "1065067612",
+        "Name": "TopLeft_Wing_XWING",
+        "Tag": "Default",
+        "Layer": "Default",
+        "Active": "1",
+        "Components": {
+            "Components_Count": "2",
+            "Component_0": {
+                "Type": "0",
+                "Active": "1",
+                "UUID": "619339962",
+                "position": {
+                    "value_X": "0.000000",
+                    "value_Y": "0.000000",
+                    "value_Z": "0.000000"
+                },
+                "rotation": {
+                    "value_X": "0.000000",
+                    "value_Y": "0.000000",
+                    "value_Z": "0.000000",
+                    "value_W": "1.000000"
+                },
+                "scale": {
+                    "value_X": "1.000000",
+                    "value_Y": "1.000000",
+                    "value_Z": "1.000000"
+                }
+            },
+            "Component_1": {
+                "Type": "3",
+                "Active": "1",
+                "UUID": "723413156",
+                "Mesh": {
+                    "mesh_name": "TopLeft_Wing_XWING"
+                },
+                "Material": {
+                    "Name": "lambert4.002"
+                },
+                "Interior_Material": {
+                    "UUID": "1480464845"
+                },
+                "Mat_Indices_Number": "0",
+                "Mat_Indices_Start": "0",
+                "Int_Mat_Indices_Number": "0",
+                "Int_Mat_Indices_Start": "0",
+                "has_light": "1"
+            }
+        },
+        "ParentID": "414760482",
+        "IsRoot": "0",
+        "IsStatic": "0"
+    }
+}

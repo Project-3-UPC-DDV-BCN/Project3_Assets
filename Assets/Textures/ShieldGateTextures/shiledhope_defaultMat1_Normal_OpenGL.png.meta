@@ -1,0 +1,12 @@
+{
+    "Type": "0",
+    "UUID": "303997031",
+    "Time_Created": "Mon Apr  2 21:09:48 2018\n",
+    "Library_path": ".\\Project\\Library\\Textures\\shiledhope_defaultMat1_Normal_OpenGL.dds",
+    "Name": "shiledhope_defaultMat1_Normal_OpenGL",
+    "Width": "1024",
+    "Height": "1024",
+    "Texture_Type": "bgra",
+    "Format": "tga",
+    "Compression": ""
+}

@@ -1,6 +1,6 @@
 {
     "GameObject_3": {
-        "UUID": "641693452",
+        "UUID": "1195784296",
         "Name": "Bullet_Laser",
         "Tag": "Default",
         "Layer": "Default",
@@ -10,7 +10,7 @@
             "Component_0": {
                 "Type": "0",
                 "Active": "1",
-                "UUID": "1879847820",
+                "UUID": "1123836414",
                 "position": {
                     "value_X": "0.000000",
                     "value_Y": "0.000000",
@@ -34,7 +34,7 @@
         "IsStatic": "0"
     },
     "GameObject_4": {
-        "UUID": "2006651778",
+        "UUID": "1385246900",
         "Name": "CINEMA_4D_Editor",
         "Tag": "Default",
         "Layer": "Default",
@@ -44,7 +44,7 @@
             "Component_0": {
                 "Type": "0",
                 "Active": "1",
-                "UUID": "1237513151",
+                "UUID": "199928567",
                 "position": {
                     "value_X": "8.780696",
                     "value_Y": "2.963527",
@@ -63,12 +63,12 @@
                 }
             }
         },
-        "ParentID": "641693452",
+        "ParentID": "1195784296",
         "IsRoot": "0",
         "IsStatic": "0"
     },
     "GameObject_5": {
-        "UUID": "749431164",
+        "UUID": "425319095",
         "Name": "Sphere",
         "Tag": "Default",
         "Layer": "Default",
@@ -78,7 +78,7 @@
             "Component_0": {
                 "Type": "0",
                 "Active": "1",
-                "UUID": "1883489118",
+                "UUID": "579682646",
                 "position": {
                     "value_X": "2.440378",
                     "value_Y": "0.008140",
@@ -99,7 +99,7 @@
             "Component_1": {
                 "Type": "3",
                 "Active": "1",
-                "UUID": "884381332",
+                "UUID": "1636188159",
                 "Mesh": {
                     "mesh_name": "Sphere"
                 },
@@ -116,12 +116,12 @@
                 "has_light": "1"
             }
         },
-        "ParentID": "641693452",
+        "ParentID": "1195784296",
         "IsRoot": "0",
         "IsStatic": "0"
     },
     "GameObject_6": {
-        "UUID": "64370711",
+        "UUID": "194522748",
         "Name": "pCube1",
         "Tag": "Default",
         "Layer": "Default",
@@ -131,7 +131,7 @@
             "Component_0": {
                 "Type": "0",
                 "Active": "1",
-                "UUID": "1971604424",
+                "UUID": "1001057566",
                 "position": {
                     "value_X": "0.000000",
                     "value_Y": "0.000000",
@@ -152,7 +152,7 @@
             "Component_1": {
                 "Type": "3",
                 "Active": "1",
-                "UUID": "1902382889",
+                "UUID": "836360526",
                 "Mesh": {
                     "mesh_name": "pCube1"
                 },
@@ -169,7 +169,7 @@
                 "has_light": "1"
             }
         },
-        "ParentID": "641693452",
+        "ParentID": "1195784296",
         "IsRoot": "0",
         "IsStatic": "0"
     },
@@ -177,10 +177,10 @@
     "library_path": "./Project/Library/Prefabs/Bullet_Laser.jprefab",
     "assets_path": ".\\Project\\Assets\\FBX\\Bullets\\Bullet_Laser.fbx",
     "prefab_name": "Bullet_Laser",
-    "UUID": "1155154263",
+    "UUID": "2137598434",
     "GameObjects_Count": "4",
     "GameObject_0": {
-        "UUID": "1892669991",
+        "UUID": "1384575888",
         "Name": "Bullet_Laser",
         "Tag": "Default",
         "Layer": "Default",
@@ -190,7 +190,7 @@
             "Component_0": {
                 "Type": "0",
                 "Active": "1",
-                "UUID": "1879847820",
+                "UUID": "1123836414",
                 "position": {
                     "value_X": "0.000000",
                     "value_Y": "0.000000",
@@ -214,7 +214,7 @@
         "IsStatic": "0"
     },
     "GameObject_1": {
-        "UUID": "2128347138",
+        "UUID": "1459435559",
         "Name": "CINEMA_4D_Editor",
         "Tag": "Default",
         "Layer": "Default",
@@ -224,7 +224,7 @@
             "Component_0": {
                 "Type": "0",
                 "Active": "1",
-                "UUID": "1237513151",
+                "UUID": "199928567",
                 "position": {
                     "value_X": "8.780696",
                     "value_Y": "2.963527",
@@ -243,12 +243,12 @@
                 }
             }
         },
-        "ParentID": "1892669991",
+        "ParentID": "1384575888",
         "IsRoot": "0",
         "IsStatic": "0"
     },
     "GameObject_2": {
-        "UUID": "1284451698",
+        "UUID": "1321778981",
         "Name": "Sphere",
         "Tag": "Default",
         "Layer": "Default",
@@ -258,7 +258,7 @@
             "Component_0": {
                 "Type": "0",
                 "Active": "1",
-                "UUID": "1883489118",
+                "UUID": "579682646",
                 "position": {
                     "value_X": "2.440378",
                     "value_Y": "0.008140",
@@ -279,7 +279,7 @@
             "Component_1": {
                 "Type": "3",
                 "Active": "1",
-                "UUID": "884381332",
+                "UUID": "1636188159",
                 "Mesh": {
                     "mesh_name": "Sphere"
                 },
@@ -296,12 +296,12 @@
                 "has_light": "1"
             }
         },
-        "ParentID": "1892669991",
+        "ParentID": "1384575888",
         "IsRoot": "0",
         "IsStatic": "0"
     },
     "GameObject_3": {
-        "UUID": "1445121731",
+        "UUID": "1752678604",
         "Name": "pCube1",
         "Tag": "Default",
         "Layer": "Default",
@@ -311,7 +311,7 @@
             "Component_0": {
                 "Type": "0",
                 "Active": "1",
-                "UUID": "1971604424",
+                "UUID": "1001057566",
                 "position": {
                     "value_X": "0.000000",
                     "value_Y": "0.000000",
@@ -332,7 +332,7 @@
             "Component_1": {
                 "Type": "3",
                 "Active": "1",
-                "UUID": "1902382889",
+                "UUID": "836360526",
                 "Mesh": {
                     "mesh_name": "pCube1"
                 },
@@ -349,7 +349,7 @@
                 "has_light": "1"
             }
         },
-        "ParentID": "1892669991",
+        "ParentID": "1384575888",
         "IsRoot": "0",
         "IsStatic": "0"
     }

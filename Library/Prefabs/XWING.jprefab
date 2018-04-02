@@ -1,6 +1,6 @@
 {
     "GameObject_19": {
-        "UUID": "897072662",
+        "UUID": "890764365",
         "Name": "XWING",
         "Tag": "Default",
         "Layer": "Default",
@@ -10,7 +10,7 @@
             "Component_0": {
                 "Type": "0",
                 "Active": "1",
-                "UUID": "1509676523",
+                "UUID": "511459432",
                 "position": {
                     "value_X": "0.000000",
                     "value_Y": "0.000000",
@@ -34,7 +34,7 @@
         "IsStatic": "0"
     },
     "GameObject_20": {
-        "UUID": "1765986577",
+        "UUID": "1403311644",
         "Name": "Xwing_XWING",
         "Tag": "Default",
         "Layer": "Default",
@@ -44,7 +44,7 @@
             "Component_0": {
                 "Type": "0",
                 "Active": "1",
-                "UUID": "1976379048",
+                "UUID": "873097599",
                 "position": {
                     "value_X": "0.000000",
                     "value_Y": "0.000000",
@@ -63,12 +63,12 @@
                 }
             }
         },
-        "ParentID": "897072662",
+        "ParentID": "890764365",
         "IsRoot": "0",
         "IsStatic": "0"
     },
     "GameObject_21": {
-        "UUID": "187391968",
+        "UUID": "1279915425",
         "Name": "Body_XWING",
         "Tag": "Default",
         "Layer": "Default",
@@ -78,7 +78,7 @@
             "Component_0": {
                 "Type": "0",
                 "Active": "1",
-                "UUID": "138220675",
+                "UUID": "1424332957",
                 "position": {
                     "value_X": "0.000000",
                     "value_Y": "0.000000",
@@ -99,7 +99,7 @@
             "Component_1": {
                 "Type": "3",
                 "Active": "1",
-                "UUID": "453048603",
+                "UUID": "1305355307",
                 "Mesh": {
                     "mesh_name": "Body_XWING"
                 },
@@ -116,12 +116,12 @@
                 "has_light": "1"
             }
         },
-        "ParentID": "1765986577",
+        "ParentID": "1403311644",
         "IsRoot": "0",
         "IsStatic": "0"
     },
     "GameObject_22": {
-        "UUID": "1706535974",
+        "UUID": "739830781",
         "Name": "BotRight_Wing_XWING",
         "Tag": "Default",
         "Layer": "Default",
@@ -131,7 +131,7 @@
             "Component_0": {
                 "Type": "0",
                 "Active": "1",
-                "UUID": "1016193502",
+                "UUID": "1939812577",
                 "position": {
                     "value_X": "0.000000",
                     "value_Y": "0.000000",
@@ -152,7 +152,7 @@
             "Component_1": {
                 "Type": "3",
                 "Active": "1",
-                "UUID": "1208275579",
+                "UUID": "363530706",
                 "Mesh": {
                     "mesh_name": "BotRight_Wing_XWING"
                 },
@@ -169,12 +169,12 @@
                 "has_light": "1"
             }
         },
-        "ParentID": "1765986577",
+        "ParentID": "1403311644",
         "IsRoot": "0",
         "IsStatic": "0"
     },
     "GameObject_23": {
-        "UUID": "1273862504",
+        "UUID": "34420480",
         "Name": "BotLeft_Wing_XWING",
         "Tag": "Default",
         "Layer": "Default",
@@ -184,7 +184,7 @@
             "Component_0": {
                 "Type": "0",
                 "Active": "1",
-                "UUID": "1339693248",
+                "UUID": "2066946950",
                 "position": {
                     "value_X": "0.000000",
                     "value_Y": "0.000000",
@@ -205,7 +205,7 @@
             "Component_1": {
                 "Type": "3",
                 "Active": "1",
-                "UUID": "801737178",
+                "UUID": "1943971675",
                 "Mesh": {
                     "mesh_name": "BotLeft_Wing_XWING"
                 },
@@ -222,12 +222,12 @@
                 "has_light": "1"
             }
         },
-        "ParentID": "1765986577",
+        "ParentID": "1403311644",
         "IsRoot": "0",
         "IsStatic": "0"
     },
     "GameObject_24": {
-        "UUID": "44363501",
+        "UUID": "44988399",
         "Name": "TopRight_Wing_XWING",
         "Tag": "Default",
         "Layer": "Default",
@@ -237,7 +237,7 @@
             "Component_0": {
                 "Type": "0",
                 "Active": "1",
-                "UUID": "634828648",
+                "UUID": "2094368612",
                 "position": {
                     "value_X": "0.000000",
                     "value_Y": "0.000000",
@@ -258,7 +258,7 @@
             "Component_1": {
                 "Type": "3",
                 "Active": "1",
-                "UUID": "549818735",
+                "UUID": "1106169453",
                 "Mesh": {
                     "mesh_name": "TopRight_Wing_XWING"
                 },
@@ -275,12 +275,12 @@
                 "has_light": "1"
             }
         },
-        "ParentID": "1765986577",
+        "ParentID": "1403311644",
         "IsRoot": "0",
         "IsStatic": "0"
     },
     "GameObject_25": {
-        "UUID": "1675464949",
+        "UUID": "2004147974",
         "Name": "TopLeft_Wing_XWING",
         "Tag": "Default",
         "Layer": "Default",
@@ -290,7 +290,7 @@
             "Component_0": {
                 "Type": "0",
                 "Active": "1",
-                "UUID": "1859597278",
+                "UUID": "847041914",
                 "position": {
                     "value_X": "0.000000",
                     "value_Y": "0.000000",
@@ -311,7 +311,7 @@
             "Component_1": {
                 "Type": "3",
                 "Active": "1",
-                "UUID": "528476583",
+                "UUID": "183617676",
                 "Mesh": {
                     "mesh_name": "TopLeft_Wing_XWING"
                 },
@@ -328,7 +328,7 @@
                 "has_light": "1"
             }
         },
-        "ParentID": "1765986577",
+        "ParentID": "1403311644",
         "IsRoot": "0",
         "IsStatic": "0"
     },
@@ -336,10 +336,10 @@
     "library_path": "./Project/Library/Prefabs/XWING.jprefab",
     "assets_path": ".\\Project\\Assets\\FBX\\XWing\\XWING.fbx",
     "prefab_name": "XWING",
-    "UUID": "1021095084",
+    "UUID": "630331937",
     "GameObjects_Count": "7",
     "GameObject_0": {
-        "UUID": "230860992",
+        "UUID": "1823553852",
         "Name": "XWING",
         "Tag": "Default",
         "Layer": "Default",
@@ -349,7 +349,7 @@
             "Component_0": {
                 "Type": "0",
                 "Active": "1",
-                "UUID": "1509676523",
+                "UUID": "511459432",
                 "position": {
                     "value_X": "0.000000",
                     "value_Y": "0.000000",
@@ -373,7 +373,7 @@
         "IsStatic": "0"
     },
     "GameObject_1": {
-        "UUID": "1005509884",
+        "UUID": "557003099",
         "Name": "Xwing_XWING",
         "Tag": "Default",
         "Layer": "Default",
@@ -383,7 +383,7 @@
             "Component_0": {
                 "Type": "0",
                 "Active": "1",
-                "UUID": "1976379048",
+                "UUID": "873097599",
                 "position": {
                     "value_X": "0.000000",
                     "value_Y": "0.000000",
@@ -402,12 +402,12 @@
                 }
             }
         },
-        "ParentID": "230860992",
+        "ParentID": "1823553852",
         "IsRoot": "0",
         "IsStatic": "0"
     },
     "GameObject_2": {
-        "UUID": "931709058",
+        "UUID": "2000541600",
         "Name": "Body_XWING",
         "Tag": "Default",
         "Layer": "Default",
@@ -417,7 +417,7 @@
             "Component_0": {
                 "Type": "0",
                 "Active": "1",
-                "UUID": "138220675",
+                "UUID": "1424332957",
                 "position": {
                     "value_X": "0.000000",
                     "value_Y": "0.000000",
@@ -438,7 +438,7 @@
             "Component_1": {
                 "Type": "3",
                 "Active": "1",
-                "UUID": "453048603",
+                "UUID": "1305355307",
                 "Mesh": {
                     "mesh_name": "Body_XWING"
                 },
@@ -455,12 +455,12 @@
                 "has_light": "1"
             }
         },
-        "ParentID": "1005509884",
+        "ParentID": "557003099",
         "IsRoot": "0",
         "IsStatic": "0"
     },
     "GameObject_3": {
-        "UUID": "1772769383",
+        "UUID": "359840121",
         "Name": "BotRight_Wing_XWING",
         "Tag": "Default",
         "Layer": "Default",
@@ -470,7 +470,7 @@
             "Component_0": {
                 "Type": "0",
                 "Active": "1",
-                "UUID": "1016193502",
+                "UUID": "1939812577",
                 "position": {
                     "value_X": "0.000000",
                     "value_Y": "0.000000",
@@ -491,7 +491,7 @@
             "Component_1": {
                 "Type": "3",
                 "Active": "1",
-                "UUID": "1208275579",
+                "UUID": "363530706",
                 "Mesh": {
                     "mesh_name": "BotRight_Wing_XWING"
                 },
@@ -508,12 +508,12 @@
                 "has_light": "1"
             }
         },
-        "ParentID": "1005509884",
+        "ParentID": "557003099",
         "IsRoot": "0",
         "IsStatic": "0"
     },
     "GameObject_4": {
-        "UUID": "1797053459",
+        "UUID": "2032321886",
         "Name": "BotLeft_Wing_XWING",
         "Tag": "Default",
         "Layer": "Default",
@@ -523,7 +523,7 @@
             "Component_0": {
                 "Type": "0",
                 "Active": "1",
-                "UUID": "1339693248",
+                "UUID": "2066946950",
                 "position": {
                     "value_X": "0.000000",
                     "value_Y": "0.000000",
@@ -544,7 +544,7 @@
             "Component_1": {
                 "Type": "3",
                 "Active": "1",
-                "UUID": "801737178",
+                "UUID": "1943971675",
                 "Mesh": {
                     "mesh_name": "BotLeft_Wing_XWING"
                 },
@@ -561,12 +561,12 @@
                 "has_light": "1"
             }
         },
-        "ParentID": "1005509884",
+        "ParentID": "557003099",
         "IsRoot": "0",
         "IsStatic": "0"
     },
     "GameObject_5": {
-        "UUID": "261594819",
+        "UUID": "1026975317",
         "Name": "TopRight_Wing_XWING",
         "Tag": "Default",
         "Layer": "Default",
@@ -576,7 +576,7 @@
             "Component_0": {
                 "Type": "0",
                 "Active": "1",
-                "UUID": "634828648",
+                "UUID": "2094368612",
                 "position": {
                     "value_X": "0.000000",
                     "value_Y": "0.000000",
@@ -597,7 +597,7 @@
             "Component_1": {
                 "Type": "3",
                 "Active": "1",
-                "UUID": "549818735",
+                "UUID": "1106169453",
                 "Mesh": {
                     "mesh_name": "TopRight_Wing_XWING"
                 },
@@ -614,12 +614,12 @@
                 "has_light": "1"
             }
         },
-        "ParentID": "1005509884",
+        "ParentID": "557003099",
         "IsRoot": "0",
         "IsStatic": "0"
     },
     "GameObject_6": {
-        "UUID": "1831567039",
+        "UUID": "728001639",
         "Name": "TopLeft_Wing_XWING",
         "Tag": "Default",
         "Layer": "Default",
@@ -629,7 +629,7 @@
             "Component_0": {
                 "Type": "0",
                 "Active": "1",
-                "UUID": "1859597278",
+                "UUID": "847041914",
                 "position": {
                     "value_X": "0.000000",
                     "value_Y": "0.000000",
@@ -650,7 +650,7 @@
             "Component_1": {
                 "Type": "3",
                 "Active": "1",
-                "UUID": "528476583",
+                "UUID": "183617676",
                 "Mesh": {
                     "mesh_name": "TopLeft_Wing_XWING"
                 },
@@ -667,7 +667,7 @@
                 "has_light": "1"
             }
         },
-        "ParentID": "1005509884",
+        "ParentID": "557003099",
         "IsRoot": "0",
         "IsStatic": "0"
     }

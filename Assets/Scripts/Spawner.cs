@@ -4,43 +4,28 @@ public class Spawner
 {
 	private TheMeshRenderer ship_mesh; 
 
-	public TheGameObject xwing_prf; 
-	private TheGameObject ywing_prf; 
-	private TheGameObject landcraft_prf; 
-	private TheGameObject sentinel_prf; 
-
 	private TheVector3 spawn_position; 
+	private TheGameObject ship_to_spawn;  
 
 	void Start () 
 	{
+			
 		spawn_position = TheGameObject.Self.GetComponent<TheTransform>().GlobalPosition; 
 		TheGameObject.Self.SetActive(false); 
 
 		if(TheGameObject.Self.tag == "XWING")
 		{
-			TheGameObject go = TheGameObject.Duplicate(xwing_prf); 
+			ship_to_spawn = TheResources.LoadPrefab("X_Wing(12)");
+			TheGameObject go = TheGameObject.Duplicate(ship_to_spawn); 
 			go.GetComponent<TheTransform>().GlobalPosition = spawn_position; 
 		} 
 				
 		else if(TheGameObject.Self.tag == "TIEFIGHTER") 
 		{
-			//Instantiate "TIEFIGHTER" at position 
-		}		
-			
-
-		else if(TheGameObject.Self.tag == "LANDINGCRAFT") 
-		{
-			//Instantiate "LANDINGCRAFT" at position 
-		}	
-
-		else if(TheGameObject.Self.tag == "SENTINEL") 
-			{
-			//Instantiate "SENTINEL" at position 
-		}	
+			ship_to_spawn = TheResources.LoadPrefab("TieFighterOnePiece");
+            TheGameObject go = TheGameObject.Duplicate(ship_to_spawn);
+            go.GetComponent<TheTransform>().GlobalPosition = spawn_position;
+        }			
 	}
 	
-	void Update () 
-	{
-		
-	}
 }

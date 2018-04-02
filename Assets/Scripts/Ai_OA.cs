@@ -25,8 +25,6 @@ public class Ai_OA {
 	}
 
 	void OnTriggerStay(TheGameObject other) {
-		if(other == parent) 
-			return;
 		if(other == null || parent == null)
 			return;
 		TheVector3 colDir = other.GetComponent<TheTransform>().GlobalPosition - parent_transform.GlobalPosition;

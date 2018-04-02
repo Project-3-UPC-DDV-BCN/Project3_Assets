@@ -1,0 +1,12 @@
+{
+    "Type": "0",
+    "UUID": "165933760",
+    "Time_Created": "Mon Apr  2 21:09:50 2018\n",
+    "Library_path": "./Project/Library/Textures/Puzzle_Backgroudn.dds",
+    "Name": "Puzzle_Backgroudn",
+    "Width": "2500",
+    "Height": "2500",
+    "Texture_Type": "bgra",
+    "Format": "tga",
+    "Compression": ""
+}

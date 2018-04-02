@@ -1,0 +1,12 @@
+{
+    "Type": "0",
+    "UUID": "2013456024",
+    "Time_Created": "Mon Apr  2 21:09:48 2018\n",
+    "Library_path": "./Project/Library/Textures/ShieldNormal.dds",
+    "Name": "ShieldNormal",
+    "Width": "1966",
+    "Height": "1966",
+    "Texture_Type": "bgra",
+    "Format": "tga",
+    "Compression": ""
+}

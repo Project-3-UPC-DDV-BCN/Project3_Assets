@@ -1,5 +1,6 @@
 using TheEngine;
 using TheEngine.TheConsole;
+using System.Collections.Generic;
 
 // READ PLS
 
@@ -48,13 +49,12 @@ public class Ai_Starship_Movement {
 	public float sight_angle = 60.0f;
 
 	public bool shooting = false;
-	bool ships_in_scene = false;
 
 	void Start () {
 		transform = TheGameObject.Self.GetComponent<TheTransform>();
 		gameobject = TheGameObject.Self;
 		laser_factory = TheGameObject.Self.GetComponent<TheFactory>();
-		audio_source = TheGameObject.Self.GetComponent<TheAudioSource>();
+		//audio_source = TheGameObject.Self.GetComponent<TheAudioSource>();
 		if(laser_factory != null) laser_factory.StartFactory();
 		if(laser_spawner_L == null)
 			laser_spawner_L = laser_spawner_R;
@@ -62,20 +62,20 @@ public class Ai_Starship_Movement {
 			laser_spawner_R = laser_spawner_L;
 	
 		GetNewTarget();
-		if(audio_source != null) {
-			audio_source.Play("Play_Enemy_Engine");
-			audio_source.SetMyRTPCvalue("Speed",currSpd);
-		}
+		//if(audio_source != null) {
+		//	audio_source.Play("Play_Enemy_Engine");
+		//	audio_source.SetMyRTPCvalue("Speed",currSpd);
+		//}
 		
 		
 	}
 	
 	void Update () {
 
-		TheConsole.Log("Speed");
+		//TheConsole.Log("Speed");
 
-		if(audio_source != null)
-			audio_source.SetMyRTPCvalue("Speed",currSpd);
+		//if(audio_source != null)
+		//	audio_source.SetMyRTPCvalue("Speed",currSpd);
 		if(transform == null)
 			return;
 		if(currSpd < minSpd)
@@ -94,7 +94,7 @@ public class Ai_Starship_Movement {
 		}
 		spdDir = transform.ForwardDirection;
 
-		TheConsole.Log("Target");
+		//TheConsole.Log("Target");
 		if(target != null) {
 			TheTransform ttrans = target.GetComponent<TheTransform>();
 			if(ttrans != null) {
@@ -114,10 +114,10 @@ public class Ai_Starship_Movement {
 			return;
 		}
 
-		TheConsole.Log("Separation");
+		//TheConsole.Log("Separation");
 
-	// Separation
-		TheVector3 separation_vector = TheVector3.Zero;
+		// Separation
+		/*TheVector3 separation_vector = TheVector3.Zero;
 		foreach(TheGameObject go in TheGameObject.GetSceneGameObjects()) {
 			TheVector3 goOffset = go.GetComponent<TheTransform>().GlobalPosition - transform.GlobalPosition;
 			if(TheVector3.Magnitude(goOffset) < separation_max_range) {
@@ -125,13 +125,14 @@ public class Ai_Starship_Movement {
 			}
 		}
 
-		transform.LocalPosition += separation_vector.Normalized * separation_force * TheTime.DeltaTime;
+		transform.LocalPosition += separation_vector.Normalized * separation_force * TheTime.DeltaTime;*/
 		transform.LocalPosition += spdDir.Normalized * currSpd * TheTime.DeltaTime;
 
-				
-		TheConsole.Log("Shooting");
+		Shoot();
+	}
 
-		// Shooting
+	void Shoot()
+	{
 		if(target != null) {
 			TheTransform ttrans = target.GetComponent<TheTransform>();
 			TheVector3 ship_dir = ttrans.GlobalPosition - transform.GlobalPosition;
@@ -162,39 +163,29 @@ public class Ai_Starship_Movement {
 				timer = 0.0f;
 			}
 		}
-
-	}
-
+	}	
+	
 	bool isEnemy(string your_tag, string other_tag) {
 		return (your_tag == "XWING" || your_tag == "YWING") && (other_tag == "TIEFIGHTER" || other_tag == "LANDCRAFTING") || (other_tag == "XWING" || other_tag == "YWING") && (your_tag == "TIEFIGHTER" || your_tag == "LANDCRAFTING");
 	}
 
 	void GetNewTarget() {
-    	TheGameObject[] ships_in_scene = new TheGameObject[500];
-		//List<TheGameObject> ships_in_scene = new List<TheGameObject>();
+    	TheGameObject[] ships_in_scene = TheGameObject.GetSceneGameObjects();
+		List<TheGameObject> ships_in_scene_list = new List<TheGameObject>();
         int nship = 0;
-        foreach (TheGameObject go in TheGameObject.GetSceneGameObjects())
+        foreach (TheGameObject go in ships_in_scene)
         {
-  	      if(isEnemy(gameobject.tag, go.tag))
-          {
-   			//ships_in_scene.Add(go);               
-			ships_in_scene[nship++] = go;
-          }
+			if(isEnemy(gameobject.tag, go.tag))
+			{   
+			  ships_in_scene_list.Add(go);
+			}
         }
-		int newS = 0;
-		foreach(TheGameObject go in ships_in_scene) {
-			if(go == null)
-				break;
-			newS++;
-		}
-		TheGameObject[] auxList = new TheGameObject[newS];
-		for(int i = 0; i < newS; i++) {
-			auxList[i] = ships_in_scene[i];
-		}
-        if(auxList.Length > 0)
-        {
-			target = auxList[0];
-			foreach(TheGameObject ship in auxList) {
+		 TheConsole.Log(ships_in_scene_list.Count);  
+		 
+		if(ships_in_scene_list.Count > 0)
+		{
+			target = ships_in_scene_list[0];
+			foreach(TheGameObject ship in ships_in_scene_list) {
 				float distA = TheVector3.Magnitude(transform.GlobalPosition - ship.GetComponent<TheTransform>().GlobalPosition);
 				float currDistB  = TheVector3.Magnitude(transform.GlobalPosition - target.GetComponent<TheTransform>().GlobalPosition);
 				if(currDistB > distA) {
@@ -202,36 +193,7 @@ public class Ai_Starship_Movement {
 					target = ship;
 				}
 			}
-			int rand = (int)TheRandom.RandomRange(0f, auxList.Length);
-			target = ships_in_scene[rand];
-   	   }
-	   else
-	   {	
-			target = ships_in_scene[1];
-	   }
- 
-		//TheGameObject ret = null;
-		//TheGameObject[] scene_gos = TheGameObject.GetSceneGameObjects();
-		//int nS = 0;
-		//foreach(TheGameObject go in scene_gos) {
-		//	if(isEnemy(gameobject.tag, go.tag)) {
-		//		nS++;
-		//	}
-		//}
-		//if(nS <= 0)
-		//	return null;
-		//TheGameObject[] enemy_ships = new TheGameObject[nS];
-		//int it = 0;
-		//for(int i = 0; i < scene_gos.Length; i++) {
-		//	if(isEnemy(gameobject.tag, scene_gos[i].tag))
-		//		if(scene_gos[i] is TheGameObject)
-		//			enemy_ships[it++] = scene_gos[i];
-		//		else
-		//			return null;
-		//}
-		//int rand_n = (int)TheRandom.RandomRange(0, nS);
-		//ret = enemy_ships[rand_n];
-		//return ret;
+		}
 	}
 
 	TheVector3 roundingVector(TheVector3 v) {

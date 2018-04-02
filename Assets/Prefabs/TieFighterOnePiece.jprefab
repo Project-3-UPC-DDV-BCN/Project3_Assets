@@ -1,11 +1,11 @@
 {
-    "UUID": "1510170663",
+    "UUID": "1435469569",
     "assets_path": "./Project/Assets/Prefabs/TieFighterOnePiece.jprefab",
     "library_path": "./Project/Library/Prefabs/TieFighterOnePiece.jprefab",
     "prefab_name": "TieFighterOnePiece",
     "GameObjects_Count": "5",
     "GameObject_0": {
-        "UUID": "939855250",
+        "UUID": "1380382910",
         "Name": "TieFighterOnePiece",
         "Tag": "TIEFIGHTER",
         "Layer": "Default",
@@ -45,7 +45,7 @@
                     "int_fields_count": "0",
                     "double_fields_count": "0",
                     "float_fields_count": "0",
-                    "bool_fields_count": "0",
+                    "bool_fields_count": "1",
                     "string_fields_count": "0",
                     "gameobject_fields_count": "0",
                     "vec2_fields_count": "0",
@@ -54,7 +54,12 @@
                     "int_fields": {},
                     "double_fields": {},
                     "float_fields": {},
-                    "bool_fields": {},
+                    "bool_fields": {
+                        "field_0": {
+                            "field_name": "destruction_mesh",
+                            "field_value": "0"
+                        }
+                    },
                     "string_fields": {},
                     "gameobject_fields": {},
                     "vec2_fields": {},
@@ -95,7 +100,7 @@
                 "Type": "8",
                 "Active": "1",
                 "UUID": "1274932885",
-                "Sound_ID": "103",
+                "Sound_ID": "104",
                 "SoundBank_Name": "Enemy.bnk"
             },
             "Component_4": {
@@ -126,7 +131,7 @@
                     "float_fields": {
                         "field_0": {
                             "field_name": "Spd",
-                            "field_value": "100.000000"
+                            "field_value": "50.000000"
                         },
                         "field_1": {
                             "field_name": "acc",
@@ -158,11 +163,11 @@
                         },
                         "field_8": {
                             "field_name": "sight_range",
-                            "field_value": "500.000000"
+                            "field_value": "100.000000"
                         },
                         "field_9": {
                             "field_name": "time_between_lasers",
-                            "field_value": "0.100000"
+                            "field_value": "0.020000"
                         }
                     },
                     "bool_fields": {
@@ -175,11 +180,11 @@
                     "gameobject_fields": {
                         "field_0": {
                             "field_name": "laser_spawner_L",
-                            "field_value": "765450223"
+                            "field_value": "619153732"
                         },
                         "field_1": {
                             "field_name": "laser_spawner_R",
-                            "field_value": "1603275178"
+                            "field_value": "1810212988"
                         }
                     },
                     "vec2_fields": {},
@@ -189,7 +194,7 @@
                             "field_value": {
                                 "value_X": "0.000000",
                                 "value_Y": "0.000000",
-                                "value_Z": "0.000000"
+                                "value_Z": "753815519232.000000"
                             }
                         }
                     },
@@ -200,7 +205,7 @@
                 "Type": "12",
                 "Active": "1",
                 "UUID": "365343117",
-                "Object_count": "200",
+                "Object_count": "100",
                 "Spawn_position": {
                     "value_X": "0.000000",
                     "value_Y": "0.000000",
@@ -225,7 +230,7 @@
         "IsStatic": "0"
     },
     "GameObject_1": {
-        "UUID": "1983119807",
+        "UUID": "1597890213",
         "Name": "TIE_FIGHTER",
         "Tag": "TIEFIGHTER",
         "Layer": "Default",
@@ -336,12 +341,12 @@
                 }
             }
         },
-        "ParentID": "939855250",
+        "ParentID": "1380382910",
         "IsRoot": "0",
         "IsStatic": "0"
     },
     "GameObject_2": {
-        "UUID": "765450223",
+        "UUID": "619153732",
         "Name": "Laser_Spawner_L",
         "Tag": "Default",
         "Layer": "Default",
@@ -370,12 +375,12 @@
                 }
             }
         },
-        "ParentID": "939855250",
+        "ParentID": "1380382910",
         "IsRoot": "0",
         "IsStatic": "0"
     },
     "GameObject_3": {
-        "UUID": "1603275178",
+        "UUID": "1810212988",
         "Name": "Laser_Spawner_R",
         "Tag": "Default",
         "Layer": "Default",
@@ -404,12 +409,12 @@
                 }
             }
         },
-        "ParentID": "939855250",
+        "ParentID": "1380382910",
         "IsRoot": "0",
         "IsStatic": "0"
     },
     "GameObject_4": {
-        "UUID": "1863647419",
+        "UUID": "1613129706",
         "Name": "OA_Checker",
         "Tag": "Default",
         "Layer": "Default",
@@ -419,7 +424,7 @@
             "Component_0": {
                 "Type": "0",
                 "Active": "1",
-                "UUID": "1708973238",
+                "UUID": "1575950300",
                 "position": {
                     "value_X": "0.000000",
                     "value_Y": "0.000000",
@@ -440,12 +445,12 @@
             "Component_1": {
                 "Type": "10",
                 "Active": "1",
-                "UUID": "1513104037",
+                "UUID": "1213232075",
                 "Script": {
                     "library_path": ".\\Project\\Library\\Scripts\\Ai_OA.dll",
                     "assets_path": "",
                     "script_name": "Ai_OA",
-                    "UUID": "1153340039",
+                    "UUID": "1603489771",
                     "int_fields_count": "0",
                     "double_fields_count": "0",
                     "float_fields_count": "1",
@@ -468,7 +473,7 @@
                     "gameobject_fields": {
                         "field_0": {
                             "field_name": "parent",
-                            "field_value": "939855250"
+                            "field_value": "1380382910"
                         }
                     },
                     "vec2_fields": {},
@@ -479,7 +484,7 @@
             "Component_2": {
                 "Type": "2",
                 "Active": "1",
-                "UUID": "125810242",
+                "UUID": "1771441143",
                 "Mass": "1.000000",
                 "IsUsingGravity": "0",
                 "IsKinematic": "0",
@@ -489,9 +494,9 @@
                     "value_Z": "0.000000"
                 },
                 "AngularVelocity": {
-                    "value_X": "-0.117259",
-                    "value_Y": "-6.997959",
-                    "value_Z": "-0.121706"
+                    "value_X": "0.000000",
+                    "value_Y": "0.000000",
+                    "value_Z": "0.000000"
                 },
                 "MaxAngularVelocity": "7.000000",
                 "LinearDamping": "0.000000",
@@ -521,26 +526,26 @@
             "Component_3": {
                 "Type": "4",
                 "Active": "1",
-                "UUID": "1596545816",
+                "UUID": "1665453240",
                 "IsConvex": "0",
                 "IsTrigger": "1",
                 "CapsuleDir": "0",
                 "HaveMaterial": "0",
                 "ColliderCenter": {
-                    "value_X": "-12.250001",
+                    "value_X": "0.000000",
                     "value_Y": "0.000000",
-                    "value_Z": "74.500000"
+                    "value_Z": "0.000000"
                 },
                 "Box": {
                     "BoxSize": {
-                        "value_X": "75.250000",
-                        "value_Y": "56.000004",
-                        "value_Z": "108.750008"
+                        "value_X": "1.000000",
+                        "value_Y": "1.000000",
+                        "value_Z": "1.000000"
                     }
                 }
             }
         },
-        "ParentID": "939855250",
+        "ParentID": "1380382910",
         "IsRoot": "0",
         "IsStatic": "0"
     }

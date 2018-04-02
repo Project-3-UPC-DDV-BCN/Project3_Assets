@@ -1,5 +1,6 @@
 using TheEngine;
 using System.Collections.Generic;
+using TheEngine.TheConsole;
 
 public class IntroManager 
 {
@@ -11,29 +12,37 @@ public class IntroManager
 	TheAudioSource audio_source;
 	
 	TheText text = null;
-	List<string> texts = new List<string>();	
+	bool update_line = true;
+	string current_audio = "";
+	List<string> texts = new List<string>();
+	List<float> times = new List<float>();	
+	List<string> audios = new List<string>();	
+
+	TheTimer timer = new TheTimer();
 	
-	int count = 0;
 	void Start () 
 	{
 		text = text_go.GetComponent<TheText>();
-		AddText("You are here to show us your ability");
-		AddText("in dogfights Boba prove that your services");
-		AddText("can help us to save the galaxy.");
-		AddText("Destroy every ships you see,");
-		AddText("the galaxy could depend of one of your shots.");
-		AddText("That's just the beginning, continue with it,");
-		AddText("prove your reputation Boba.");
-		NextText();
+		AddTextLine("You are here to show us your ability", 1.7f, "Play_Ackbar_dialogue_01");
+		AddTextLine("in dogfights Boba prove that your services", 2);
+		AddTextLine("can help us to save the galaxy.", 2);
+		AddTextLine("Destroy every ships you see,", 1.5f, "Play_Ackbar_dialogue_02");
+		AddTextLine("the galaxy could depend of one of your shots.", 2.4f);
+		AddTextLine("That's just the beginning, continue with it,", 2, "Play_Ackbar_dialogue_03");
+		AddTextLine("prove your reputation Boba.", 2.5f);
+		
+		if(audio_emiter != null)
+			audio_source = audio_emiter.GetComponent<TheAudioSource>();
 
-		audio_source = audio_emiter.GetComponent<TheAudioSource>();
-		audio_source.Play("Play_Dialogue1");
+		timer.Start();
 	
 	}
 	
 	void Update () 
 	{
-		if(TheInput.GetControllerButton(0,"CONTROLLER_X") == 1)
+		UpdateText();
+	
+		/*if(TheInput.GetControllerButton(0,"CONTROLLER_X") == 1)
 		{
 			if (count == 2)
 			{
@@ -46,10 +55,10 @@ public class IntroManager
 				audio_source.Play("Play_Dialogue3");
 			}
 
-			NextText();
+			UpdateText();
 			
 			count++;
-		}
+		}*/
 	}
 
 	void SetText(string t)
@@ -57,18 +66,57 @@ public class IntroManager
 		text.Text = t;
 	}
 
-	void AddText(string t)
+	void AddTextLine(string t, float time)
 	{
 		texts.Add(t);
+		times.Add(time);
+		audios.Add("");
+	}
+	
+	void AddTextLine(string t, float time, string audio_name)
+	{
+		texts.Add(t);
+		times.Add(time);
+		audios.Add(audio_name);
 	}
 
-	void NextText()
+	void UpdateText()
 	{
 		if(texts.Count > 0)
 		{
 			canvas_go.SetActive(true);
-			SetText(texts[0]);
-			texts.RemoveAt(0);
+
+			if(update_line)
+			{
+				if(texts.Count > 0)
+				{
+					SetText(texts[0]);
+					if(audios[0] != "")
+					{
+						if(audio_source != null)	
+						{
+							audio_source.Stop(current_audio);
+							current_audio = audios[0];
+							audio_source.Play(current_audio);
+						}		
+					}
+
+					timer.Start();
+				}	
+				
+				update_line = false;
+			}
+		
+
+			if(timer.ReadTime() > times[0])
+			{
+				texts.RemoveAt(0);
+				times.RemoveAt(0);
+				audios.RemoveAt(0);
+
+				update_line = true;
+			}
+
 		}
 		else
 		{
