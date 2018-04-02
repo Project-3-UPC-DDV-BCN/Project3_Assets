@@ -1,11 +1,11 @@
 {
-    "UUID": "242031608",
+    "UUID": "1510170663",
     "assets_path": "./Project/Assets/Prefabs/TieFighterOnePiece.jprefab",
     "library_path": "./Project/Library/Prefabs/TieFighterOnePiece.jprefab",
     "prefab_name": "TieFighterOnePiece",
     "GameObjects_Count": "5",
     "GameObject_0": {
-        "UUID": "1325886206",
+        "UUID": "939855250",
         "Name": "TieFighterOnePiece",
         "Tag": "TIEFIGHTER",
         "Layer": "Default",
@@ -134,7 +134,7 @@
                         },
                         "field_2": {
                             "field_name": "laser_speed",
-                            "field_value": "10000.000000"
+                            "field_value": "20000.000000"
                         },
                         "field_3": {
                             "field_name": "minSpd",
@@ -175,11 +175,11 @@
                     "gameobject_fields": {
                         "field_0": {
                             "field_name": "laser_spawner_L",
-                            "field_value": "1710269264"
+                            "field_value": "765450223"
                         },
                         "field_1": {
                             "field_name": "laser_spawner_R",
-                            "field_value": "1278137382"
+                            "field_value": "1603275178"
                         }
                     },
                     "vec2_fields": {},
@@ -225,7 +225,7 @@
         "IsStatic": "0"
     },
     "GameObject_1": {
-        "UUID": "2086465278",
+        "UUID": "1983119807",
         "Name": "TIE_FIGHTER",
         "Tag": "TIEFIGHTER",
         "Layer": "Default",
@@ -336,12 +336,12 @@
                 }
             }
         },
-        "ParentID": "1325886206",
+        "ParentID": "939855250",
         "IsRoot": "0",
         "IsStatic": "0"
     },
     "GameObject_2": {
-        "UUID": "1710269264",
+        "UUID": "765450223",
         "Name": "Laser_Spawner_L",
         "Tag": "Default",
         "Layer": "Default",
@@ -370,12 +370,12 @@
                 }
             }
         },
-        "ParentID": "1325886206",
+        "ParentID": "939855250",
         "IsRoot": "0",
         "IsStatic": "0"
     },
     "GameObject_3": {
-        "UUID": "1278137382",
+        "UUID": "1603275178",
         "Name": "Laser_Spawner_R",
         "Tag": "Default",
         "Layer": "Default",
@@ -404,12 +404,12 @@
                 }
             }
         },
-        "ParentID": "1325886206",
+        "ParentID": "939855250",
         "IsRoot": "0",
         "IsStatic": "0"
     },
     "GameObject_4": {
-        "UUID": "2070275130",
+        "UUID": "1863647419",
         "Name": "OA_Checker",
         "Tag": "Default",
         "Layer": "Default",
@@ -419,7 +419,7 @@
             "Component_0": {
                 "Type": "0",
                 "Active": "1",
-                "UUID": "1348434705",
+                "UUID": "1708973238",
                 "position": {
                     "value_X": "0.000000",
                     "value_Y": "0.000000",
@@ -440,12 +440,12 @@
             "Component_1": {
                 "Type": "10",
                 "Active": "1",
-                "UUID": "828611379",
+                "UUID": "1513104037",
                 "Script": {
                     "library_path": ".\\Project\\Library\\Scripts\\Ai_OA.dll",
                     "assets_path": "",
                     "script_name": "Ai_OA",
-                    "UUID": "899607998",
+                    "UUID": "1153340039",
                     "int_fields_count": "0",
                     "double_fields_count": "0",
                     "float_fields_count": "1",
@@ -468,7 +468,7 @@
                     "gameobject_fields": {
                         "field_0": {
                             "field_name": "parent",
-                            "field_value": "1325886206"
+                            "field_value": "939855250"
                         }
                     },
                     "vec2_fields": {},
@@ -479,19 +479,19 @@
             "Component_2": {
                 "Type": "2",
                 "Active": "1",
-                "UUID": "247864003",
+                "UUID": "125810242",
                 "Mass": "1.000000",
                 "IsUsingGravity": "0",
                 "IsKinematic": "0",
                 "LinearVelocity": {
                     "value_X": "0.000000",
-                    "value_Y": "0.000043",
-                    "value_Z": "0.004587"
+                    "value_Y": "0.000000",
+                    "value_Z": "0.000000"
                 },
                 "AngularVelocity": {
-                    "value_X": "0.000007",
-                    "value_Y": "-0.009178",
-                    "value_Z": "0.000085"
+                    "value_X": "-0.117259",
+                    "value_Y": "-6.997959",
+                    "value_Z": "-0.121706"
                 },
                 "MaxAngularVelocity": "7.000000",
                 "LinearDamping": "0.000000",
@@ -521,26 +521,26 @@
             "Component_3": {
                 "Type": "4",
                 "Active": "1",
-                "UUID": "1508649218",
+                "UUID": "1596545816",
                 "IsConvex": "0",
                 "IsTrigger": "1",
                 "CapsuleDir": "0",
                 "HaveMaterial": "0",
                 "ColliderCenter": {
-                    "value_X": "-11.000001",
+                    "value_X": "-12.250001",
                     "value_Y": "0.000000",
-                    "value_Z": "56.250004"
+                    "value_Z": "74.500000"
                 },
                 "Box": {
                     "BoxSize": {
-                        "value_X": "64.750000",
-                        "value_Y": "53.500004",
-                        "value_Z": "109.750008"
+                        "value_X": "75.250000",
+                        "value_Y": "56.000004",
+                        "value_Z": "108.750008"
                     }
                 }
             }
         },
-        "ParentID": "1325886206",
+        "ParentID": "939855250",
         "IsRoot": "0",
         "IsStatic": "0"
     }
